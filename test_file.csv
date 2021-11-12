@@ -1,0 +1,83 @@
+birth_year,eye_color,gender,hair_color,height,homeworld,mass,name,skin_color,created,edited
+19BBY,blue,male,blond,172,Tatooine,77,Luke Skywalker,fair,2014-12-09T13:50:51.644000Z,2014-12-20T21:17:56.891000Z
+112BBY,yellow,n/a,n/a,167,Tatooine,75,C-3PO,gold,2014-12-10T15:10:51.357000Z,2014-12-20T21:17:50.309000Z
+33BBY,red,n/a,n/a,96,Naboo,32,R2-D2,"white, blue",2014-12-10T15:11:50.376000Z,2014-12-20T21:17:50.311000Z
+41.9BBY,yellow,male,none,202,Tatooine,136,Darth Vader,white,2014-12-10T15:18:20.704000Z,2014-12-20T21:17:50.313000Z
+19BBY,brown,female,brown,150,Alderaan,49,Leia Organa,light,2014-12-10T15:20:09.791000Z,2014-12-20T21:17:50.315000Z
+52BBY,blue,male,"brown, grey",178,Tatooine,120,Owen Lars,light,2014-12-10T15:52:14.024000Z,2014-12-20T21:17:50.317000Z
+47BBY,blue,female,brown,165,Tatooine,75,Beru Whitesun lars,light,2014-12-10T15:53:41.121000Z,2014-12-20T21:17:50.319000Z
+unknown,red,n/a,n/a,97,Tatooine,32,R5-D4,"white, red",2014-12-10T15:57:50.959000Z,2014-12-20T21:17:50.321000Z
+24BBY,brown,male,black,183,Tatooine,84,Biggs Darklighter,light,2014-12-10T15:59:50.509000Z,2014-12-20T21:17:50.323000Z
+57BBY,blue-gray,male,"auburn, white",182,Stewjon,77,Obi-Wan Kenobi,fair,2014-12-10T16:16:29.192000Z,2014-12-20T21:17:50.325000Z
+41.9BBY,blue,male,blond,188,Tatooine,84,Anakin Skywalker,fair,2014-12-10T16:20:44.310000Z,2014-12-20T21:17:50.327000Z
+64BBY,blue,male,"auburn, grey",180,Eriadu,unknown,Wilhuff Tarkin,fair,2014-12-10T16:26:56.138000Z,2014-12-20T21:17:50.330000Z
+200BBY,blue,male,brown,228,Kashyyyk,112,Chewbacca,unknown,2014-12-10T16:42:45.066000Z,2014-12-20T21:17:50.332000Z
+29BBY,brown,male,brown,180,Corellia,80,Han Solo,fair,2014-12-10T16:49:14.582000Z,2014-12-20T21:17:50.334000Z
+44BBY,black,male,n/a,173,Rodia,74,Greedo,green,2014-12-10T17:03:30.334000Z,2014-12-20T21:17:50.336000Z
+600BBY,orange,hermaphrodite,n/a,175,Nal Hutta,"1,358",Jabba Desilijic Tiure,"green-tan, brown",2014-12-10T17:11:31.638000Z,2014-12-20T21:17:50.338000Z
+21BBY,hazel,male,brown,170,Corellia,77,Wedge Antilles,fair,2014-12-12T11:08:06.469000Z,2014-12-20T21:17:50.341000Z
+unknown,blue,male,brown,180,Bestine IV,110,Jek Tono Porkins,fair,2014-12-12T11:16:56.569000Z,2014-12-20T21:17:50.343000Z
+896BBY,brown,male,white,66,unknown,17,Yoda,green,2014-12-15T12:26:01.042000Z,2014-12-20T21:17:50.345000Z
+82BBY,yellow,male,grey,170,Naboo,75,Palpatine,pale,2014-12-15T12:48:05.971000Z,2014-12-20T21:17:50.347000Z
+31.5BBY,brown,male,black,183,Kamino,78.2,Boba Fett,fair,2014-12-15T12:49:32.457000Z,2014-12-20T21:17:50.349000Z
+15BBY,red,none,none,200,unknown,140,IG-88,metal,2014-12-15T12:51:10.076000Z,2014-12-20T21:17:50.351000Z
+53BBY,red,male,none,190,Trandosha,113,Bossk,green,2014-12-15T12:53:49.297000Z,2014-12-20T21:17:50.355000Z
+31BBY,brown,male,black,177,Socorro,79,Lando Calrissian,dark,2014-12-15T12:56:32.683000Z,2014-12-20T21:17:50.357000Z
+37BBY,blue,male,none,175,Bespin,79,Lobot,light,2014-12-15T13:01:57.178000Z,2014-12-20T21:17:50.359000Z
+41BBY,orange,male,none,180,Mon Cala,83,Ackbar,brown mottle,2014-12-18T11:07:50.584000Z,2014-12-20T21:17:50.362000Z
+48BBY,blue,female,auburn,150,Chandrila,unknown,Mon Mothma,fair,2014-12-18T11:12:38.895000Z,2014-12-20T21:17:50.364000Z
+unknown,brown,male,brown,unknown,unknown,unknown,Arvel Crynyd,fair,2014-12-18T11:16:33.020000Z,2014-12-20T21:17:50.367000Z
+8BBY,brown,male,brown,88,Endor,20,Wicket Systri Warrick,brown,2014-12-18T11:21:58.954000Z,2014-12-20T21:17:50.369000Z
+unknown,black,male,none,160,Sullust,68,Nien Nunb,grey,2014-12-18T11:26:18.541000Z,2014-12-20T21:17:50.371000Z
+92BBY,blue,male,brown,193,unknown,89,Qui-Gon Jinn,fair,2014-12-19T16:54:53.618000Z,2014-12-20T21:17:50.375000Z
+unknown,red,male,none,191,Cato Neimoidia,90,Nute Gunray,mottled green,2014-12-19T17:05:57.357000Z,2014-12-20T21:17:50.377000Z
+91BBY,blue,male,blond,170,Coruscant,unknown,Finis Valorum,fair,2014-12-19T17:21:45.915000Z,2014-12-20T21:17:50.379000Z
+46BBY,brown,female,brown,185,Naboo,45,Padmé Amidala,light,2014-12-19T17:28:26.926000Z,2014-12-20T21:17:50.381000Z
+52BBY,orange,male,none,196,Naboo,66,Jar Jar Binks,orange,2014-12-19T17:29:32.489000Z,2014-12-20T21:17:50.383000Z
+unknown,orange,male,none,224,Naboo,82,Roos Tarpals,grey,2014-12-19T17:32:56.741000Z,2014-12-20T21:17:50.385000Z
+unknown,orange,male,none,206,Naboo,unknown,Rugor Nass,green,2014-12-19T17:33:38.909000Z,2014-12-20T21:17:50.388000Z
+unknown,blue,male,brown,183,Naboo,unknown,Ric Olié,fair,2014-12-19T17:45:01.522000Z,2014-12-20T21:17:50.392000Z
+unknown,yellow,male,black,137,Toydaria,unknown,Watto,"blue, grey",2014-12-19T17:48:54.647000Z,2014-12-20T21:17:50.395000Z
+unknown,orange,male,none,112,Malastare,40,Sebulba,"grey, red",2014-12-19T17:53:02.586000Z,2014-12-20T21:17:50.397000Z
+62BBY,brown,male,black,183,Naboo,unknown,Quarsh Panaka,dark,2014-12-19T17:55:43.348000Z,2014-12-20T21:17:50.399000Z
+72BBY,brown,female,black,163,Tatooine,unknown,Shmi Skywalker,fair,2014-12-19T17:57:41.191000Z,2014-12-20T21:17:50.401000Z
+54BBY,yellow,male,none,175,Dathomir,80,Darth Maul,red,2014-12-19T18:00:41.929000Z,2014-12-20T21:17:50.403000Z
+unknown,pink,male,none,180,Ryloth,unknown,Bib Fortuna,pale,2014-12-20T09:47:02.512000Z,2014-12-20T21:17:50.407000Z
+48BBY,hazel,female,none,178,Ryloth,55,Ayla Secura,blue,2014-12-20T09:48:01.172000Z,2014-12-20T21:17:50.409000Z
+unknown,unknown,male,none,79,Aleen Minor,15,Ratts Tyerel,"grey, blue",2014-12-20T09:53:15.086000Z,2014-12-20T21:17:50.410000Z
+unknown,yellow,male,none,94,Vulpter,45,Dud Bolt,"blue, grey",2014-12-20T09:57:31.858000Z,2014-12-20T21:17:50.414000Z
+unknown,black,male,none,122,Troiken,unknown,Gasgano,"white, blue",2014-12-20T10:02:12.223000Z,2014-12-20T21:17:50.416000Z
+unknown,orange,male,none,163,Tund,65,Ben Quadinaros,"grey, green, yellow",2014-12-20T10:08:33.777000Z,2014-12-20T21:17:50.417000Z
+72BBY,brown,male,none,188,Haruun Kal,84,Mace Windu,dark,2014-12-20T10:12:30.846000Z,2014-12-20T21:17:50.420000Z
+92BBY,yellow,male,white,198,Cerea,82,Ki-Adi-Mundi,pale,2014-12-20T10:15:32.293000Z,2014-12-20T21:17:50.422000Z
+unknown,black,male,none,196,Glee Anselm,87,Kit Fisto,green,2014-12-20T10:18:57.202000Z,2014-12-20T21:17:50.424000Z
+unknown,brown,male,black,171,Iridonia,unknown,Eeth Koth,brown,2014-12-20T10:26:47.902000Z,2014-12-20T21:17:50.427000Z
+unknown,blue,female,none,184,Coruscant,50,Adi Gallia,dark,2014-12-20T10:29:11.661000Z,2014-12-20T21:17:50.432000Z
+unknown,orange,male,none,188,Iktotch,unknown,Saesee Tiin,pale,2014-12-20T10:32:11.669000Z,2014-12-20T21:17:50.434000Z
+unknown,yellow,male,none,264,Quermia,unknown,Yarael Poof,white,2014-12-20T10:34:48.725000Z,2014-12-20T21:17:50.437000Z
+22BBY,black,male,none,188,Dorin,80,Plo Koon,orange,2014-12-20T10:49:19.859000Z,2014-12-20T21:17:50.439000Z
+unknown,blue,male,none,196,Champala,unknown,Mas Amedda,blue,2014-12-20T10:53:26.457000Z,2014-12-20T21:17:50.442000Z
+unknown,brown,male,black,185,Naboo,85,Gregar Typho,dark,2014-12-20T11:10:10.381000Z,2014-12-20T21:17:50.445000Z
+unknown,brown,female,brown,157,Naboo,unknown,Cordé,light,2014-12-20T11:11:39.630000Z,2014-12-20T21:17:50.449000Z
+82BBY,blue,male,brown,183,Tatooine,unknown,Cliegg Lars,fair,2014-12-20T15:59:03.958000Z,2014-12-20T21:17:50.451000Z
+unknown,yellow,male,none,183,Geonosis,80,Poggle the Lesser,green,2014-12-20T16:40:43.977000Z,2014-12-20T21:17:50.453000Z
+58BBY,blue,female,black,170,Mirial,56.2,Luminara Unduli,yellow,2014-12-20T16:45:53.668000Z,2014-12-20T21:17:50.455000Z
+40BBY,blue,female,black,166,Mirial,50,Barriss Offee,yellow,2014-12-20T16:46:40.440000Z,2014-12-20T21:17:50.457000Z
+unknown,brown,female,brown,165,Naboo,unknown,Dormé,light,2014-12-20T16:49:14.640000Z,2014-12-20T21:17:50.460000Z
+102BBY,brown,male,white,193,Serenno,80,Dooku,fair,2014-12-20T16:52:14.726000Z,2014-12-20T21:17:50.462000Z
+67BBY,brown,male,black,191,Alderaan,unknown,Bail Prestor Organa,tan,2014-12-20T16:53:08.575000Z,2014-12-20T21:17:50.463000Z
+66BBY,brown,male,black,183,Concord Dawn,79,Jango Fett,tan,2014-12-20T16:54:41.620000Z,2014-12-20T21:17:50.465000Z
+unknown,yellow,female,blonde,168,Zolan,55,Zam Wesell,"fair, green, yellow",2014-12-20T16:57:44.471000Z,2014-12-20T21:17:50.468000Z
+unknown,yellow,male,none,198,Ojom,102,Dexter Jettster,brown,2014-12-20T17:28:27.248000Z,2014-12-20T21:17:50.470000Z
+unknown,black,male,none,229,Kamino,88,Lama Su,grey,2014-12-20T17:30:50.416000Z,2014-12-20T21:17:50.473000Z
+unknown,black,female,none,213,Kamino,unknown,Taun We,grey,2014-12-20T17:31:21.195000Z,2014-12-20T21:17:50.474000Z
+unknown,blue,female,white,167,Coruscant,unknown,Jocasta Nu,fair,2014-12-20T17:32:51.996000Z,2014-12-20T21:17:50.476000Z
+unknown,"red, blue",female,none,96,unknown,unknown,R4-P17,"silver, red",2014-12-20T17:43:36.409000Z,2014-12-20T21:17:50.478000Z
+unknown,unknown,male,none,193,Skako,48,Wat Tambor,"green, grey",2014-12-20T17:53:52.607000Z,2014-12-20T21:17:50.481000Z
+unknown,gold,male,none,191,Muunilinst,unknown,San Hill,grey,2014-12-20T17:58:17.049000Z,2014-12-20T21:17:50.484000Z
+unknown,black,female,none,178,Shili,57,Shaak Ti,"red, blue, white",2014-12-20T18:44:01.103000Z,2014-12-20T21:17:50.486000Z
+unknown,"green, yellow",male,none,216,Kalee,159,Grievous,"brown, white",2014-12-20T19:43:53.348000Z,2014-12-20T21:17:50.488000Z
+unknown,blue,male,brown,234,Kashyyyk,136,Tarfful,brown,2014-12-20T19:46:34.209000Z,2014-12-20T21:17:50.491000Z
+unknown,brown,male,brown,188,Alderaan,79,Raymus Antilles,light,2014-12-20T19:49:35.583000Z,2014-12-20T21:17:50.493000Z
+unknown,white,female,none,178,Umbara,48,Sly Moore,pale,2014-12-20T20:18:37.619000Z,2014-12-20T21:17:50.496000Z
+unknown,black,male,none,206,Utapau,80,Tion Medon,grey,2014-12-20T20:35:04.260000Z,2014-12-20T21:17:50.498000Z

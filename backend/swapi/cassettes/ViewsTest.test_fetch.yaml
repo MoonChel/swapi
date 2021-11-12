@@ -1,0 +1,3063 @@
+interactions:
+- request:
+    body: null
+    headers: {}
+    method: GET
+    uri: https://swapi.dev/api/people?page=1
+  response:
+    body:
+      string: '{"count":82,"next":"https://swapi.dev/api/people/?page=2","previous":null,"results":[{"name":"Luke
+        Skywalker","height":"172","mass":"77","hair_color":"blond","skin_color":"fair","eye_color":"blue","birth_year":"19BBY","gender":"male","homeworld":"https://swapi.dev/api/planets/1/","films":["https://swapi.dev/api/films/1/","https://swapi.dev/api/films/2/","https://swapi.dev/api/films/3/","https://swapi.dev/api/films/6/"],"species":[],"vehicles":["https://swapi.dev/api/vehicles/14/","https://swapi.dev/api/vehicles/30/"],"starships":["https://swapi.dev/api/starships/12/","https://swapi.dev/api/starships/22/"],"created":"2014-12-09T13:50:51.644000Z","edited":"2014-12-20T21:17:56.891000Z","url":"https://swapi.dev/api/people/1/"},{"name":"C-3PO","height":"167","mass":"75","hair_color":"n/a","skin_color":"gold","eye_color":"yellow","birth_year":"112BBY","gender":"n/a","homeworld":"https://swapi.dev/api/planets/1/","films":["https://swapi.dev/api/films/1/","https://swapi.dev/api/films/2/","https://swapi.dev/api/films/3/","https://swapi.dev/api/films/4/","https://swapi.dev/api/films/5/","https://swapi.dev/api/films/6/"],"species":["https://swapi.dev/api/species/2/"],"vehicles":[],"starships":[],"created":"2014-12-10T15:10:51.357000Z","edited":"2014-12-20T21:17:50.309000Z","url":"https://swapi.dev/api/people/2/"},{"name":"R2-D2","height":"96","mass":"32","hair_color":"n/a","skin_color":"white,
+        blue","eye_color":"red","birth_year":"33BBY","gender":"n/a","homeworld":"https://swapi.dev/api/planets/8/","films":["https://swapi.dev/api/films/1/","https://swapi.dev/api/films/2/","https://swapi.dev/api/films/3/","https://swapi.dev/api/films/4/","https://swapi.dev/api/films/5/","https://swapi.dev/api/films/6/"],"species":["https://swapi.dev/api/species/2/"],"vehicles":[],"starships":[],"created":"2014-12-10T15:11:50.376000Z","edited":"2014-12-20T21:17:50.311000Z","url":"https://swapi.dev/api/people/3/"},{"name":"Darth
+        Vader","height":"202","mass":"136","hair_color":"none","skin_color":"white","eye_color":"yellow","birth_year":"41.9BBY","gender":"male","homeworld":"https://swapi.dev/api/planets/1/","films":["https://swapi.dev/api/films/1/","https://swapi.dev/api/films/2/","https://swapi.dev/api/films/3/","https://swapi.dev/api/films/6/"],"species":[],"vehicles":[],"starships":["https://swapi.dev/api/starships/13/"],"created":"2014-12-10T15:18:20.704000Z","edited":"2014-12-20T21:17:50.313000Z","url":"https://swapi.dev/api/people/4/"},{"name":"Leia
+        Organa","height":"150","mass":"49","hair_color":"brown","skin_color":"light","eye_color":"brown","birth_year":"19BBY","gender":"female","homeworld":"https://swapi.dev/api/planets/2/","films":["https://swapi.dev/api/films/1/","https://swapi.dev/api/films/2/","https://swapi.dev/api/films/3/","https://swapi.dev/api/films/6/"],"species":[],"vehicles":["https://swapi.dev/api/vehicles/30/"],"starships":[],"created":"2014-12-10T15:20:09.791000Z","edited":"2014-12-20T21:17:50.315000Z","url":"https://swapi.dev/api/people/5/"},{"name":"Owen
+        Lars","height":"178","mass":"120","hair_color":"brown, grey","skin_color":"light","eye_color":"blue","birth_year":"52BBY","gender":"male","homeworld":"https://swapi.dev/api/planets/1/","films":["https://swapi.dev/api/films/1/","https://swapi.dev/api/films/5/","https://swapi.dev/api/films/6/"],"species":[],"vehicles":[],"starships":[],"created":"2014-12-10T15:52:14.024000Z","edited":"2014-12-20T21:17:50.317000Z","url":"https://swapi.dev/api/people/6/"},{"name":"Beru
+        Whitesun lars","height":"165","mass":"75","hair_color":"brown","skin_color":"light","eye_color":"blue","birth_year":"47BBY","gender":"female","homeworld":"https://swapi.dev/api/planets/1/","films":["https://swapi.dev/api/films/1/","https://swapi.dev/api/films/5/","https://swapi.dev/api/films/6/"],"species":[],"vehicles":[],"starships":[],"created":"2014-12-10T15:53:41.121000Z","edited":"2014-12-20T21:17:50.319000Z","url":"https://swapi.dev/api/people/7/"},{"name":"R5-D4","height":"97","mass":"32","hair_color":"n/a","skin_color":"white,
+        red","eye_color":"red","birth_year":"unknown","gender":"n/a","homeworld":"https://swapi.dev/api/planets/1/","films":["https://swapi.dev/api/films/1/"],"species":["https://swapi.dev/api/species/2/"],"vehicles":[],"starships":[],"created":"2014-12-10T15:57:50.959000Z","edited":"2014-12-20T21:17:50.321000Z","url":"https://swapi.dev/api/people/8/"},{"name":"Biggs
+        Darklighter","height":"183","mass":"84","hair_color":"black","skin_color":"light","eye_color":"brown","birth_year":"24BBY","gender":"male","homeworld":"https://swapi.dev/api/planets/1/","films":["https://swapi.dev/api/films/1/"],"species":[],"vehicles":[],"starships":["https://swapi.dev/api/starships/12/"],"created":"2014-12-10T15:59:50.509000Z","edited":"2014-12-20T21:17:50.323000Z","url":"https://swapi.dev/api/people/9/"},{"name":"Obi-Wan
+        Kenobi","height":"182","mass":"77","hair_color":"auburn, white","skin_color":"fair","eye_color":"blue-gray","birth_year":"57BBY","gender":"male","homeworld":"https://swapi.dev/api/planets/20/","films":["https://swapi.dev/api/films/1/","https://swapi.dev/api/films/2/","https://swapi.dev/api/films/3/","https://swapi.dev/api/films/4/","https://swapi.dev/api/films/5/","https://swapi.dev/api/films/6/"],"species":[],"vehicles":["https://swapi.dev/api/vehicles/38/"],"starships":["https://swapi.dev/api/starships/48/","https://swapi.dev/api/starships/59/","https://swapi.dev/api/starships/64/","https://swapi.dev/api/starships/65/","https://swapi.dev/api/starships/74/"],"created":"2014-12-10T16:16:29.192000Z","edited":"2014-12-20T21:17:50.325000Z","url":"https://swapi.dev/api/people/10/"}]}'
+    headers:
+      Allow:
+      - GET, HEAD, OPTIONS
+      Connection:
+      - keep-alive
+      Content-Type:
+      - application/json
+      Date:
+      - Fri, 12 Nov 2021 14:23:47 GMT
+      ETag:
+      - '"b493126da505af6fec015ec116fec193"'
+      Server:
+      - nginx/1.16.1
+      Strict-Transport-Security:
+      - max-age=15768000
+      Transfer-Encoding:
+      - chunked
+      Vary:
+      - Accept, Cookie
+      X-Frame-Options:
+      - SAMEORIGIN
+    status:
+      code: 200
+      message: OK
+- request:
+    body: null
+    headers: {}
+    method: GET
+    uri: https://swapi.dev/api/people?page=2
+  response:
+    body:
+      string: '{"count":82,"next":"https://swapi.dev/api/people/?page=3","previous":"https://swapi.dev/api/people/?page=1","results":[{"name":"Anakin
+        Skywalker","height":"188","mass":"84","hair_color":"blond","skin_color":"fair","eye_color":"blue","birth_year":"41.9BBY","gender":"male","homeworld":"https://swapi.dev/api/planets/1/","films":["https://swapi.dev/api/films/4/","https://swapi.dev/api/films/5/","https://swapi.dev/api/films/6/"],"species":[],"vehicles":["https://swapi.dev/api/vehicles/44/","https://swapi.dev/api/vehicles/46/"],"starships":["https://swapi.dev/api/starships/39/","https://swapi.dev/api/starships/59/","https://swapi.dev/api/starships/65/"],"created":"2014-12-10T16:20:44.310000Z","edited":"2014-12-20T21:17:50.327000Z","url":"https://swapi.dev/api/people/11/"},{"name":"Wilhuff
+        Tarkin","height":"180","mass":"unknown","hair_color":"auburn, grey","skin_color":"fair","eye_color":"blue","birth_year":"64BBY","gender":"male","homeworld":"https://swapi.dev/api/planets/21/","films":["https://swapi.dev/api/films/1/","https://swapi.dev/api/films/6/"],"species":[],"vehicles":[],"starships":[],"created":"2014-12-10T16:26:56.138000Z","edited":"2014-12-20T21:17:50.330000Z","url":"https://swapi.dev/api/people/12/"},{"name":"Chewbacca","height":"228","mass":"112","hair_color":"brown","skin_color":"unknown","eye_color":"blue","birth_year":"200BBY","gender":"male","homeworld":"https://swapi.dev/api/planets/14/","films":["https://swapi.dev/api/films/1/","https://swapi.dev/api/films/2/","https://swapi.dev/api/films/3/","https://swapi.dev/api/films/6/"],"species":["https://swapi.dev/api/species/3/"],"vehicles":["https://swapi.dev/api/vehicles/19/"],"starships":["https://swapi.dev/api/starships/10/","https://swapi.dev/api/starships/22/"],"created":"2014-12-10T16:42:45.066000Z","edited":"2014-12-20T21:17:50.332000Z","url":"https://swapi.dev/api/people/13/"},{"name":"Han
+        Solo","height":"180","mass":"80","hair_color":"brown","skin_color":"fair","eye_color":"brown","birth_year":"29BBY","gender":"male","homeworld":"https://swapi.dev/api/planets/22/","films":["https://swapi.dev/api/films/1/","https://swapi.dev/api/films/2/","https://swapi.dev/api/films/3/"],"species":[],"vehicles":[],"starships":["https://swapi.dev/api/starships/10/","https://swapi.dev/api/starships/22/"],"created":"2014-12-10T16:49:14.582000Z","edited":"2014-12-20T21:17:50.334000Z","url":"https://swapi.dev/api/people/14/"},{"name":"Greedo","height":"173","mass":"74","hair_color":"n/a","skin_color":"green","eye_color":"black","birth_year":"44BBY","gender":"male","homeworld":"https://swapi.dev/api/planets/23/","films":["https://swapi.dev/api/films/1/"],"species":["https://swapi.dev/api/species/4/"],"vehicles":[],"starships":[],"created":"2014-12-10T17:03:30.334000Z","edited":"2014-12-20T21:17:50.336000Z","url":"https://swapi.dev/api/people/15/"},{"name":"Jabba
+        Desilijic Tiure","height":"175","mass":"1,358","hair_color":"n/a","skin_color":"green-tan,
+        brown","eye_color":"orange","birth_year":"600BBY","gender":"hermaphrodite","homeworld":"https://swapi.dev/api/planets/24/","films":["https://swapi.dev/api/films/1/","https://swapi.dev/api/films/3/","https://swapi.dev/api/films/4/"],"species":["https://swapi.dev/api/species/5/"],"vehicles":[],"starships":[],"created":"2014-12-10T17:11:31.638000Z","edited":"2014-12-20T21:17:50.338000Z","url":"https://swapi.dev/api/people/16/"},{"name":"Wedge
+        Antilles","height":"170","mass":"77","hair_color":"brown","skin_color":"fair","eye_color":"hazel","birth_year":"21BBY","gender":"male","homeworld":"https://swapi.dev/api/planets/22/","films":["https://swapi.dev/api/films/1/","https://swapi.dev/api/films/2/","https://swapi.dev/api/films/3/"],"species":[],"vehicles":["https://swapi.dev/api/vehicles/14/"],"starships":["https://swapi.dev/api/starships/12/"],"created":"2014-12-12T11:08:06.469000Z","edited":"2014-12-20T21:17:50.341000Z","url":"https://swapi.dev/api/people/18/"},{"name":"Jek
+        Tono Porkins","height":"180","mass":"110","hair_color":"brown","skin_color":"fair","eye_color":"blue","birth_year":"unknown","gender":"male","homeworld":"https://swapi.dev/api/planets/26/","films":["https://swapi.dev/api/films/1/"],"species":[],"vehicles":[],"starships":["https://swapi.dev/api/starships/12/"],"created":"2014-12-12T11:16:56.569000Z","edited":"2014-12-20T21:17:50.343000Z","url":"https://swapi.dev/api/people/19/"},{"name":"Yoda","height":"66","mass":"17","hair_color":"white","skin_color":"green","eye_color":"brown","birth_year":"896BBY","gender":"male","homeworld":"https://swapi.dev/api/planets/28/","films":["https://swapi.dev/api/films/2/","https://swapi.dev/api/films/3/","https://swapi.dev/api/films/4/","https://swapi.dev/api/films/5/","https://swapi.dev/api/films/6/"],"species":["https://swapi.dev/api/species/6/"],"vehicles":[],"starships":[],"created":"2014-12-15T12:26:01.042000Z","edited":"2014-12-20T21:17:50.345000Z","url":"https://swapi.dev/api/people/20/"},{"name":"Palpatine","height":"170","mass":"75","hair_color":"grey","skin_color":"pale","eye_color":"yellow","birth_year":"82BBY","gender":"male","homeworld":"https://swapi.dev/api/planets/8/","films":["https://swapi.dev/api/films/2/","https://swapi.dev/api/films/3/","https://swapi.dev/api/films/4/","https://swapi.dev/api/films/5/","https://swapi.dev/api/films/6/"],"species":[],"vehicles":[],"starships":[],"created":"2014-12-15T12:48:05.971000Z","edited":"2014-12-20T21:17:50.347000Z","url":"https://swapi.dev/api/people/21/"}]}'
+    headers:
+      Allow:
+      - GET, HEAD, OPTIONS
+      Connection:
+      - keep-alive
+      Content-Type:
+      - application/json
+      Date:
+      - Fri, 12 Nov 2021 14:23:47 GMT
+      ETag:
+      - '"7568ff83e27e5bd6191b129a4de6c4a2"'
+      Server:
+      - nginx/1.16.1
+      Strict-Transport-Security:
+      - max-age=15768000
+      Transfer-Encoding:
+      - chunked
+      Vary:
+      - Accept, Cookie
+      X-Frame-Options:
+      - SAMEORIGIN
+    status:
+      code: 200
+      message: OK
+- request:
+    body: null
+    headers: {}
+    method: GET
+    uri: https://swapi.dev/api/people?page=3
+  response:
+    body:
+      string: '{"count":82,"next":"https://swapi.dev/api/people/?page=4","previous":"https://swapi.dev/api/people/?page=2","results":[{"name":"Boba
+        Fett","height":"183","mass":"78.2","hair_color":"black","skin_color":"fair","eye_color":"brown","birth_year":"31.5BBY","gender":"male","homeworld":"https://swapi.dev/api/planets/10/","films":["https://swapi.dev/api/films/2/","https://swapi.dev/api/films/3/","https://swapi.dev/api/films/5/"],"species":[],"vehicles":[],"starships":["https://swapi.dev/api/starships/21/"],"created":"2014-12-15T12:49:32.457000Z","edited":"2014-12-20T21:17:50.349000Z","url":"https://swapi.dev/api/people/22/"},{"name":"IG-88","height":"200","mass":"140","hair_color":"none","skin_color":"metal","eye_color":"red","birth_year":"15BBY","gender":"none","homeworld":"https://swapi.dev/api/planets/28/","films":["https://swapi.dev/api/films/2/"],"species":["https://swapi.dev/api/species/2/"],"vehicles":[],"starships":[],"created":"2014-12-15T12:51:10.076000Z","edited":"2014-12-20T21:17:50.351000Z","url":"https://swapi.dev/api/people/23/"},{"name":"Bossk","height":"190","mass":"113","hair_color":"none","skin_color":"green","eye_color":"red","birth_year":"53BBY","gender":"male","homeworld":"https://swapi.dev/api/planets/29/","films":["https://swapi.dev/api/films/2/"],"species":["https://swapi.dev/api/species/7/"],"vehicles":[],"starships":[],"created":"2014-12-15T12:53:49.297000Z","edited":"2014-12-20T21:17:50.355000Z","url":"https://swapi.dev/api/people/24/"},{"name":"Lando
+        Calrissian","height":"177","mass":"79","hair_color":"black","skin_color":"dark","eye_color":"brown","birth_year":"31BBY","gender":"male","homeworld":"https://swapi.dev/api/planets/30/","films":["https://swapi.dev/api/films/2/","https://swapi.dev/api/films/3/"],"species":[],"vehicles":[],"starships":["https://swapi.dev/api/starships/10/"],"created":"2014-12-15T12:56:32.683000Z","edited":"2014-12-20T21:17:50.357000Z","url":"https://swapi.dev/api/people/25/"},{"name":"Lobot","height":"175","mass":"79","hair_color":"none","skin_color":"light","eye_color":"blue","birth_year":"37BBY","gender":"male","homeworld":"https://swapi.dev/api/planets/6/","films":["https://swapi.dev/api/films/2/"],"species":[],"vehicles":[],"starships":[],"created":"2014-12-15T13:01:57.178000Z","edited":"2014-12-20T21:17:50.359000Z","url":"https://swapi.dev/api/people/26/"},{"name":"Ackbar","height":"180","mass":"83","hair_color":"none","skin_color":"brown
+        mottle","eye_color":"orange","birth_year":"41BBY","gender":"male","homeworld":"https://swapi.dev/api/planets/31/","films":["https://swapi.dev/api/films/3/"],"species":["https://swapi.dev/api/species/8/"],"vehicles":[],"starships":[],"created":"2014-12-18T11:07:50.584000Z","edited":"2014-12-20T21:17:50.362000Z","url":"https://swapi.dev/api/people/27/"},{"name":"Mon
+        Mothma","height":"150","mass":"unknown","hair_color":"auburn","skin_color":"fair","eye_color":"blue","birth_year":"48BBY","gender":"female","homeworld":"https://swapi.dev/api/planets/32/","films":["https://swapi.dev/api/films/3/"],"species":[],"vehicles":[],"starships":[],"created":"2014-12-18T11:12:38.895000Z","edited":"2014-12-20T21:17:50.364000Z","url":"https://swapi.dev/api/people/28/"},{"name":"Arvel
+        Crynyd","height":"unknown","mass":"unknown","hair_color":"brown","skin_color":"fair","eye_color":"brown","birth_year":"unknown","gender":"male","homeworld":"https://swapi.dev/api/planets/28/","films":["https://swapi.dev/api/films/3/"],"species":[],"vehicles":[],"starships":["https://swapi.dev/api/starships/28/"],"created":"2014-12-18T11:16:33.020000Z","edited":"2014-12-20T21:17:50.367000Z","url":"https://swapi.dev/api/people/29/"},{"name":"Wicket
+        Systri Warrick","height":"88","mass":"20","hair_color":"brown","skin_color":"brown","eye_color":"brown","birth_year":"8BBY","gender":"male","homeworld":"https://swapi.dev/api/planets/7/","films":["https://swapi.dev/api/films/3/"],"species":["https://swapi.dev/api/species/9/"],"vehicles":[],"starships":[],"created":"2014-12-18T11:21:58.954000Z","edited":"2014-12-20T21:17:50.369000Z","url":"https://swapi.dev/api/people/30/"},{"name":"Nien
+        Nunb","height":"160","mass":"68","hair_color":"none","skin_color":"grey","eye_color":"black","birth_year":"unknown","gender":"male","homeworld":"https://swapi.dev/api/planets/33/","films":["https://swapi.dev/api/films/3/"],"species":["https://swapi.dev/api/species/10/"],"vehicles":[],"starships":["https://swapi.dev/api/starships/10/"],"created":"2014-12-18T11:26:18.541000Z","edited":"2014-12-20T21:17:50.371000Z","url":"https://swapi.dev/api/people/31/"}]}'
+    headers:
+      Allow:
+      - GET, HEAD, OPTIONS
+      Connection:
+      - keep-alive
+      Content-Type:
+      - application/json
+      Date:
+      - Fri, 12 Nov 2021 14:23:48 GMT
+      ETag:
+      - '"f62c4410fd3aca792056d7967a6a9e3b"'
+      Server:
+      - nginx/1.16.1
+      Strict-Transport-Security:
+      - max-age=15768000
+      Transfer-Encoding:
+      - chunked
+      Vary:
+      - Accept, Cookie
+      X-Frame-Options:
+      - SAMEORIGIN
+    status:
+      code: 200
+      message: OK
+- request:
+    body: null
+    headers: {}
+    method: GET
+    uri: https://swapi.dev/api/people?page=4
+  response:
+    body:
+      string: "{\"count\":82,\"next\":\"https://swapi.dev/api/people/?page=5\",\"previous\":\"https://swapi.dev/api/people/?page=3\",\"results\":[{\"name\":\"Qui-Gon
+        Jinn\",\"height\":\"193\",\"mass\":\"89\",\"hair_color\":\"brown\",\"skin_color\":\"fair\",\"eye_color\":\"blue\",\"birth_year\":\"92BBY\",\"gender\":\"male\",\"homeworld\":\"https://swapi.dev/api/planets/28/\",\"films\":[\"https://swapi.dev/api/films/4/\"],\"species\":[],\"vehicles\":[\"https://swapi.dev/api/vehicles/38/\"],\"starships\":[],\"created\":\"2014-12-19T16:54:53.618000Z\",\"edited\":\"2014-12-20T21:17:50.375000Z\",\"url\":\"https://swapi.dev/api/people/32/\"},{\"name\":\"Nute
+        Gunray\",\"height\":\"191\",\"mass\":\"90\",\"hair_color\":\"none\",\"skin_color\":\"mottled
+        green\",\"eye_color\":\"red\",\"birth_year\":\"unknown\",\"gender\":\"male\",\"homeworld\":\"https://swapi.dev/api/planets/18/\",\"films\":[\"https://swapi.dev/api/films/4/\",\"https://swapi.dev/api/films/5/\",\"https://swapi.dev/api/films/6/\"],\"species\":[\"https://swapi.dev/api/species/11/\"],\"vehicles\":[],\"starships\":[],\"created\":\"2014-12-19T17:05:57.357000Z\",\"edited\":\"2014-12-20T21:17:50.377000Z\",\"url\":\"https://swapi.dev/api/people/33/\"},{\"name\":\"Finis
+        Valorum\",\"height\":\"170\",\"mass\":\"unknown\",\"hair_color\":\"blond\",\"skin_color\":\"fair\",\"eye_color\":\"blue\",\"birth_year\":\"91BBY\",\"gender\":\"male\",\"homeworld\":\"https://swapi.dev/api/planets/9/\",\"films\":[\"https://swapi.dev/api/films/4/\"],\"species\":[],\"vehicles\":[],\"starships\":[],\"created\":\"2014-12-19T17:21:45.915000Z\",\"edited\":\"2014-12-20T21:17:50.379000Z\",\"url\":\"https://swapi.dev/api/people/34/\"},{\"name\":\"Padm\xE9
+        Amidala\",\"height\":\"185\",\"mass\":\"45\",\"hair_color\":\"brown\",\"skin_color\":\"light\",\"eye_color\":\"brown\",\"birth_year\":\"46BBY\",\"gender\":\"female\",\"homeworld\":\"https://swapi.dev/api/planets/8/\",\"films\":[\"https://swapi.dev/api/films/4/\",\"https://swapi.dev/api/films/5/\",\"https://swapi.dev/api/films/6/\"],\"species\":[],\"vehicles\":[],\"starships\":[\"https://swapi.dev/api/starships/39/\",\"https://swapi.dev/api/starships/49/\",\"https://swapi.dev/api/starships/64/\"],\"created\":\"2014-12-19T17:28:26.926000Z\",\"edited\":\"2014-12-20T21:17:50.381000Z\",\"url\":\"https://swapi.dev/api/people/35/\"},{\"name\":\"Jar
+        Jar Binks\",\"height\":\"196\",\"mass\":\"66\",\"hair_color\":\"none\",\"skin_color\":\"orange\",\"eye_color\":\"orange\",\"birth_year\":\"52BBY\",\"gender\":\"male\",\"homeworld\":\"https://swapi.dev/api/planets/8/\",\"films\":[\"https://swapi.dev/api/films/4/\",\"https://swapi.dev/api/films/5/\"],\"species\":[\"https://swapi.dev/api/species/12/\"],\"vehicles\":[],\"starships\":[],\"created\":\"2014-12-19T17:29:32.489000Z\",\"edited\":\"2014-12-20T21:17:50.383000Z\",\"url\":\"https://swapi.dev/api/people/36/\"},{\"name\":\"Roos
+        Tarpals\",\"height\":\"224\",\"mass\":\"82\",\"hair_color\":\"none\",\"skin_color\":\"grey\",\"eye_color\":\"orange\",\"birth_year\":\"unknown\",\"gender\":\"male\",\"homeworld\":\"https://swapi.dev/api/planets/8/\",\"films\":[\"https://swapi.dev/api/films/4/\"],\"species\":[\"https://swapi.dev/api/species/12/\"],\"vehicles\":[],\"starships\":[],\"created\":\"2014-12-19T17:32:56.741000Z\",\"edited\":\"2014-12-20T21:17:50.385000Z\",\"url\":\"https://swapi.dev/api/people/37/\"},{\"name\":\"Rugor
+        Nass\",\"height\":\"206\",\"mass\":\"unknown\",\"hair_color\":\"none\",\"skin_color\":\"green\",\"eye_color\":\"orange\",\"birth_year\":\"unknown\",\"gender\":\"male\",\"homeworld\":\"https://swapi.dev/api/planets/8/\",\"films\":[\"https://swapi.dev/api/films/4/\"],\"species\":[\"https://swapi.dev/api/species/12/\"],\"vehicles\":[],\"starships\":[],\"created\":\"2014-12-19T17:33:38.909000Z\",\"edited\":\"2014-12-20T21:17:50.388000Z\",\"url\":\"https://swapi.dev/api/people/38/\"},{\"name\":\"Ric
+        Oli\xE9\",\"height\":\"183\",\"mass\":\"unknown\",\"hair_color\":\"brown\",\"skin_color\":\"fair\",\"eye_color\":\"blue\",\"birth_year\":\"unknown\",\"gender\":\"male\",\"homeworld\":\"https://swapi.dev/api/planets/8/\",\"films\":[\"https://swapi.dev/api/films/4/\"],\"species\":[],\"vehicles\":[],\"starships\":[\"https://swapi.dev/api/starships/40/\"],\"created\":\"2014-12-19T17:45:01.522000Z\",\"edited\":\"2014-12-20T21:17:50.392000Z\",\"url\":\"https://swapi.dev/api/people/39/\"},{\"name\":\"Watto\",\"height\":\"137\",\"mass\":\"unknown\",\"hair_color\":\"black\",\"skin_color\":\"blue,
+        grey\",\"eye_color\":\"yellow\",\"birth_year\":\"unknown\",\"gender\":\"male\",\"homeworld\":\"https://swapi.dev/api/planets/34/\",\"films\":[\"https://swapi.dev/api/films/4/\",\"https://swapi.dev/api/films/5/\"],\"species\":[\"https://swapi.dev/api/species/13/\"],\"vehicles\":[],\"starships\":[],\"created\":\"2014-12-19T17:48:54.647000Z\",\"edited\":\"2014-12-20T21:17:50.395000Z\",\"url\":\"https://swapi.dev/api/people/40/\"},{\"name\":\"Sebulba\",\"height\":\"112\",\"mass\":\"40\",\"hair_color\":\"none\",\"skin_color\":\"grey,
+        red\",\"eye_color\":\"orange\",\"birth_year\":\"unknown\",\"gender\":\"male\",\"homeworld\":\"https://swapi.dev/api/planets/35/\",\"films\":[\"https://swapi.dev/api/films/4/\"],\"species\":[\"https://swapi.dev/api/species/14/\"],\"vehicles\":[],\"starships\":[],\"created\":\"2014-12-19T17:53:02.586000Z\",\"edited\":\"2014-12-20T21:17:50.397000Z\",\"url\":\"https://swapi.dev/api/people/41/\"}]}"
+    headers:
+      Allow:
+      - GET, HEAD, OPTIONS
+      Connection:
+      - keep-alive
+      Content-Type:
+      - application/json
+      Date:
+      - Fri, 12 Nov 2021 14:23:48 GMT
+      ETag:
+      - '"ee0a0b3d946a118becf02585e5ff680d"'
+      Server:
+      - nginx/1.16.1
+      Strict-Transport-Security:
+      - max-age=15768000
+      Transfer-Encoding:
+      - chunked
+      Vary:
+      - Accept, Cookie
+      X-Frame-Options:
+      - SAMEORIGIN
+    status:
+      code: 200
+      message: OK
+- request:
+    body: null
+    headers: {}
+    method: GET
+    uri: https://swapi.dev/api/people?page=5
+  response:
+    body:
+      string: '{"count":82,"next":"https://swapi.dev/api/people/?page=6","previous":"https://swapi.dev/api/people/?page=4","results":[{"name":"Quarsh
+        Panaka","height":"183","mass":"unknown","hair_color":"black","skin_color":"dark","eye_color":"brown","birth_year":"62BBY","gender":"male","homeworld":"https://swapi.dev/api/planets/8/","films":["https://swapi.dev/api/films/4/"],"species":[],"vehicles":[],"starships":[],"created":"2014-12-19T17:55:43.348000Z","edited":"2014-12-20T21:17:50.399000Z","url":"https://swapi.dev/api/people/42/"},{"name":"Shmi
+        Skywalker","height":"163","mass":"unknown","hair_color":"black","skin_color":"fair","eye_color":"brown","birth_year":"72BBY","gender":"female","homeworld":"https://swapi.dev/api/planets/1/","films":["https://swapi.dev/api/films/4/","https://swapi.dev/api/films/5/"],"species":[],"vehicles":[],"starships":[],"created":"2014-12-19T17:57:41.191000Z","edited":"2014-12-20T21:17:50.401000Z","url":"https://swapi.dev/api/people/43/"},{"name":"Darth
+        Maul","height":"175","mass":"80","hair_color":"none","skin_color":"red","eye_color":"yellow","birth_year":"54BBY","gender":"male","homeworld":"https://swapi.dev/api/planets/36/","films":["https://swapi.dev/api/films/4/"],"species":["https://swapi.dev/api/species/22/"],"vehicles":["https://swapi.dev/api/vehicles/42/"],"starships":["https://swapi.dev/api/starships/41/"],"created":"2014-12-19T18:00:41.929000Z","edited":"2014-12-20T21:17:50.403000Z","url":"https://swapi.dev/api/people/44/"},{"name":"Bib
+        Fortuna","height":"180","mass":"unknown","hair_color":"none","skin_color":"pale","eye_color":"pink","birth_year":"unknown","gender":"male","homeworld":"https://swapi.dev/api/planets/37/","films":["https://swapi.dev/api/films/3/"],"species":["https://swapi.dev/api/species/15/"],"vehicles":[],"starships":[],"created":"2014-12-20T09:47:02.512000Z","edited":"2014-12-20T21:17:50.407000Z","url":"https://swapi.dev/api/people/45/"},{"name":"Ayla
+        Secura","height":"178","mass":"55","hair_color":"none","skin_color":"blue","eye_color":"hazel","birth_year":"48BBY","gender":"female","homeworld":"https://swapi.dev/api/planets/37/","films":["https://swapi.dev/api/films/4/","https://swapi.dev/api/films/5/","https://swapi.dev/api/films/6/"],"species":["https://swapi.dev/api/species/15/"],"vehicles":[],"starships":[],"created":"2014-12-20T09:48:01.172000Z","edited":"2014-12-20T21:17:50.409000Z","url":"https://swapi.dev/api/people/46/"},{"name":"Ratts
+        Tyerel","height":"79","mass":"15","hair_color":"none","skin_color":"grey,
+        blue","eye_color":"unknown","birth_year":"unknown","gender":"male","homeworld":"https://swapi.dev/api/planets/38/","films":["https://swapi.dev/api/films/4/"],"species":["https://swapi.dev/api/species/16/"],"vehicles":[],"starships":[],"created":"2014-12-20T09:53:15.086000Z","edited":"2014-12-20T21:17:50.410000Z","url":"https://swapi.dev/api/people/47/"},{"name":"Dud
+        Bolt","height":"94","mass":"45","hair_color":"none","skin_color":"blue, grey","eye_color":"yellow","birth_year":"unknown","gender":"male","homeworld":"https://swapi.dev/api/planets/39/","films":["https://swapi.dev/api/films/4/"],"species":["https://swapi.dev/api/species/17/"],"vehicles":[],"starships":[],"created":"2014-12-20T09:57:31.858000Z","edited":"2014-12-20T21:17:50.414000Z","url":"https://swapi.dev/api/people/48/"},{"name":"Gasgano","height":"122","mass":"unknown","hair_color":"none","skin_color":"white,
+        blue","eye_color":"black","birth_year":"unknown","gender":"male","homeworld":"https://swapi.dev/api/planets/40/","films":["https://swapi.dev/api/films/4/"],"species":["https://swapi.dev/api/species/18/"],"vehicles":[],"starships":[],"created":"2014-12-20T10:02:12.223000Z","edited":"2014-12-20T21:17:50.416000Z","url":"https://swapi.dev/api/people/49/"},{"name":"Ben
+        Quadinaros","height":"163","mass":"65","hair_color":"none","skin_color":"grey,
+        green, yellow","eye_color":"orange","birth_year":"unknown","gender":"male","homeworld":"https://swapi.dev/api/planets/41/","films":["https://swapi.dev/api/films/4/"],"species":["https://swapi.dev/api/species/19/"],"vehicles":[],"starships":[],"created":"2014-12-20T10:08:33.777000Z","edited":"2014-12-20T21:17:50.417000Z","url":"https://swapi.dev/api/people/50/"},{"name":"Mace
+        Windu","height":"188","mass":"84","hair_color":"none","skin_color":"dark","eye_color":"brown","birth_year":"72BBY","gender":"male","homeworld":"https://swapi.dev/api/planets/42/","films":["https://swapi.dev/api/films/4/","https://swapi.dev/api/films/5/","https://swapi.dev/api/films/6/"],"species":[],"vehicles":[],"starships":[],"created":"2014-12-20T10:12:30.846000Z","edited":"2014-12-20T21:17:50.420000Z","url":"https://swapi.dev/api/people/51/"}]}'
+    headers:
+      Allow:
+      - GET, HEAD, OPTIONS
+      Connection:
+      - keep-alive
+      Content-Type:
+      - application/json
+      Date:
+      - Fri, 12 Nov 2021 14:23:48 GMT
+      ETag:
+      - '"556f8d6557bb049281e828f3163a7230"'
+      Server:
+      - nginx/1.16.1
+      Strict-Transport-Security:
+      - max-age=15768000
+      Transfer-Encoding:
+      - chunked
+      Vary:
+      - Accept, Cookie
+      X-Frame-Options:
+      - SAMEORIGIN
+    status:
+      code: 200
+      message: OK
+- request:
+    body: null
+    headers: {}
+    method: GET
+    uri: https://swapi.dev/api/people?page=6
+  response:
+    body:
+      string: "{\"count\":82,\"next\":\"https://swapi.dev/api/people/?page=7\",\"previous\":\"https://swapi.dev/api/people/?page=5\",\"results\":[{\"name\":\"Ki-Adi-Mundi\",\"height\":\"198\",\"mass\":\"82\",\"hair_color\":\"white\",\"skin_color\":\"pale\",\"eye_color\":\"yellow\",\"birth_year\":\"92BBY\",\"gender\":\"male\",\"homeworld\":\"https://swapi.dev/api/planets/43/\",\"films\":[\"https://swapi.dev/api/films/4/\",\"https://swapi.dev/api/films/5/\",\"https://swapi.dev/api/films/6/\"],\"species\":[\"https://swapi.dev/api/species/20/\"],\"vehicles\":[],\"starships\":[],\"created\":\"2014-12-20T10:15:32.293000Z\",\"edited\":\"2014-12-20T21:17:50.422000Z\",\"url\":\"https://swapi.dev/api/people/52/\"},{\"name\":\"Kit
+        Fisto\",\"height\":\"196\",\"mass\":\"87\",\"hair_color\":\"none\",\"skin_color\":\"green\",\"eye_color\":\"black\",\"birth_year\":\"unknown\",\"gender\":\"male\",\"homeworld\":\"https://swapi.dev/api/planets/44/\",\"films\":[\"https://swapi.dev/api/films/4/\",\"https://swapi.dev/api/films/5/\",\"https://swapi.dev/api/films/6/\"],\"species\":[\"https://swapi.dev/api/species/21/\"],\"vehicles\":[],\"starships\":[],\"created\":\"2014-12-20T10:18:57.202000Z\",\"edited\":\"2014-12-20T21:17:50.424000Z\",\"url\":\"https://swapi.dev/api/people/53/\"},{\"name\":\"Eeth
+        Koth\",\"height\":\"171\",\"mass\":\"unknown\",\"hair_color\":\"black\",\"skin_color\":\"brown\",\"eye_color\":\"brown\",\"birth_year\":\"unknown\",\"gender\":\"male\",\"homeworld\":\"https://swapi.dev/api/planets/45/\",\"films\":[\"https://swapi.dev/api/films/4/\",\"https://swapi.dev/api/films/6/\"],\"species\":[\"https://swapi.dev/api/species/22/\"],\"vehicles\":[],\"starships\":[],\"created\":\"2014-12-20T10:26:47.902000Z\",\"edited\":\"2014-12-20T21:17:50.427000Z\",\"url\":\"https://swapi.dev/api/people/54/\"},{\"name\":\"Adi
+        Gallia\",\"height\":\"184\",\"mass\":\"50\",\"hair_color\":\"none\",\"skin_color\":\"dark\",\"eye_color\":\"blue\",\"birth_year\":\"unknown\",\"gender\":\"female\",\"homeworld\":\"https://swapi.dev/api/planets/9/\",\"films\":[\"https://swapi.dev/api/films/4/\",\"https://swapi.dev/api/films/6/\"],\"species\":[\"https://swapi.dev/api/species/23/\"],\"vehicles\":[],\"starships\":[],\"created\":\"2014-12-20T10:29:11.661000Z\",\"edited\":\"2014-12-20T21:17:50.432000Z\",\"url\":\"https://swapi.dev/api/people/55/\"},{\"name\":\"Saesee
+        Tiin\",\"height\":\"188\",\"mass\":\"unknown\",\"hair_color\":\"none\",\"skin_color\":\"pale\",\"eye_color\":\"orange\",\"birth_year\":\"unknown\",\"gender\":\"male\",\"homeworld\":\"https://swapi.dev/api/planets/47/\",\"films\":[\"https://swapi.dev/api/films/4/\",\"https://swapi.dev/api/films/6/\"],\"species\":[\"https://swapi.dev/api/species/24/\"],\"vehicles\":[],\"starships\":[],\"created\":\"2014-12-20T10:32:11.669000Z\",\"edited\":\"2014-12-20T21:17:50.434000Z\",\"url\":\"https://swapi.dev/api/people/56/\"},{\"name\":\"Yarael
+        Poof\",\"height\":\"264\",\"mass\":\"unknown\",\"hair_color\":\"none\",\"skin_color\":\"white\",\"eye_color\":\"yellow\",\"birth_year\":\"unknown\",\"gender\":\"male\",\"homeworld\":\"https://swapi.dev/api/planets/48/\",\"films\":[\"https://swapi.dev/api/films/4/\"],\"species\":[\"https://swapi.dev/api/species/25/\"],\"vehicles\":[],\"starships\":[],\"created\":\"2014-12-20T10:34:48.725000Z\",\"edited\":\"2014-12-20T21:17:50.437000Z\",\"url\":\"https://swapi.dev/api/people/57/\"},{\"name\":\"Plo
+        Koon\",\"height\":\"188\",\"mass\":\"80\",\"hair_color\":\"none\",\"skin_color\":\"orange\",\"eye_color\":\"black\",\"birth_year\":\"22BBY\",\"gender\":\"male\",\"homeworld\":\"https://swapi.dev/api/planets/49/\",\"films\":[\"https://swapi.dev/api/films/4/\",\"https://swapi.dev/api/films/5/\",\"https://swapi.dev/api/films/6/\"],\"species\":[\"https://swapi.dev/api/species/26/\"],\"vehicles\":[],\"starships\":[\"https://swapi.dev/api/starships/48/\"],\"created\":\"2014-12-20T10:49:19.859000Z\",\"edited\":\"2014-12-20T21:17:50.439000Z\",\"url\":\"https://swapi.dev/api/people/58/\"},{\"name\":\"Mas
+        Amedda\",\"height\":\"196\",\"mass\":\"unknown\",\"hair_color\":\"none\",\"skin_color\":\"blue\",\"eye_color\":\"blue\",\"birth_year\":\"unknown\",\"gender\":\"male\",\"homeworld\":\"https://swapi.dev/api/planets/50/\",\"films\":[\"https://swapi.dev/api/films/4/\",\"https://swapi.dev/api/films/5/\"],\"species\":[\"https://swapi.dev/api/species/27/\"],\"vehicles\":[],\"starships\":[],\"created\":\"2014-12-20T10:53:26.457000Z\",\"edited\":\"2014-12-20T21:17:50.442000Z\",\"url\":\"https://swapi.dev/api/people/59/\"},{\"name\":\"Gregar
+        Typho\",\"height\":\"185\",\"mass\":\"85\",\"hair_color\":\"black\",\"skin_color\":\"dark\",\"eye_color\":\"brown\",\"birth_year\":\"unknown\",\"gender\":\"male\",\"homeworld\":\"https://swapi.dev/api/planets/8/\",\"films\":[\"https://swapi.dev/api/films/5/\"],\"species\":[],\"vehicles\":[],\"starships\":[\"https://swapi.dev/api/starships/39/\"],\"created\":\"2014-12-20T11:10:10.381000Z\",\"edited\":\"2014-12-20T21:17:50.445000Z\",\"url\":\"https://swapi.dev/api/people/60/\"},{\"name\":\"Cord\xE9\",\"height\":\"157\",\"mass\":\"unknown\",\"hair_color\":\"brown\",\"skin_color\":\"light\",\"eye_color\":\"brown\",\"birth_year\":\"unknown\",\"gender\":\"female\",\"homeworld\":\"https://swapi.dev/api/planets/8/\",\"films\":[\"https://swapi.dev/api/films/5/\"],\"species\":[],\"vehicles\":[],\"starships\":[],\"created\":\"2014-12-20T11:11:39.630000Z\",\"edited\":\"2014-12-20T21:17:50.449000Z\",\"url\":\"https://swapi.dev/api/people/61/\"}]}"
+    headers:
+      Allow:
+      - GET, HEAD, OPTIONS
+      Connection:
+      - keep-alive
+      Content-Type:
+      - application/json
+      Date:
+      - Fri, 12 Nov 2021 14:23:48 GMT
+      ETag:
+      - '"807637143745525b34b36cdec9c3eca6"'
+      Server:
+      - nginx/1.16.1
+      Strict-Transport-Security:
+      - max-age=15768000
+      Transfer-Encoding:
+      - chunked
+      Vary:
+      - Accept, Cookie
+      X-Frame-Options:
+      - SAMEORIGIN
+    status:
+      code: 200
+      message: OK
+- request:
+    body: null
+    headers: {}
+    method: GET
+    uri: https://swapi.dev/api/people?page=7
+  response:
+    body:
+      string: "{\"count\":82,\"next\":\"https://swapi.dev/api/people/?page=8\",\"previous\":\"https://swapi.dev/api/people/?page=6\",\"results\":[{\"name\":\"Cliegg
+        Lars\",\"height\":\"183\",\"mass\":\"unknown\",\"hair_color\":\"brown\",\"skin_color\":\"fair\",\"eye_color\":\"blue\",\"birth_year\":\"82BBY\",\"gender\":\"male\",\"homeworld\":\"https://swapi.dev/api/planets/1/\",\"films\":[\"https://swapi.dev/api/films/5/\"],\"species\":[],\"vehicles\":[],\"starships\":[],\"created\":\"2014-12-20T15:59:03.958000Z\",\"edited\":\"2014-12-20T21:17:50.451000Z\",\"url\":\"https://swapi.dev/api/people/62/\"},{\"name\":\"Poggle
+        the Lesser\",\"height\":\"183\",\"mass\":\"80\",\"hair_color\":\"none\",\"skin_color\":\"green\",\"eye_color\":\"yellow\",\"birth_year\":\"unknown\",\"gender\":\"male\",\"homeworld\":\"https://swapi.dev/api/planets/11/\",\"films\":[\"https://swapi.dev/api/films/5/\",\"https://swapi.dev/api/films/6/\"],\"species\":[\"https://swapi.dev/api/species/28/\"],\"vehicles\":[],\"starships\":[],\"created\":\"2014-12-20T16:40:43.977000Z\",\"edited\":\"2014-12-20T21:17:50.453000Z\",\"url\":\"https://swapi.dev/api/people/63/\"},{\"name\":\"Luminara
+        Unduli\",\"height\":\"170\",\"mass\":\"56.2\",\"hair_color\":\"black\",\"skin_color\":\"yellow\",\"eye_color\":\"blue\",\"birth_year\":\"58BBY\",\"gender\":\"female\",\"homeworld\":\"https://swapi.dev/api/planets/51/\",\"films\":[\"https://swapi.dev/api/films/5/\",\"https://swapi.dev/api/films/6/\"],\"species\":[\"https://swapi.dev/api/species/29/\"],\"vehicles\":[],\"starships\":[],\"created\":\"2014-12-20T16:45:53.668000Z\",\"edited\":\"2014-12-20T21:17:50.455000Z\",\"url\":\"https://swapi.dev/api/people/64/\"},{\"name\":\"Barriss
+        Offee\",\"height\":\"166\",\"mass\":\"50\",\"hair_color\":\"black\",\"skin_color\":\"yellow\",\"eye_color\":\"blue\",\"birth_year\":\"40BBY\",\"gender\":\"female\",\"homeworld\":\"https://swapi.dev/api/planets/51/\",\"films\":[\"https://swapi.dev/api/films/5/\"],\"species\":[\"https://swapi.dev/api/species/29/\"],\"vehicles\":[],\"starships\":[],\"created\":\"2014-12-20T16:46:40.440000Z\",\"edited\":\"2014-12-20T21:17:50.457000Z\",\"url\":\"https://swapi.dev/api/people/65/\"},{\"name\":\"Dorm\xE9\",\"height\":\"165\",\"mass\":\"unknown\",\"hair_color\":\"brown\",\"skin_color\":\"light\",\"eye_color\":\"brown\",\"birth_year\":\"unknown\",\"gender\":\"female\",\"homeworld\":\"https://swapi.dev/api/planets/8/\",\"films\":[\"https://swapi.dev/api/films/5/\"],\"species\":[\"https://swapi.dev/api/species/1/\"],\"vehicles\":[],\"starships\":[],\"created\":\"2014-12-20T16:49:14.640000Z\",\"edited\":\"2014-12-20T21:17:50.460000Z\",\"url\":\"https://swapi.dev/api/people/66/\"},{\"name\":\"Dooku\",\"height\":\"193\",\"mass\":\"80\",\"hair_color\":\"white\",\"skin_color\":\"fair\",\"eye_color\":\"brown\",\"birth_year\":\"102BBY\",\"gender\":\"male\",\"homeworld\":\"https://swapi.dev/api/planets/52/\",\"films\":[\"https://swapi.dev/api/films/5/\",\"https://swapi.dev/api/films/6/\"],\"species\":[\"https://swapi.dev/api/species/1/\"],\"vehicles\":[\"https://swapi.dev/api/vehicles/55/\"],\"starships\":[],\"created\":\"2014-12-20T16:52:14.726000Z\",\"edited\":\"2014-12-20T21:17:50.462000Z\",\"url\":\"https://swapi.dev/api/people/67/\"},{\"name\":\"Bail
+        Prestor Organa\",\"height\":\"191\",\"mass\":\"unknown\",\"hair_color\":\"black\",\"skin_color\":\"tan\",\"eye_color\":\"brown\",\"birth_year\":\"67BBY\",\"gender\":\"male\",\"homeworld\":\"https://swapi.dev/api/planets/2/\",\"films\":[\"https://swapi.dev/api/films/5/\",\"https://swapi.dev/api/films/6/\"],\"species\":[\"https://swapi.dev/api/species/1/\"],\"vehicles\":[],\"starships\":[],\"created\":\"2014-12-20T16:53:08.575000Z\",\"edited\":\"2014-12-20T21:17:50.463000Z\",\"url\":\"https://swapi.dev/api/people/68/\"},{\"name\":\"Jango
+        Fett\",\"height\":\"183\",\"mass\":\"79\",\"hair_color\":\"black\",\"skin_color\":\"tan\",\"eye_color\":\"brown\",\"birth_year\":\"66BBY\",\"gender\":\"male\",\"homeworld\":\"https://swapi.dev/api/planets/53/\",\"films\":[\"https://swapi.dev/api/films/5/\"],\"species\":[],\"vehicles\":[],\"starships\":[],\"created\":\"2014-12-20T16:54:41.620000Z\",\"edited\":\"2014-12-20T21:17:50.465000Z\",\"url\":\"https://swapi.dev/api/people/69/\"},{\"name\":\"Zam
+        Wesell\",\"height\":\"168\",\"mass\":\"55\",\"hair_color\":\"blonde\",\"skin_color\":\"fair,
+        green, yellow\",\"eye_color\":\"yellow\",\"birth_year\":\"unknown\",\"gender\":\"female\",\"homeworld\":\"https://swapi.dev/api/planets/54/\",\"films\":[\"https://swapi.dev/api/films/5/\"],\"species\":[\"https://swapi.dev/api/species/30/\"],\"vehicles\":[\"https://swapi.dev/api/vehicles/45/\"],\"starships\":[],\"created\":\"2014-12-20T16:57:44.471000Z\",\"edited\":\"2014-12-20T21:17:50.468000Z\",\"url\":\"https://swapi.dev/api/people/70/\"},{\"name\":\"Dexter
+        Jettster\",\"height\":\"198\",\"mass\":\"102\",\"hair_color\":\"none\",\"skin_color\":\"brown\",\"eye_color\":\"yellow\",\"birth_year\":\"unknown\",\"gender\":\"male\",\"homeworld\":\"https://swapi.dev/api/planets/55/\",\"films\":[\"https://swapi.dev/api/films/5/\"],\"species\":[\"https://swapi.dev/api/species/31/\"],\"vehicles\":[],\"starships\":[],\"created\":\"2014-12-20T17:28:27.248000Z\",\"edited\":\"2014-12-20T21:17:50.470000Z\",\"url\":\"https://swapi.dev/api/people/71/\"}]}"
+    headers:
+      Allow:
+      - GET, HEAD, OPTIONS
+      Connection:
+      - keep-alive
+      Content-Type:
+      - application/json
+      Date:
+      - Fri, 12 Nov 2021 14:23:48 GMT
+      ETag:
+      - '"cede693f9e5306f789538e3568145aa7"'
+      Server:
+      - nginx/1.16.1
+      Strict-Transport-Security:
+      - max-age=15768000
+      Transfer-Encoding:
+      - chunked
+      Vary:
+      - Accept, Cookie
+      X-Frame-Options:
+      - SAMEORIGIN
+    status:
+      code: 200
+      message: OK
+- request:
+    body: null
+    headers: {}
+    method: GET
+    uri: https://swapi.dev/api/people?page=8
+  response:
+    body:
+      string: '{"count":82,"next":"https://swapi.dev/api/people/?page=9","previous":"https://swapi.dev/api/people/?page=7","results":[{"name":"Lama
+        Su","height":"229","mass":"88","hair_color":"none","skin_color":"grey","eye_color":"black","birth_year":"unknown","gender":"male","homeworld":"https://swapi.dev/api/planets/10/","films":["https://swapi.dev/api/films/5/"],"species":["https://swapi.dev/api/species/32/"],"vehicles":[],"starships":[],"created":"2014-12-20T17:30:50.416000Z","edited":"2014-12-20T21:17:50.473000Z","url":"https://swapi.dev/api/people/72/"},{"name":"Taun
+        We","height":"213","mass":"unknown","hair_color":"none","skin_color":"grey","eye_color":"black","birth_year":"unknown","gender":"female","homeworld":"https://swapi.dev/api/planets/10/","films":["https://swapi.dev/api/films/5/"],"species":["https://swapi.dev/api/species/32/"],"vehicles":[],"starships":[],"created":"2014-12-20T17:31:21.195000Z","edited":"2014-12-20T21:17:50.474000Z","url":"https://swapi.dev/api/people/73/"},{"name":"Jocasta
+        Nu","height":"167","mass":"unknown","hair_color":"white","skin_color":"fair","eye_color":"blue","birth_year":"unknown","gender":"female","homeworld":"https://swapi.dev/api/planets/9/","films":["https://swapi.dev/api/films/5/"],"species":["https://swapi.dev/api/species/1/"],"vehicles":[],"starships":[],"created":"2014-12-20T17:32:51.996000Z","edited":"2014-12-20T21:17:50.476000Z","url":"https://swapi.dev/api/people/74/"},{"name":"R4-P17","height":"96","mass":"unknown","hair_color":"none","skin_color":"silver,
+        red","eye_color":"red, blue","birth_year":"unknown","gender":"female","homeworld":"https://swapi.dev/api/planets/28/","films":["https://swapi.dev/api/films/5/","https://swapi.dev/api/films/6/"],"species":[],"vehicles":[],"starships":[],"created":"2014-12-20T17:43:36.409000Z","edited":"2014-12-20T21:17:50.478000Z","url":"https://swapi.dev/api/people/75/"},{"name":"Wat
+        Tambor","height":"193","mass":"48","hair_color":"none","skin_color":"green,
+        grey","eye_color":"unknown","birth_year":"unknown","gender":"male","homeworld":"https://swapi.dev/api/planets/56/","films":["https://swapi.dev/api/films/5/"],"species":["https://swapi.dev/api/species/33/"],"vehicles":[],"starships":[],"created":"2014-12-20T17:53:52.607000Z","edited":"2014-12-20T21:17:50.481000Z","url":"https://swapi.dev/api/people/76/"},{"name":"San
+        Hill","height":"191","mass":"unknown","hair_color":"none","skin_color":"grey","eye_color":"gold","birth_year":"unknown","gender":"male","homeworld":"https://swapi.dev/api/planets/57/","films":["https://swapi.dev/api/films/5/"],"species":["https://swapi.dev/api/species/34/"],"vehicles":[],"starships":[],"created":"2014-12-20T17:58:17.049000Z","edited":"2014-12-20T21:17:50.484000Z","url":"https://swapi.dev/api/people/77/"},{"name":"Shaak
+        Ti","height":"178","mass":"57","hair_color":"none","skin_color":"red, blue,
+        white","eye_color":"black","birth_year":"unknown","gender":"female","homeworld":"https://swapi.dev/api/planets/58/","films":["https://swapi.dev/api/films/5/","https://swapi.dev/api/films/6/"],"species":["https://swapi.dev/api/species/35/"],"vehicles":[],"starships":[],"created":"2014-12-20T18:44:01.103000Z","edited":"2014-12-20T21:17:50.486000Z","url":"https://swapi.dev/api/people/78/"},{"name":"Grievous","height":"216","mass":"159","hair_color":"none","skin_color":"brown,
+        white","eye_color":"green, yellow","birth_year":"unknown","gender":"male","homeworld":"https://swapi.dev/api/planets/59/","films":["https://swapi.dev/api/films/6/"],"species":["https://swapi.dev/api/species/36/"],"vehicles":["https://swapi.dev/api/vehicles/60/"],"starships":["https://swapi.dev/api/starships/74/"],"created":"2014-12-20T19:43:53.348000Z","edited":"2014-12-20T21:17:50.488000Z","url":"https://swapi.dev/api/people/79/"},{"name":"Tarfful","height":"234","mass":"136","hair_color":"brown","skin_color":"brown","eye_color":"blue","birth_year":"unknown","gender":"male","homeworld":"https://swapi.dev/api/planets/14/","films":["https://swapi.dev/api/films/6/"],"species":["https://swapi.dev/api/species/3/"],"vehicles":[],"starships":[],"created":"2014-12-20T19:46:34.209000Z","edited":"2014-12-20T21:17:50.491000Z","url":"https://swapi.dev/api/people/80/"},{"name":"Raymus
+        Antilles","height":"188","mass":"79","hair_color":"brown","skin_color":"light","eye_color":"brown","birth_year":"unknown","gender":"male","homeworld":"https://swapi.dev/api/planets/2/","films":["https://swapi.dev/api/films/1/","https://swapi.dev/api/films/6/"],"species":[],"vehicles":[],"starships":[],"created":"2014-12-20T19:49:35.583000Z","edited":"2014-12-20T21:17:50.493000Z","url":"https://swapi.dev/api/people/81/"}]}'
+    headers:
+      Allow:
+      - GET, HEAD, OPTIONS
+      Connection:
+      - keep-alive
+      Content-Type:
+      - application/json
+      Date:
+      - Fri, 12 Nov 2021 14:23:48 GMT
+      ETag:
+      - '"064490821a97ef608ba73879de505b3c"'
+      Server:
+      - nginx/1.16.1
+      Strict-Transport-Security:
+      - max-age=15768000
+      Transfer-Encoding:
+      - chunked
+      Vary:
+      - Accept, Cookie
+      X-Frame-Options:
+      - SAMEORIGIN
+    status:
+      code: 200
+      message: OK
+- request:
+    body: null
+    headers: {}
+    method: GET
+    uri: https://swapi.dev/api/people?page=9
+  response:
+    body:
+      string: '{"count":82,"next":null,"previous":"https://swapi.dev/api/people/?page=8","results":[{"name":"Sly
+        Moore","height":"178","mass":"48","hair_color":"none","skin_color":"pale","eye_color":"white","birth_year":"unknown","gender":"female","homeworld":"https://swapi.dev/api/planets/60/","films":["https://swapi.dev/api/films/5/","https://swapi.dev/api/films/6/"],"species":[],"vehicles":[],"starships":[],"created":"2014-12-20T20:18:37.619000Z","edited":"2014-12-20T21:17:50.496000Z","url":"https://swapi.dev/api/people/82/"},{"name":"Tion
+        Medon","height":"206","mass":"80","hair_color":"none","skin_color":"grey","eye_color":"black","birth_year":"unknown","gender":"male","homeworld":"https://swapi.dev/api/planets/12/","films":["https://swapi.dev/api/films/6/"],"species":["https://swapi.dev/api/species/37/"],"vehicles":[],"starships":[],"created":"2014-12-20T20:35:04.260000Z","edited":"2014-12-20T21:17:50.498000Z","url":"https://swapi.dev/api/people/83/"}]}'
+    headers:
+      Allow:
+      - GET, HEAD, OPTIONS
+      Connection:
+      - keep-alive
+      Content-Type:
+      - application/json
+      Date:
+      - Fri, 12 Nov 2021 14:23:48 GMT
+      ETag:
+      - '"7f06357b2990e189b232f16657b428df"'
+      Server:
+      - nginx/1.16.1
+      Strict-Transport-Security:
+      - max-age=15768000
+      Transfer-Encoding:
+      - chunked
+      Vary:
+      - Accept, Cookie
+      X-Frame-Options:
+      - SAMEORIGIN
+    status:
+      code: 200
+      message: OK
+- request:
+    body: null
+    headers: {}
+    method: GET
+    uri: https://swapi.dev/api/planets/1
+  response:
+    body:
+      string: '{"name":"Tatooine","rotation_period":"23","orbital_period":"304","diameter":"10465","climate":"arid","gravity":"1
+        standard","terrain":"desert","surface_water":"1","population":"200000","residents":["https://swapi.dev/api/people/1/","https://swapi.dev/api/people/2/","https://swapi.dev/api/people/4/","https://swapi.dev/api/people/6/","https://swapi.dev/api/people/7/","https://swapi.dev/api/people/8/","https://swapi.dev/api/people/9/","https://swapi.dev/api/people/11/","https://swapi.dev/api/people/43/","https://swapi.dev/api/people/62/"],"films":["https://swapi.dev/api/films/1/","https://swapi.dev/api/films/3/","https://swapi.dev/api/films/4/","https://swapi.dev/api/films/5/","https://swapi.dev/api/films/6/"],"created":"2014-12-09T13:50:49.641000Z","edited":"2014-12-20T20:58:18.411000Z","url":"https://swapi.dev/api/planets/1/"}'
+    headers:
+      Allow:
+      - GET, HEAD, OPTIONS
+      Connection:
+      - keep-alive
+      Content-Type:
+      - application/json
+      Date:
+      - Fri, 12 Nov 2021 14:23:48 GMT
+      ETag:
+      - '"df2ecd17a7953452d4000883f4f97b77"'
+      Server:
+      - nginx/1.16.1
+      Strict-Transport-Security:
+      - max-age=15768000
+      Transfer-Encoding:
+      - chunked
+      Vary:
+      - Accept, Cookie
+      X-Frame-Options:
+      - SAMEORIGIN
+    status:
+      code: 200
+      message: OK
+- request:
+    body: null
+    headers: {}
+    method: GET
+    uri: https://swapi.dev/api/planets/1
+  response:
+    body:
+      string: '{"name":"Tatooine","rotation_period":"23","orbital_period":"304","diameter":"10465","climate":"arid","gravity":"1
+        standard","terrain":"desert","surface_water":"1","population":"200000","residents":["https://swapi.dev/api/people/1/","https://swapi.dev/api/people/2/","https://swapi.dev/api/people/4/","https://swapi.dev/api/people/6/","https://swapi.dev/api/people/7/","https://swapi.dev/api/people/8/","https://swapi.dev/api/people/9/","https://swapi.dev/api/people/11/","https://swapi.dev/api/people/43/","https://swapi.dev/api/people/62/"],"films":["https://swapi.dev/api/films/1/","https://swapi.dev/api/films/3/","https://swapi.dev/api/films/4/","https://swapi.dev/api/films/5/","https://swapi.dev/api/films/6/"],"created":"2014-12-09T13:50:49.641000Z","edited":"2014-12-20T20:58:18.411000Z","url":"https://swapi.dev/api/planets/1/"}'
+    headers:
+      Allow:
+      - GET, HEAD, OPTIONS
+      Connection:
+      - keep-alive
+      Content-Type:
+      - application/json
+      Date:
+      - Fri, 12 Nov 2021 14:23:53 GMT
+      ETag:
+      - '"df2ecd17a7953452d4000883f4f97b77"'
+      Server:
+      - nginx/1.16.1
+      Strict-Transport-Security:
+      - max-age=15768000
+      Transfer-Encoding:
+      - chunked
+      Vary:
+      - Accept, Cookie
+      X-Frame-Options:
+      - SAMEORIGIN
+    status:
+      code: 200
+      message: OK
+- request:
+    body: null
+    headers: {}
+    method: GET
+    uri: https://swapi.dev/api/planets/8
+  response:
+    body:
+      string: '{"name":"Naboo","rotation_period":"26","orbital_period":"312","diameter":"12120","climate":"temperate","gravity":"1
+        standard","terrain":"grassy hills, swamps, forests, mountains","surface_water":"12","population":"4500000000","residents":["https://swapi.dev/api/people/3/","https://swapi.dev/api/people/21/","https://swapi.dev/api/people/35/","https://swapi.dev/api/people/36/","https://swapi.dev/api/people/37/","https://swapi.dev/api/people/38/","https://swapi.dev/api/people/39/","https://swapi.dev/api/people/42/","https://swapi.dev/api/people/60/","https://swapi.dev/api/people/61/","https://swapi.dev/api/people/66/"],"films":["https://swapi.dev/api/films/3/","https://swapi.dev/api/films/4/","https://swapi.dev/api/films/5/","https://swapi.dev/api/films/6/"],"created":"2014-12-10T11:52:31.066000Z","edited":"2014-12-20T20:58:18.430000Z","url":"https://swapi.dev/api/planets/8/"}'
+    headers:
+      Allow:
+      - GET, HEAD, OPTIONS
+      Connection:
+      - keep-alive
+      Content-Type:
+      - application/json
+      Date:
+      - Fri, 12 Nov 2021 14:23:53 GMT
+      ETag:
+      - '"de4d1009b28e18d5f9a6fcc89916a9be"'
+      Server:
+      - nginx/1.16.1
+      Strict-Transport-Security:
+      - max-age=15768000
+      Transfer-Encoding:
+      - chunked
+      Vary:
+      - Accept, Cookie
+      X-Frame-Options:
+      - SAMEORIGIN
+    status:
+      code: 200
+      message: OK
+- request:
+    body: null
+    headers: {}
+    method: GET
+    uri: https://swapi.dev/api/planets/1
+  response:
+    body:
+      string: '{"name":"Tatooine","rotation_period":"23","orbital_period":"304","diameter":"10465","climate":"arid","gravity":"1
+        standard","terrain":"desert","surface_water":"1","population":"200000","residents":["https://swapi.dev/api/people/1/","https://swapi.dev/api/people/2/","https://swapi.dev/api/people/4/","https://swapi.dev/api/people/6/","https://swapi.dev/api/people/7/","https://swapi.dev/api/people/8/","https://swapi.dev/api/people/9/","https://swapi.dev/api/people/11/","https://swapi.dev/api/people/43/","https://swapi.dev/api/people/62/"],"films":["https://swapi.dev/api/films/1/","https://swapi.dev/api/films/3/","https://swapi.dev/api/films/4/","https://swapi.dev/api/films/5/","https://swapi.dev/api/films/6/"],"created":"2014-12-09T13:50:49.641000Z","edited":"2014-12-20T20:58:18.411000Z","url":"https://swapi.dev/api/planets/1/"}'
+    headers:
+      Allow:
+      - GET, HEAD, OPTIONS
+      Connection:
+      - keep-alive
+      Content-Type:
+      - application/json
+      Date:
+      - Fri, 12 Nov 2021 14:23:54 GMT
+      ETag:
+      - '"df2ecd17a7953452d4000883f4f97b77"'
+      Server:
+      - nginx/1.16.1
+      Strict-Transport-Security:
+      - max-age=15768000
+      Transfer-Encoding:
+      - chunked
+      Vary:
+      - Accept, Cookie
+      X-Frame-Options:
+      - SAMEORIGIN
+    status:
+      code: 200
+      message: OK
+- request:
+    body: null
+    headers: {}
+    method: GET
+    uri: https://swapi.dev/api/planets/2
+  response:
+    body:
+      string: '{"name":"Alderaan","rotation_period":"24","orbital_period":"364","diameter":"12500","climate":"temperate","gravity":"1
+        standard","terrain":"grasslands, mountains","surface_water":"40","population":"2000000000","residents":["https://swapi.dev/api/people/5/","https://swapi.dev/api/people/68/","https://swapi.dev/api/people/81/"],"films":["https://swapi.dev/api/films/1/","https://swapi.dev/api/films/6/"],"created":"2014-12-10T11:35:48.479000Z","edited":"2014-12-20T20:58:18.420000Z","url":"https://swapi.dev/api/planets/2/"}'
+    headers:
+      Allow:
+      - GET, HEAD, OPTIONS
+      Connection:
+      - keep-alive
+      Content-Type:
+      - application/json
+      Date:
+      - Fri, 12 Nov 2021 14:23:54 GMT
+      ETag:
+      - '"c63067c043a8b77cfca37575d82206bb"'
+      Server:
+      - nginx/1.16.1
+      Strict-Transport-Security:
+      - max-age=15768000
+      Transfer-Encoding:
+      - chunked
+      Vary:
+      - Accept, Cookie
+      X-Frame-Options:
+      - SAMEORIGIN
+    status:
+      code: 200
+      message: OK
+- request:
+    body: null
+    headers: {}
+    method: GET
+    uri: https://swapi.dev/api/planets/1
+  response:
+    body:
+      string: '{"name":"Tatooine","rotation_period":"23","orbital_period":"304","diameter":"10465","climate":"arid","gravity":"1
+        standard","terrain":"desert","surface_water":"1","population":"200000","residents":["https://swapi.dev/api/people/1/","https://swapi.dev/api/people/2/","https://swapi.dev/api/people/4/","https://swapi.dev/api/people/6/","https://swapi.dev/api/people/7/","https://swapi.dev/api/people/8/","https://swapi.dev/api/people/9/","https://swapi.dev/api/people/11/","https://swapi.dev/api/people/43/","https://swapi.dev/api/people/62/"],"films":["https://swapi.dev/api/films/1/","https://swapi.dev/api/films/3/","https://swapi.dev/api/films/4/","https://swapi.dev/api/films/5/","https://swapi.dev/api/films/6/"],"created":"2014-12-09T13:50:49.641000Z","edited":"2014-12-20T20:58:18.411000Z","url":"https://swapi.dev/api/planets/1/"}'
+    headers:
+      Allow:
+      - GET, HEAD, OPTIONS
+      Connection:
+      - keep-alive
+      Content-Type:
+      - application/json
+      Date:
+      - Fri, 12 Nov 2021 14:23:54 GMT
+      ETag:
+      - '"df2ecd17a7953452d4000883f4f97b77"'
+      Server:
+      - nginx/1.16.1
+      Strict-Transport-Security:
+      - max-age=15768000
+      Transfer-Encoding:
+      - chunked
+      Vary:
+      - Accept, Cookie
+      X-Frame-Options:
+      - SAMEORIGIN
+    status:
+      code: 200
+      message: OK
+- request:
+    body: null
+    headers: {}
+    method: GET
+    uri: https://swapi.dev/api/planets/1
+  response:
+    body:
+      string: '{"name":"Tatooine","rotation_period":"23","orbital_period":"304","diameter":"10465","climate":"arid","gravity":"1
+        standard","terrain":"desert","surface_water":"1","population":"200000","residents":["https://swapi.dev/api/people/1/","https://swapi.dev/api/people/2/","https://swapi.dev/api/people/4/","https://swapi.dev/api/people/6/","https://swapi.dev/api/people/7/","https://swapi.dev/api/people/8/","https://swapi.dev/api/people/9/","https://swapi.dev/api/people/11/","https://swapi.dev/api/people/43/","https://swapi.dev/api/people/62/"],"films":["https://swapi.dev/api/films/1/","https://swapi.dev/api/films/3/","https://swapi.dev/api/films/4/","https://swapi.dev/api/films/5/","https://swapi.dev/api/films/6/"],"created":"2014-12-09T13:50:49.641000Z","edited":"2014-12-20T20:58:18.411000Z","url":"https://swapi.dev/api/planets/1/"}'
+    headers:
+      Allow:
+      - GET, HEAD, OPTIONS
+      Connection:
+      - keep-alive
+      Content-Type:
+      - application/json
+      Date:
+      - Fri, 12 Nov 2021 14:23:54 GMT
+      ETag:
+      - '"df2ecd17a7953452d4000883f4f97b77"'
+      Server:
+      - nginx/1.16.1
+      Strict-Transport-Security:
+      - max-age=15768000
+      Transfer-Encoding:
+      - chunked
+      Vary:
+      - Accept, Cookie
+      X-Frame-Options:
+      - SAMEORIGIN
+    status:
+      code: 200
+      message: OK
+- request:
+    body: null
+    headers: {}
+    method: GET
+    uri: https://swapi.dev/api/planets/1
+  response:
+    body:
+      string: '{"name":"Tatooine","rotation_period":"23","orbital_period":"304","diameter":"10465","climate":"arid","gravity":"1
+        standard","terrain":"desert","surface_water":"1","population":"200000","residents":["https://swapi.dev/api/people/1/","https://swapi.dev/api/people/2/","https://swapi.dev/api/people/4/","https://swapi.dev/api/people/6/","https://swapi.dev/api/people/7/","https://swapi.dev/api/people/8/","https://swapi.dev/api/people/9/","https://swapi.dev/api/people/11/","https://swapi.dev/api/people/43/","https://swapi.dev/api/people/62/"],"films":["https://swapi.dev/api/films/1/","https://swapi.dev/api/films/3/","https://swapi.dev/api/films/4/","https://swapi.dev/api/films/5/","https://swapi.dev/api/films/6/"],"created":"2014-12-09T13:50:49.641000Z","edited":"2014-12-20T20:58:18.411000Z","url":"https://swapi.dev/api/planets/1/"}'
+    headers:
+      Allow:
+      - GET, HEAD, OPTIONS
+      Connection:
+      - keep-alive
+      Content-Type:
+      - application/json
+      Date:
+      - Fri, 12 Nov 2021 14:23:54 GMT
+      ETag:
+      - '"df2ecd17a7953452d4000883f4f97b77"'
+      Server:
+      - nginx/1.16.1
+      Strict-Transport-Security:
+      - max-age=15768000
+      Transfer-Encoding:
+      - chunked
+      Vary:
+      - Accept, Cookie
+      X-Frame-Options:
+      - SAMEORIGIN
+    status:
+      code: 200
+      message: OK
+- request:
+    body: null
+    headers: {}
+    method: GET
+    uri: https://swapi.dev/api/planets/1
+  response:
+    body:
+      string: '{"name":"Tatooine","rotation_period":"23","orbital_period":"304","diameter":"10465","climate":"arid","gravity":"1
+        standard","terrain":"desert","surface_water":"1","population":"200000","residents":["https://swapi.dev/api/people/1/","https://swapi.dev/api/people/2/","https://swapi.dev/api/people/4/","https://swapi.dev/api/people/6/","https://swapi.dev/api/people/7/","https://swapi.dev/api/people/8/","https://swapi.dev/api/people/9/","https://swapi.dev/api/people/11/","https://swapi.dev/api/people/43/","https://swapi.dev/api/people/62/"],"films":["https://swapi.dev/api/films/1/","https://swapi.dev/api/films/3/","https://swapi.dev/api/films/4/","https://swapi.dev/api/films/5/","https://swapi.dev/api/films/6/"],"created":"2014-12-09T13:50:49.641000Z","edited":"2014-12-20T20:58:18.411000Z","url":"https://swapi.dev/api/planets/1/"}'
+    headers:
+      Allow:
+      - GET, HEAD, OPTIONS
+      Connection:
+      - keep-alive
+      Content-Type:
+      - application/json
+      Date:
+      - Fri, 12 Nov 2021 14:23:54 GMT
+      ETag:
+      - '"df2ecd17a7953452d4000883f4f97b77"'
+      Server:
+      - nginx/1.16.1
+      Strict-Transport-Security:
+      - max-age=15768000
+      Transfer-Encoding:
+      - chunked
+      Vary:
+      - Accept, Cookie
+      X-Frame-Options:
+      - SAMEORIGIN
+    status:
+      code: 200
+      message: OK
+- request:
+    body: null
+    headers: {}
+    method: GET
+    uri: https://swapi.dev/api/planets/20
+  response:
+    body:
+      string: '{"name":"Stewjon","rotation_period":"unknown","orbital_period":"unknown","diameter":"0","climate":"temperate","gravity":"1
+        standard","terrain":"grass","surface_water":"unknown","population":"unknown","residents":["https://swapi.dev/api/people/10/"],"films":[],"created":"2014-12-10T16:16:26.566000Z","edited":"2014-12-20T20:58:18.452000Z","url":"https://swapi.dev/api/planets/20/"}'
+    headers:
+      Allow:
+      - GET, HEAD, OPTIONS
+      Connection:
+      - keep-alive
+      Content-Type:
+      - application/json
+      Date:
+      - Fri, 12 Nov 2021 14:23:54 GMT
+      ETag:
+      - '"7c98fea3687149ec7506d70baf862067"'
+      Server:
+      - nginx/1.16.1
+      Strict-Transport-Security:
+      - max-age=15768000
+      Transfer-Encoding:
+      - chunked
+      Vary:
+      - Accept, Cookie
+      X-Frame-Options:
+      - SAMEORIGIN
+    status:
+      code: 200
+      message: OK
+- request:
+    body: null
+    headers: {}
+    method: GET
+    uri: https://swapi.dev/api/planets/1
+  response:
+    body:
+      string: '{"name":"Tatooine","rotation_period":"23","orbital_period":"304","diameter":"10465","climate":"arid","gravity":"1
+        standard","terrain":"desert","surface_water":"1","population":"200000","residents":["https://swapi.dev/api/people/1/","https://swapi.dev/api/people/2/","https://swapi.dev/api/people/4/","https://swapi.dev/api/people/6/","https://swapi.dev/api/people/7/","https://swapi.dev/api/people/8/","https://swapi.dev/api/people/9/","https://swapi.dev/api/people/11/","https://swapi.dev/api/people/43/","https://swapi.dev/api/people/62/"],"films":["https://swapi.dev/api/films/1/","https://swapi.dev/api/films/3/","https://swapi.dev/api/films/4/","https://swapi.dev/api/films/5/","https://swapi.dev/api/films/6/"],"created":"2014-12-09T13:50:49.641000Z","edited":"2014-12-20T20:58:18.411000Z","url":"https://swapi.dev/api/planets/1/"}'
+    headers:
+      Allow:
+      - GET, HEAD, OPTIONS
+      Connection:
+      - keep-alive
+      Content-Type:
+      - application/json
+      Date:
+      - Fri, 12 Nov 2021 14:23:54 GMT
+      ETag:
+      - '"df2ecd17a7953452d4000883f4f97b77"'
+      Server:
+      - nginx/1.16.1
+      Strict-Transport-Security:
+      - max-age=15768000
+      Transfer-Encoding:
+      - chunked
+      Vary:
+      - Accept, Cookie
+      X-Frame-Options:
+      - SAMEORIGIN
+    status:
+      code: 200
+      message: OK
+- request:
+    body: null
+    headers: {}
+    method: GET
+    uri: https://swapi.dev/api/planets/21
+  response:
+    body:
+      string: '{"name":"Eriadu","rotation_period":"24","orbital_period":"360","diameter":"13490","climate":"polluted","gravity":"1
+        standard","terrain":"cityscape","surface_water":"unknown","population":"22000000000","residents":["https://swapi.dev/api/people/12/"],"films":[],"created":"2014-12-10T16:26:54.384000Z","edited":"2014-12-20T20:58:18.454000Z","url":"https://swapi.dev/api/planets/21/"}'
+    headers:
+      Allow:
+      - GET, HEAD, OPTIONS
+      Connection:
+      - keep-alive
+      Content-Type:
+      - application/json
+      Date:
+      - Fri, 12 Nov 2021 14:23:54 GMT
+      ETag:
+      - '"68290e95bf59c7b593d324b9bae97196"'
+      Server:
+      - nginx/1.16.1
+      Strict-Transport-Security:
+      - max-age=15768000
+      Transfer-Encoding:
+      - chunked
+      Vary:
+      - Accept, Cookie
+      X-Frame-Options:
+      - SAMEORIGIN
+    status:
+      code: 200
+      message: OK
+- request:
+    body: null
+    headers: {}
+    method: GET
+    uri: https://swapi.dev/api/planets/14
+  response:
+    body:
+      string: '{"name":"Kashyyyk","rotation_period":"26","orbital_period":"381","diameter":"12765","climate":"tropical","gravity":"1
+        standard","terrain":"jungle, forests, lakes, rivers","surface_water":"60","population":"45000000","residents":["https://swapi.dev/api/people/13/","https://swapi.dev/api/people/80/"],"films":["https://swapi.dev/api/films/6/"],"created":"2014-12-10T13:32:00.124000Z","edited":"2014-12-20T20:58:18.442000Z","url":"https://swapi.dev/api/planets/14/"}'
+    headers:
+      Allow:
+      - GET, HEAD, OPTIONS
+      Connection:
+      - keep-alive
+      Content-Type:
+      - application/json
+      Date:
+      - Fri, 12 Nov 2021 14:23:54 GMT
+      ETag:
+      - '"cb5f22c62a1bacde749dd0fd123c50f2"'
+      Server:
+      - nginx/1.16.1
+      Strict-Transport-Security:
+      - max-age=15768000
+      Transfer-Encoding:
+      - chunked
+      Vary:
+      - Accept, Cookie
+      X-Frame-Options:
+      - SAMEORIGIN
+    status:
+      code: 200
+      message: OK
+- request:
+    body: null
+    headers: {}
+    method: GET
+    uri: https://swapi.dev/api/planets/22
+  response:
+    body:
+      string: '{"name":"Corellia","rotation_period":"25","orbital_period":"329","diameter":"11000","climate":"temperate","gravity":"1
+        standard","terrain":"plains, urban, hills, forests","surface_water":"70","population":"3000000000","residents":["https://swapi.dev/api/people/14/","https://swapi.dev/api/people/18/"],"films":[],"created":"2014-12-10T16:49:12.453000Z","edited":"2014-12-20T20:58:18.456000Z","url":"https://swapi.dev/api/planets/22/"}'
+    headers:
+      Allow:
+      - GET, HEAD, OPTIONS
+      Connection:
+      - keep-alive
+      Content-Type:
+      - application/json
+      Date:
+      - Fri, 12 Nov 2021 14:23:54 GMT
+      ETag:
+      - '"bba8001765098a21227ecee3cfb9081e"'
+      Server:
+      - nginx/1.16.1
+      Strict-Transport-Security:
+      - max-age=15768000
+      Transfer-Encoding:
+      - chunked
+      Vary:
+      - Accept, Cookie
+      X-Frame-Options:
+      - SAMEORIGIN
+    status:
+      code: 200
+      message: OK
+- request:
+    body: null
+    headers: {}
+    method: GET
+    uri: https://swapi.dev/api/planets/23
+  response:
+    body:
+      string: '{"name":"Rodia","rotation_period":"29","orbital_period":"305","diameter":"7549","climate":"hot","gravity":"1
+        standard","terrain":"jungles, oceans, urban, swamps","surface_water":"60","population":"1300000000","residents":["https://swapi.dev/api/people/15/"],"films":[],"created":"2014-12-10T17:03:28.110000Z","edited":"2014-12-20T20:58:18.458000Z","url":"https://swapi.dev/api/planets/23/"}'
+    headers:
+      Allow:
+      - GET, HEAD, OPTIONS
+      Connection:
+      - keep-alive
+      Content-Type:
+      - application/json
+      Date:
+      - Fri, 12 Nov 2021 14:23:54 GMT
+      ETag:
+      - '"9a254d0de76529834f4d23ca512249de"'
+      Server:
+      - nginx/1.16.1
+      Strict-Transport-Security:
+      - max-age=15768000
+      Transfer-Encoding:
+      - chunked
+      Vary:
+      - Accept, Cookie
+      X-Frame-Options:
+      - SAMEORIGIN
+    status:
+      code: 200
+      message: OK
+- request:
+    body: null
+    headers: {}
+    method: GET
+    uri: https://swapi.dev/api/planets/24
+  response:
+    body:
+      string: '{"name":"Nal Hutta","rotation_period":"87","orbital_period":"413","diameter":"12150","climate":"temperate","gravity":"1
+        standard","terrain":"urban, oceans, swamps, bogs","surface_water":"unknown","population":"7000000000","residents":["https://swapi.dev/api/people/16/"],"films":[],"created":"2014-12-10T17:11:29.452000Z","edited":"2014-12-20T20:58:18.460000Z","url":"https://swapi.dev/api/planets/24/"}'
+    headers:
+      Allow:
+      - GET, HEAD, OPTIONS
+      Connection:
+      - keep-alive
+      Content-Type:
+      - application/json
+      Date:
+      - Fri, 12 Nov 2021 14:23:54 GMT
+      ETag:
+      - '"41a3fa268a7814d5562649c598e9bca1"'
+      Server:
+      - nginx/1.16.1
+      Strict-Transport-Security:
+      - max-age=15768000
+      Transfer-Encoding:
+      - chunked
+      Vary:
+      - Accept, Cookie
+      X-Frame-Options:
+      - SAMEORIGIN
+    status:
+      code: 200
+      message: OK
+- request:
+    body: null
+    headers: {}
+    method: GET
+    uri: https://swapi.dev/api/planets/22
+  response:
+    body:
+      string: '{"name":"Corellia","rotation_period":"25","orbital_period":"329","diameter":"11000","climate":"temperate","gravity":"1
+        standard","terrain":"plains, urban, hills, forests","surface_water":"70","population":"3000000000","residents":["https://swapi.dev/api/people/14/","https://swapi.dev/api/people/18/"],"films":[],"created":"2014-12-10T16:49:12.453000Z","edited":"2014-12-20T20:58:18.456000Z","url":"https://swapi.dev/api/planets/22/"}'
+    headers:
+      Allow:
+      - GET, HEAD, OPTIONS
+      Connection:
+      - keep-alive
+      Content-Type:
+      - application/json
+      Date:
+      - Fri, 12 Nov 2021 14:23:54 GMT
+      ETag:
+      - '"bba8001765098a21227ecee3cfb9081e"'
+      Server:
+      - nginx/1.16.1
+      Strict-Transport-Security:
+      - max-age=15768000
+      Transfer-Encoding:
+      - chunked
+      Vary:
+      - Accept, Cookie
+      X-Frame-Options:
+      - SAMEORIGIN
+    status:
+      code: 200
+      message: OK
+- request:
+    body: null
+    headers: {}
+    method: GET
+    uri: https://swapi.dev/api/planets/26
+  response:
+    body:
+      string: '{"name":"Bestine IV","rotation_period":"26","orbital_period":"680","diameter":"6400","climate":"temperate","gravity":"unknown","terrain":"rocky
+        islands, oceans","surface_water":"98","population":"62000000","residents":["https://swapi.dev/api/people/19/"],"films":[],"created":"2014-12-12T11:16:55.078000Z","edited":"2014-12-20T20:58:18.463000Z","url":"https://swapi.dev/api/planets/26/"}'
+    headers:
+      Allow:
+      - GET, HEAD, OPTIONS
+      Connection:
+      - keep-alive
+      Content-Type:
+      - application/json
+      Date:
+      - Fri, 12 Nov 2021 14:23:54 GMT
+      ETag:
+      - '"22c57c5898b831e3e3c20c237b287614"'
+      Server:
+      - nginx/1.16.1
+      Strict-Transport-Security:
+      - max-age=15768000
+      Transfer-Encoding:
+      - chunked
+      Vary:
+      - Accept, Cookie
+      X-Frame-Options:
+      - SAMEORIGIN
+    status:
+      code: 200
+      message: OK
+- request:
+    body: null
+    headers: {}
+    method: GET
+    uri: https://swapi.dev/api/planets/28
+  response:
+    body:
+      string: '{"name":"unknown","rotation_period":"0","orbital_period":"0","diameter":"0","climate":"unknown","gravity":"unknown","terrain":"unknown","surface_water":"unknown","population":"unknown","residents":["https://swapi.dev/api/people/20/","https://swapi.dev/api/people/23/","https://swapi.dev/api/people/29/","https://swapi.dev/api/people/32/","https://swapi.dev/api/people/75/"],"films":[],"created":"2014-12-15T12:25:59.569000Z","edited":"2014-12-20T20:58:18.466000Z","url":"https://swapi.dev/api/planets/28/"}'
+    headers:
+      Allow:
+      - GET, HEAD, OPTIONS
+      Connection:
+      - keep-alive
+      Content-Type:
+      - application/json
+      Date:
+      - Fri, 12 Nov 2021 14:23:54 GMT
+      ETag:
+      - '"48ec2476e9d0531933a73c9a15425bd7"'
+      Server:
+      - nginx/1.16.1
+      Strict-Transport-Security:
+      - max-age=15768000
+      Transfer-Encoding:
+      - chunked
+      Vary:
+      - Accept, Cookie
+      X-Frame-Options:
+      - SAMEORIGIN
+    status:
+      code: 200
+      message: OK
+- request:
+    body: null
+    headers: {}
+    method: GET
+    uri: https://swapi.dev/api/planets/8
+  response:
+    body:
+      string: '{"name":"Naboo","rotation_period":"26","orbital_period":"312","diameter":"12120","climate":"temperate","gravity":"1
+        standard","terrain":"grassy hills, swamps, forests, mountains","surface_water":"12","population":"4500000000","residents":["https://swapi.dev/api/people/3/","https://swapi.dev/api/people/21/","https://swapi.dev/api/people/35/","https://swapi.dev/api/people/36/","https://swapi.dev/api/people/37/","https://swapi.dev/api/people/38/","https://swapi.dev/api/people/39/","https://swapi.dev/api/people/42/","https://swapi.dev/api/people/60/","https://swapi.dev/api/people/61/","https://swapi.dev/api/people/66/"],"films":["https://swapi.dev/api/films/3/","https://swapi.dev/api/films/4/","https://swapi.dev/api/films/5/","https://swapi.dev/api/films/6/"],"created":"2014-12-10T11:52:31.066000Z","edited":"2014-12-20T20:58:18.430000Z","url":"https://swapi.dev/api/planets/8/"}'
+    headers:
+      Allow:
+      - GET, HEAD, OPTIONS
+      Connection:
+      - keep-alive
+      Content-Type:
+      - application/json
+      Date:
+      - Fri, 12 Nov 2021 14:23:54 GMT
+      ETag:
+      - '"de4d1009b28e18d5f9a6fcc89916a9be"'
+      Server:
+      - nginx/1.16.1
+      Strict-Transport-Security:
+      - max-age=15768000
+      Transfer-Encoding:
+      - chunked
+      Vary:
+      - Accept, Cookie
+      X-Frame-Options:
+      - SAMEORIGIN
+    status:
+      code: 200
+      message: OK
+- request:
+    body: null
+    headers: {}
+    method: GET
+    uri: https://swapi.dev/api/planets/10
+  response:
+    body:
+      string: '{"name":"Kamino","rotation_period":"27","orbital_period":"463","diameter":"19720","climate":"temperate","gravity":"1
+        standard","terrain":"ocean","surface_water":"100","population":"1000000000","residents":["https://swapi.dev/api/people/22/","https://swapi.dev/api/people/72/","https://swapi.dev/api/people/73/"],"films":["https://swapi.dev/api/films/5/"],"created":"2014-12-10T12:45:06.577000Z","edited":"2014-12-20T20:58:18.434000Z","url":"https://swapi.dev/api/planets/10/"}'
+    headers:
+      Allow:
+      - GET, HEAD, OPTIONS
+      Connection:
+      - keep-alive
+      Content-Type:
+      - application/json
+      Date:
+      - Fri, 12 Nov 2021 14:23:55 GMT
+      ETag:
+      - '"c77ff660eeaa2935cab18f94730f5dc0"'
+      Server:
+      - nginx/1.16.1
+      Strict-Transport-Security:
+      - max-age=15768000
+      Transfer-Encoding:
+      - chunked
+      Vary:
+      - Accept, Cookie
+      X-Frame-Options:
+      - SAMEORIGIN
+    status:
+      code: 200
+      message: OK
+- request:
+    body: null
+    headers: {}
+    method: GET
+    uri: https://swapi.dev/api/planets/28
+  response:
+    body:
+      string: '{"name":"unknown","rotation_period":"0","orbital_period":"0","diameter":"0","climate":"unknown","gravity":"unknown","terrain":"unknown","surface_water":"unknown","population":"unknown","residents":["https://swapi.dev/api/people/20/","https://swapi.dev/api/people/23/","https://swapi.dev/api/people/29/","https://swapi.dev/api/people/32/","https://swapi.dev/api/people/75/"],"films":[],"created":"2014-12-15T12:25:59.569000Z","edited":"2014-12-20T20:58:18.466000Z","url":"https://swapi.dev/api/planets/28/"}'
+    headers:
+      Allow:
+      - GET, HEAD, OPTIONS
+      Connection:
+      - keep-alive
+      Content-Type:
+      - application/json
+      Date:
+      - Fri, 12 Nov 2021 14:23:55 GMT
+      ETag:
+      - '"48ec2476e9d0531933a73c9a15425bd7"'
+      Server:
+      - nginx/1.16.1
+      Strict-Transport-Security:
+      - max-age=15768000
+      Transfer-Encoding:
+      - chunked
+      Vary:
+      - Accept, Cookie
+      X-Frame-Options:
+      - SAMEORIGIN
+    status:
+      code: 200
+      message: OK
+- request:
+    body: null
+    headers: {}
+    method: GET
+    uri: https://swapi.dev/api/planets/29
+  response:
+    body:
+      string: '{"name":"Trandosha","rotation_period":"25","orbital_period":"371","diameter":"0","climate":"arid","gravity":"0.62
+        standard","terrain":"mountains, seas, grasslands, deserts","surface_water":"unknown","population":"42000000","residents":["https://swapi.dev/api/people/24/"],"films":[],"created":"2014-12-15T12:53:47.695000Z","edited":"2014-12-20T20:58:18.468000Z","url":"https://swapi.dev/api/planets/29/"}'
+    headers:
+      Allow:
+      - GET, HEAD, OPTIONS
+      Connection:
+      - keep-alive
+      Content-Type:
+      - application/json
+      Date:
+      - Fri, 12 Nov 2021 14:23:55 GMT
+      ETag:
+      - '"6e33e80dbae5c1262363b759d166f7d9"'
+      Server:
+      - nginx/1.16.1
+      Strict-Transport-Security:
+      - max-age=15768000
+      Transfer-Encoding:
+      - chunked
+      Vary:
+      - Accept, Cookie
+      X-Frame-Options:
+      - SAMEORIGIN
+    status:
+      code: 200
+      message: OK
+- request:
+    body: null
+    headers: {}
+    method: GET
+    uri: https://swapi.dev/api/planets/30
+  response:
+    body:
+      string: '{"name":"Socorro","rotation_period":"20","orbital_period":"326","diameter":"0","climate":"arid","gravity":"1
+        standard","terrain":"deserts, mountains","surface_water":"unknown","population":"300000000","residents":["https://swapi.dev/api/people/25/"],"films":[],"created":"2014-12-15T12:56:31.121000Z","edited":"2014-12-20T20:58:18.469000Z","url":"https://swapi.dev/api/planets/30/"}'
+    headers:
+      Allow:
+      - GET, HEAD, OPTIONS
+      Connection:
+      - keep-alive
+      Content-Type:
+      - application/json
+      Date:
+      - Fri, 12 Nov 2021 14:23:55 GMT
+      ETag:
+      - '"70f724c9c1a12afc7a42635c41922962"'
+      Server:
+      - nginx/1.16.1
+      Strict-Transport-Security:
+      - max-age=15768000
+      Transfer-Encoding:
+      - chunked
+      Vary:
+      - Accept, Cookie
+      X-Frame-Options:
+      - SAMEORIGIN
+    status:
+      code: 200
+      message: OK
+- request:
+    body: null
+    headers: {}
+    method: GET
+    uri: https://swapi.dev/api/planets/6
+  response:
+    body:
+      string: '{"name":"Bespin","rotation_period":"12","orbital_period":"5110","diameter":"118000","climate":"temperate","gravity":"1.5
+        (surface), 1 standard (Cloud City)","terrain":"gas giant","surface_water":"0","population":"6000000","residents":["https://swapi.dev/api/people/26/"],"films":["https://swapi.dev/api/films/2/"],"created":"2014-12-10T11:43:55.240000Z","edited":"2014-12-20T20:58:18.427000Z","url":"https://swapi.dev/api/planets/6/"}'
+    headers:
+      Allow:
+      - GET, HEAD, OPTIONS
+      Connection:
+      - keep-alive
+      Content-Type:
+      - application/json
+      Date:
+      - Fri, 12 Nov 2021 14:23:55 GMT
+      ETag:
+      - '"1d857f2f92172e322405aed18329f8f7"'
+      Server:
+      - nginx/1.16.1
+      Strict-Transport-Security:
+      - max-age=15768000
+      Transfer-Encoding:
+      - chunked
+      Vary:
+      - Accept, Cookie
+      X-Frame-Options:
+      - SAMEORIGIN
+    status:
+      code: 200
+      message: OK
+- request:
+    body: null
+    headers: {}
+    method: GET
+    uri: https://swapi.dev/api/planets/31
+  response:
+    body:
+      string: '{"name":"Mon Cala","rotation_period":"21","orbital_period":"398","diameter":"11030","climate":"temperate","gravity":"1","terrain":"oceans,
+        reefs, islands","surface_water":"100","population":"27000000000","residents":["https://swapi.dev/api/people/27/"],"films":[],"created":"2014-12-18T11:07:01.792000Z","edited":"2014-12-20T20:58:18.471000Z","url":"https://swapi.dev/api/planets/31/"}'
+    headers:
+      Allow:
+      - GET, HEAD, OPTIONS
+      Connection:
+      - keep-alive
+      Content-Type:
+      - application/json
+      Date:
+      - Fri, 12 Nov 2021 14:23:55 GMT
+      ETag:
+      - '"02b2a0f924aff10dff1acea22e868f6c"'
+      Server:
+      - nginx/1.16.1
+      Strict-Transport-Security:
+      - max-age=15768000
+      Transfer-Encoding:
+      - chunked
+      Vary:
+      - Accept, Cookie
+      X-Frame-Options:
+      - SAMEORIGIN
+    status:
+      code: 200
+      message: OK
+- request:
+    body: null
+    headers: {}
+    method: GET
+    uri: https://swapi.dev/api/planets/32
+  response:
+    body:
+      string: '{"name":"Chandrila","rotation_period":"20","orbital_period":"368","diameter":"13500","climate":"temperate","gravity":"1","terrain":"plains,
+        forests","surface_water":"40","population":"1200000000","residents":["https://swapi.dev/api/people/28/"],"films":[],"created":"2014-12-18T11:11:51.872000Z","edited":"2014-12-20T20:58:18.472000Z","url":"https://swapi.dev/api/planets/32/"}'
+    headers:
+      Allow:
+      - GET, HEAD, OPTIONS
+      Connection:
+      - keep-alive
+      Content-Type:
+      - application/json
+      Date:
+      - Fri, 12 Nov 2021 14:23:55 GMT
+      ETag:
+      - '"c2a6d25a7c226f2cb8418251715d7e25"'
+      Server:
+      - nginx/1.16.1
+      Strict-Transport-Security:
+      - max-age=15768000
+      Transfer-Encoding:
+      - chunked
+      Vary:
+      - Accept, Cookie
+      X-Frame-Options:
+      - SAMEORIGIN
+    status:
+      code: 200
+      message: OK
+- request:
+    body: null
+    headers: {}
+    method: GET
+    uri: https://swapi.dev/api/planets/28
+  response:
+    body:
+      string: '{"name":"unknown","rotation_period":"0","orbital_period":"0","diameter":"0","climate":"unknown","gravity":"unknown","terrain":"unknown","surface_water":"unknown","population":"unknown","residents":["https://swapi.dev/api/people/20/","https://swapi.dev/api/people/23/","https://swapi.dev/api/people/29/","https://swapi.dev/api/people/32/","https://swapi.dev/api/people/75/"],"films":[],"created":"2014-12-15T12:25:59.569000Z","edited":"2014-12-20T20:58:18.466000Z","url":"https://swapi.dev/api/planets/28/"}'
+    headers:
+      Allow:
+      - GET, HEAD, OPTIONS
+      Connection:
+      - keep-alive
+      Content-Type:
+      - application/json
+      Date:
+      - Fri, 12 Nov 2021 14:23:55 GMT
+      ETag:
+      - '"48ec2476e9d0531933a73c9a15425bd7"'
+      Server:
+      - nginx/1.16.1
+      Strict-Transport-Security:
+      - max-age=15768000
+      Transfer-Encoding:
+      - chunked
+      Vary:
+      - Accept, Cookie
+      X-Frame-Options:
+      - SAMEORIGIN
+    status:
+      code: 200
+      message: OK
+- request:
+    body: null
+    headers: {}
+    method: GET
+    uri: https://swapi.dev/api/planets/7
+  response:
+    body:
+      string: '{"name":"Endor","rotation_period":"18","orbital_period":"402","diameter":"4900","climate":"temperate","gravity":"0.85
+        standard","terrain":"forests, mountains, lakes","surface_water":"8","population":"30000000","residents":["https://swapi.dev/api/people/30/"],"films":["https://swapi.dev/api/films/3/"],"created":"2014-12-10T11:50:29.349000Z","edited":"2014-12-20T20:58:18.429000Z","url":"https://swapi.dev/api/planets/7/"}'
+    headers:
+      Allow:
+      - GET, HEAD, OPTIONS
+      Connection:
+      - keep-alive
+      Content-Type:
+      - application/json
+      Date:
+      - Fri, 12 Nov 2021 14:23:55 GMT
+      ETag:
+      - '"d18d92c6df62d7aecb6f1e3abc998038"'
+      Server:
+      - nginx/1.16.1
+      Strict-Transport-Security:
+      - max-age=15768000
+      Transfer-Encoding:
+      - chunked
+      Vary:
+      - Accept, Cookie
+      X-Frame-Options:
+      - SAMEORIGIN
+    status:
+      code: 200
+      message: OK
+- request:
+    body: null
+    headers: {}
+    method: GET
+    uri: https://swapi.dev/api/planets/33
+  response:
+    body:
+      string: '{"name":"Sullust","rotation_period":"20","orbital_period":"263","diameter":"12780","climate":"superheated","gravity":"1","terrain":"mountains,
+        volcanoes, rocky deserts","surface_water":"5","population":"18500000000","residents":["https://swapi.dev/api/people/31/"],"films":[],"created":"2014-12-18T11:25:40.243000Z","edited":"2014-12-20T20:58:18.474000Z","url":"https://swapi.dev/api/planets/33/"}'
+    headers:
+      Allow:
+      - GET, HEAD, OPTIONS
+      Connection:
+      - keep-alive
+      Content-Type:
+      - application/json
+      Date:
+      - Fri, 12 Nov 2021 14:23:55 GMT
+      ETag:
+      - '"f7bb6daa39c59e6752f676e79410d3bd"'
+      Server:
+      - nginx/1.16.1
+      Strict-Transport-Security:
+      - max-age=15768000
+      Transfer-Encoding:
+      - chunked
+      Vary:
+      - Accept, Cookie
+      X-Frame-Options:
+      - SAMEORIGIN
+    status:
+      code: 200
+      message: OK
+- request:
+    body: null
+    headers: {}
+    method: GET
+    uri: https://swapi.dev/api/planets/28
+  response:
+    body:
+      string: '{"name":"unknown","rotation_period":"0","orbital_period":"0","diameter":"0","climate":"unknown","gravity":"unknown","terrain":"unknown","surface_water":"unknown","population":"unknown","residents":["https://swapi.dev/api/people/20/","https://swapi.dev/api/people/23/","https://swapi.dev/api/people/29/","https://swapi.dev/api/people/32/","https://swapi.dev/api/people/75/"],"films":[],"created":"2014-12-15T12:25:59.569000Z","edited":"2014-12-20T20:58:18.466000Z","url":"https://swapi.dev/api/planets/28/"}'
+    headers:
+      Allow:
+      - GET, HEAD, OPTIONS
+      Connection:
+      - keep-alive
+      Content-Type:
+      - application/json
+      Date:
+      - Fri, 12 Nov 2021 14:23:55 GMT
+      ETag:
+      - '"48ec2476e9d0531933a73c9a15425bd7"'
+      Server:
+      - nginx/1.16.1
+      Strict-Transport-Security:
+      - max-age=15768000
+      Transfer-Encoding:
+      - chunked
+      Vary:
+      - Accept, Cookie
+      X-Frame-Options:
+      - SAMEORIGIN
+    status:
+      code: 200
+      message: OK
+- request:
+    body: null
+    headers: {}
+    method: GET
+    uri: https://swapi.dev/api/planets/18
+  response:
+    body:
+      string: '{"name":"Cato Neimoidia","rotation_period":"25","orbital_period":"278","diameter":"0","climate":"temperate,
+        moist","gravity":"1 standard","terrain":"mountains, fields, forests, rock
+        arches","surface_water":"unknown","population":"10000000","residents":["https://swapi.dev/api/people/33/"],"films":["https://swapi.dev/api/films/6/"],"created":"2014-12-10T13:46:28.704000Z","edited":"2014-12-20T20:58:18.449000Z","url":"https://swapi.dev/api/planets/18/"}'
+    headers:
+      Allow:
+      - GET, HEAD, OPTIONS
+      Connection:
+      - keep-alive
+      Content-Type:
+      - application/json
+      Date:
+      - Fri, 12 Nov 2021 14:23:55 GMT
+      ETag:
+      - '"5808b9f458cf6f386017c2610f70ea77"'
+      Server:
+      - nginx/1.16.1
+      Strict-Transport-Security:
+      - max-age=15768000
+      Transfer-Encoding:
+      - chunked
+      Vary:
+      - Accept, Cookie
+      X-Frame-Options:
+      - SAMEORIGIN
+    status:
+      code: 200
+      message: OK
+- request:
+    body: null
+    headers: {}
+    method: GET
+    uri: https://swapi.dev/api/planets/9
+  response:
+    body:
+      string: '{"name":"Coruscant","rotation_period":"24","orbital_period":"368","diameter":"12240","climate":"temperate","gravity":"1
+        standard","terrain":"cityscape, mountains","surface_water":"unknown","population":"1000000000000","residents":["https://swapi.dev/api/people/34/","https://swapi.dev/api/people/55/","https://swapi.dev/api/people/74/"],"films":["https://swapi.dev/api/films/3/","https://swapi.dev/api/films/4/","https://swapi.dev/api/films/5/","https://swapi.dev/api/films/6/"],"created":"2014-12-10T11:54:13.921000Z","edited":"2014-12-20T20:58:18.432000Z","url":"https://swapi.dev/api/planets/9/"}'
+    headers:
+      Allow:
+      - GET, HEAD, OPTIONS
+      Connection:
+      - keep-alive
+      Content-Type:
+      - application/json
+      Date:
+      - Fri, 12 Nov 2021 14:23:56 GMT
+      ETag:
+      - '"6a270854c3f4d88b27db76212391a10e"'
+      Server:
+      - nginx/1.16.1
+      Strict-Transport-Security:
+      - max-age=15768000
+      Transfer-Encoding:
+      - chunked
+      Vary:
+      - Accept, Cookie
+      X-Frame-Options:
+      - SAMEORIGIN
+    status:
+      code: 200
+      message: OK
+- request:
+    body: null
+    headers: {}
+    method: GET
+    uri: https://swapi.dev/api/planets/8
+  response:
+    body:
+      string: '{"name":"Naboo","rotation_period":"26","orbital_period":"312","diameter":"12120","climate":"temperate","gravity":"1
+        standard","terrain":"grassy hills, swamps, forests, mountains","surface_water":"12","population":"4500000000","residents":["https://swapi.dev/api/people/3/","https://swapi.dev/api/people/21/","https://swapi.dev/api/people/35/","https://swapi.dev/api/people/36/","https://swapi.dev/api/people/37/","https://swapi.dev/api/people/38/","https://swapi.dev/api/people/39/","https://swapi.dev/api/people/42/","https://swapi.dev/api/people/60/","https://swapi.dev/api/people/61/","https://swapi.dev/api/people/66/"],"films":["https://swapi.dev/api/films/3/","https://swapi.dev/api/films/4/","https://swapi.dev/api/films/5/","https://swapi.dev/api/films/6/"],"created":"2014-12-10T11:52:31.066000Z","edited":"2014-12-20T20:58:18.430000Z","url":"https://swapi.dev/api/planets/8/"}'
+    headers:
+      Allow:
+      - GET, HEAD, OPTIONS
+      Connection:
+      - keep-alive
+      Content-Type:
+      - application/json
+      Date:
+      - Fri, 12 Nov 2021 14:23:56 GMT
+      ETag:
+      - '"de4d1009b28e18d5f9a6fcc89916a9be"'
+      Server:
+      - nginx/1.16.1
+      Strict-Transport-Security:
+      - max-age=15768000
+      Transfer-Encoding:
+      - chunked
+      Vary:
+      - Accept, Cookie
+      X-Frame-Options:
+      - SAMEORIGIN
+    status:
+      code: 200
+      message: OK
+- request:
+    body: null
+    headers: {}
+    method: GET
+    uri: https://swapi.dev/api/planets/8
+  response:
+    body:
+      string: '{"name":"Naboo","rotation_period":"26","orbital_period":"312","diameter":"12120","climate":"temperate","gravity":"1
+        standard","terrain":"grassy hills, swamps, forests, mountains","surface_water":"12","population":"4500000000","residents":["https://swapi.dev/api/people/3/","https://swapi.dev/api/people/21/","https://swapi.dev/api/people/35/","https://swapi.dev/api/people/36/","https://swapi.dev/api/people/37/","https://swapi.dev/api/people/38/","https://swapi.dev/api/people/39/","https://swapi.dev/api/people/42/","https://swapi.dev/api/people/60/","https://swapi.dev/api/people/61/","https://swapi.dev/api/people/66/"],"films":["https://swapi.dev/api/films/3/","https://swapi.dev/api/films/4/","https://swapi.dev/api/films/5/","https://swapi.dev/api/films/6/"],"created":"2014-12-10T11:52:31.066000Z","edited":"2014-12-20T20:58:18.430000Z","url":"https://swapi.dev/api/planets/8/"}'
+    headers:
+      Allow:
+      - GET, HEAD, OPTIONS
+      Connection:
+      - keep-alive
+      Content-Type:
+      - application/json
+      Date:
+      - Fri, 12 Nov 2021 14:23:56 GMT
+      ETag:
+      - '"de4d1009b28e18d5f9a6fcc89916a9be"'
+      Server:
+      - nginx/1.16.1
+      Strict-Transport-Security:
+      - max-age=15768000
+      Transfer-Encoding:
+      - chunked
+      Vary:
+      - Accept, Cookie
+      X-Frame-Options:
+      - SAMEORIGIN
+    status:
+      code: 200
+      message: OK
+- request:
+    body: null
+    headers: {}
+    method: GET
+    uri: https://swapi.dev/api/planets/8
+  response:
+    body:
+      string: '{"name":"Naboo","rotation_period":"26","orbital_period":"312","diameter":"12120","climate":"temperate","gravity":"1
+        standard","terrain":"grassy hills, swamps, forests, mountains","surface_water":"12","population":"4500000000","residents":["https://swapi.dev/api/people/3/","https://swapi.dev/api/people/21/","https://swapi.dev/api/people/35/","https://swapi.dev/api/people/36/","https://swapi.dev/api/people/37/","https://swapi.dev/api/people/38/","https://swapi.dev/api/people/39/","https://swapi.dev/api/people/42/","https://swapi.dev/api/people/60/","https://swapi.dev/api/people/61/","https://swapi.dev/api/people/66/"],"films":["https://swapi.dev/api/films/3/","https://swapi.dev/api/films/4/","https://swapi.dev/api/films/5/","https://swapi.dev/api/films/6/"],"created":"2014-12-10T11:52:31.066000Z","edited":"2014-12-20T20:58:18.430000Z","url":"https://swapi.dev/api/planets/8/"}'
+    headers:
+      Allow:
+      - GET, HEAD, OPTIONS
+      Connection:
+      - keep-alive
+      Content-Type:
+      - application/json
+      Date:
+      - Fri, 12 Nov 2021 14:23:56 GMT
+      ETag:
+      - '"de4d1009b28e18d5f9a6fcc89916a9be"'
+      Server:
+      - nginx/1.16.1
+      Strict-Transport-Security:
+      - max-age=15768000
+      Transfer-Encoding:
+      - chunked
+      Vary:
+      - Accept, Cookie
+      X-Frame-Options:
+      - SAMEORIGIN
+    status:
+      code: 200
+      message: OK
+- request:
+    body: null
+    headers: {}
+    method: GET
+    uri: https://swapi.dev/api/planets/8
+  response:
+    body:
+      string: '{"name":"Naboo","rotation_period":"26","orbital_period":"312","diameter":"12120","climate":"temperate","gravity":"1
+        standard","terrain":"grassy hills, swamps, forests, mountains","surface_water":"12","population":"4500000000","residents":["https://swapi.dev/api/people/3/","https://swapi.dev/api/people/21/","https://swapi.dev/api/people/35/","https://swapi.dev/api/people/36/","https://swapi.dev/api/people/37/","https://swapi.dev/api/people/38/","https://swapi.dev/api/people/39/","https://swapi.dev/api/people/42/","https://swapi.dev/api/people/60/","https://swapi.dev/api/people/61/","https://swapi.dev/api/people/66/"],"films":["https://swapi.dev/api/films/3/","https://swapi.dev/api/films/4/","https://swapi.dev/api/films/5/","https://swapi.dev/api/films/6/"],"created":"2014-12-10T11:52:31.066000Z","edited":"2014-12-20T20:58:18.430000Z","url":"https://swapi.dev/api/planets/8/"}'
+    headers:
+      Allow:
+      - GET, HEAD, OPTIONS
+      Connection:
+      - keep-alive
+      Content-Type:
+      - application/json
+      Date:
+      - Fri, 12 Nov 2021 14:23:56 GMT
+      ETag:
+      - '"de4d1009b28e18d5f9a6fcc89916a9be"'
+      Server:
+      - nginx/1.16.1
+      Strict-Transport-Security:
+      - max-age=15768000
+      Transfer-Encoding:
+      - chunked
+      Vary:
+      - Accept, Cookie
+      X-Frame-Options:
+      - SAMEORIGIN
+    status:
+      code: 200
+      message: OK
+- request:
+    body: null
+    headers: {}
+    method: GET
+    uri: https://swapi.dev/api/planets/8
+  response:
+    body:
+      string: '{"name":"Naboo","rotation_period":"26","orbital_period":"312","diameter":"12120","climate":"temperate","gravity":"1
+        standard","terrain":"grassy hills, swamps, forests, mountains","surface_water":"12","population":"4500000000","residents":["https://swapi.dev/api/people/3/","https://swapi.dev/api/people/21/","https://swapi.dev/api/people/35/","https://swapi.dev/api/people/36/","https://swapi.dev/api/people/37/","https://swapi.dev/api/people/38/","https://swapi.dev/api/people/39/","https://swapi.dev/api/people/42/","https://swapi.dev/api/people/60/","https://swapi.dev/api/people/61/","https://swapi.dev/api/people/66/"],"films":["https://swapi.dev/api/films/3/","https://swapi.dev/api/films/4/","https://swapi.dev/api/films/5/","https://swapi.dev/api/films/6/"],"created":"2014-12-10T11:52:31.066000Z","edited":"2014-12-20T20:58:18.430000Z","url":"https://swapi.dev/api/planets/8/"}'
+    headers:
+      Allow:
+      - GET, HEAD, OPTIONS
+      Connection:
+      - keep-alive
+      Content-Type:
+      - application/json
+      Date:
+      - Fri, 12 Nov 2021 14:23:56 GMT
+      ETag:
+      - '"de4d1009b28e18d5f9a6fcc89916a9be"'
+      Server:
+      - nginx/1.16.1
+      Strict-Transport-Security:
+      - max-age=15768000
+      Transfer-Encoding:
+      - chunked
+      Vary:
+      - Accept, Cookie
+      X-Frame-Options:
+      - SAMEORIGIN
+    status:
+      code: 200
+      message: OK
+- request:
+    body: null
+    headers: {}
+    method: GET
+    uri: https://swapi.dev/api/planets/34
+  response:
+    body:
+      string: '{"name":"Toydaria","rotation_period":"21","orbital_period":"184","diameter":"7900","climate":"temperate","gravity":"1","terrain":"swamps,
+        lakes","surface_water":"unknown","population":"11000000","residents":["https://swapi.dev/api/people/40/"],"films":[],"created":"2014-12-19T17:47:54.403000Z","edited":"2014-12-20T20:58:18.476000Z","url":"https://swapi.dev/api/planets/34/"}'
+    headers:
+      Allow:
+      - GET, HEAD, OPTIONS
+      Connection:
+      - keep-alive
+      Content-Type:
+      - application/json
+      Date:
+      - Fri, 12 Nov 2021 14:23:56 GMT
+      ETag:
+      - '"03bae6c3cf90d0f9c85e06d012f692a8"'
+      Server:
+      - nginx/1.16.1
+      Strict-Transport-Security:
+      - max-age=15768000
+      Transfer-Encoding:
+      - chunked
+      Vary:
+      - Accept, Cookie
+      X-Frame-Options:
+      - SAMEORIGIN
+    status:
+      code: 200
+      message: OK
+- request:
+    body: null
+    headers: {}
+    method: GET
+    uri: https://swapi.dev/api/planets/35
+  response:
+    body:
+      string: '{"name":"Malastare","rotation_period":"26","orbital_period":"201","diameter":"18880","climate":"arid,
+        temperate, tropical","gravity":"1.56","terrain":"swamps, deserts, jungles,
+        mountains","surface_water":"unknown","population":"2000000000","residents":["https://swapi.dev/api/people/41/"],"films":[],"created":"2014-12-19T17:52:13.106000Z","edited":"2014-12-20T20:58:18.478000Z","url":"https://swapi.dev/api/planets/35/"}'
+    headers:
+      Allow:
+      - GET, HEAD, OPTIONS
+      Connection:
+      - keep-alive
+      Content-Type:
+      - application/json
+      Date:
+      - Fri, 12 Nov 2021 14:23:56 GMT
+      ETag:
+      - '"25cd17b56e4e25f88ff4568906485299"'
+      Server:
+      - nginx/1.16.1
+      Strict-Transport-Security:
+      - max-age=15768000
+      Transfer-Encoding:
+      - chunked
+      Vary:
+      - Accept, Cookie
+      X-Frame-Options:
+      - SAMEORIGIN
+    status:
+      code: 200
+      message: OK
+- request:
+    body: null
+    headers: {}
+    method: GET
+    uri: https://swapi.dev/api/planets/8
+  response:
+    body:
+      string: '{"name":"Naboo","rotation_period":"26","orbital_period":"312","diameter":"12120","climate":"temperate","gravity":"1
+        standard","terrain":"grassy hills, swamps, forests, mountains","surface_water":"12","population":"4500000000","residents":["https://swapi.dev/api/people/3/","https://swapi.dev/api/people/21/","https://swapi.dev/api/people/35/","https://swapi.dev/api/people/36/","https://swapi.dev/api/people/37/","https://swapi.dev/api/people/38/","https://swapi.dev/api/people/39/","https://swapi.dev/api/people/42/","https://swapi.dev/api/people/60/","https://swapi.dev/api/people/61/","https://swapi.dev/api/people/66/"],"films":["https://swapi.dev/api/films/3/","https://swapi.dev/api/films/4/","https://swapi.dev/api/films/5/","https://swapi.dev/api/films/6/"],"created":"2014-12-10T11:52:31.066000Z","edited":"2014-12-20T20:58:18.430000Z","url":"https://swapi.dev/api/planets/8/"}'
+    headers:
+      Allow:
+      - GET, HEAD, OPTIONS
+      Connection:
+      - keep-alive
+      Content-Type:
+      - application/json
+      Date:
+      - Fri, 12 Nov 2021 14:23:56 GMT
+      ETag:
+      - '"de4d1009b28e18d5f9a6fcc89916a9be"'
+      Server:
+      - nginx/1.16.1
+      Strict-Transport-Security:
+      - max-age=15768000
+      Transfer-Encoding:
+      - chunked
+      Vary:
+      - Accept, Cookie
+      X-Frame-Options:
+      - SAMEORIGIN
+    status:
+      code: 200
+      message: OK
+- request:
+    body: null
+    headers: {}
+    method: GET
+    uri: https://swapi.dev/api/planets/1
+  response:
+    body:
+      string: '{"name":"Tatooine","rotation_period":"23","orbital_period":"304","diameter":"10465","climate":"arid","gravity":"1
+        standard","terrain":"desert","surface_water":"1","population":"200000","residents":["https://swapi.dev/api/people/1/","https://swapi.dev/api/people/2/","https://swapi.dev/api/people/4/","https://swapi.dev/api/people/6/","https://swapi.dev/api/people/7/","https://swapi.dev/api/people/8/","https://swapi.dev/api/people/9/","https://swapi.dev/api/people/11/","https://swapi.dev/api/people/43/","https://swapi.dev/api/people/62/"],"films":["https://swapi.dev/api/films/1/","https://swapi.dev/api/films/3/","https://swapi.dev/api/films/4/","https://swapi.dev/api/films/5/","https://swapi.dev/api/films/6/"],"created":"2014-12-09T13:50:49.641000Z","edited":"2014-12-20T20:58:18.411000Z","url":"https://swapi.dev/api/planets/1/"}'
+    headers:
+      Allow:
+      - GET, HEAD, OPTIONS
+      Connection:
+      - keep-alive
+      Content-Type:
+      - application/json
+      Date:
+      - Fri, 12 Nov 2021 14:23:56 GMT
+      ETag:
+      - '"df2ecd17a7953452d4000883f4f97b77"'
+      Server:
+      - nginx/1.16.1
+      Strict-Transport-Security:
+      - max-age=15768000
+      Transfer-Encoding:
+      - chunked
+      Vary:
+      - Accept, Cookie
+      X-Frame-Options:
+      - SAMEORIGIN
+    status:
+      code: 200
+      message: OK
+- request:
+    body: null
+    headers: {}
+    method: GET
+    uri: https://swapi.dev/api/planets/36
+  response:
+    body:
+      string: '{"name":"Dathomir","rotation_period":"24","orbital_period":"491","diameter":"10480","climate":"temperate","gravity":"0.9","terrain":"forests,
+        deserts, savannas","surface_water":"unknown","population":"5200","residents":["https://swapi.dev/api/people/44/"],"films":[],"created":"2014-12-19T18:00:40.142000Z","edited":"2014-12-20T20:58:18.480000Z","url":"https://swapi.dev/api/planets/36/"}'
+    headers:
+      Allow:
+      - GET, HEAD, OPTIONS
+      Connection:
+      - keep-alive
+      Content-Type:
+      - application/json
+      Date:
+      - Fri, 12 Nov 2021 14:23:56 GMT
+      ETag:
+      - '"be552466ab07f28103149b1adc24dcb2"'
+      Server:
+      - nginx/1.16.1
+      Strict-Transport-Security:
+      - max-age=15768000
+      Transfer-Encoding:
+      - chunked
+      Vary:
+      - Accept, Cookie
+      X-Frame-Options:
+      - SAMEORIGIN
+    status:
+      code: 200
+      message: OK
+- request:
+    body: null
+    headers: {}
+    method: GET
+    uri: https://swapi.dev/api/planets/37
+  response:
+    body:
+      string: '{"name":"Ryloth","rotation_period":"30","orbital_period":"305","diameter":"10600","climate":"temperate,
+        arid, subartic","gravity":"1","terrain":"mountains, valleys, deserts, tundra","surface_water":"5","population":"1500000000","residents":["https://swapi.dev/api/people/45/","https://swapi.dev/api/people/46/"],"films":[],"created":"2014-12-20T09:46:25.740000Z","edited":"2014-12-20T20:58:18.481000Z","url":"https://swapi.dev/api/planets/37/"}'
+    headers:
+      Allow:
+      - GET, HEAD, OPTIONS
+      Connection:
+      - keep-alive
+      Content-Type:
+      - application/json
+      Date:
+      - Fri, 12 Nov 2021 14:23:56 GMT
+      ETag:
+      - '"c0df1720f7e8458d15dc79111e2069af"'
+      Server:
+      - nginx/1.16.1
+      Strict-Transport-Security:
+      - max-age=15768000
+      Transfer-Encoding:
+      - chunked
+      Vary:
+      - Accept, Cookie
+      X-Frame-Options:
+      - SAMEORIGIN
+    status:
+      code: 200
+      message: OK
+- request:
+    body: null
+    headers: {}
+    method: GET
+    uri: https://swapi.dev/api/planets/37
+  response:
+    body:
+      string: '{"name":"Ryloth","rotation_period":"30","orbital_period":"305","diameter":"10600","climate":"temperate,
+        arid, subartic","gravity":"1","terrain":"mountains, valleys, deserts, tundra","surface_water":"5","population":"1500000000","residents":["https://swapi.dev/api/people/45/","https://swapi.dev/api/people/46/"],"films":[],"created":"2014-12-20T09:46:25.740000Z","edited":"2014-12-20T20:58:18.481000Z","url":"https://swapi.dev/api/planets/37/"}'
+    headers:
+      Allow:
+      - GET, HEAD, OPTIONS
+      Connection:
+      - keep-alive
+      Content-Type:
+      - application/json
+      Date:
+      - Fri, 12 Nov 2021 14:23:56 GMT
+      ETag:
+      - '"c0df1720f7e8458d15dc79111e2069af"'
+      Server:
+      - nginx/1.16.1
+      Strict-Transport-Security:
+      - max-age=15768000
+      Transfer-Encoding:
+      - chunked
+      Vary:
+      - Accept, Cookie
+      X-Frame-Options:
+      - SAMEORIGIN
+    status:
+      code: 200
+      message: OK
+- request:
+    body: null
+    headers: {}
+    method: GET
+    uri: https://swapi.dev/api/planets/38
+  response:
+    body:
+      string: '{"name":"Aleen Minor","rotation_period":"unknown","orbital_period":"unknown","diameter":"unknown","climate":"unknown","gravity":"unknown","terrain":"unknown","surface_water":"unknown","population":"unknown","residents":["https://swapi.dev/api/people/47/"],"films":[],"created":"2014-12-20T09:52:23.452000Z","edited":"2014-12-20T20:58:18.483000Z","url":"https://swapi.dev/api/planets/38/"}'
+    headers:
+      Allow:
+      - GET, HEAD, OPTIONS
+      Connection:
+      - keep-alive
+      Content-Type:
+      - application/json
+      Date:
+      - Fri, 12 Nov 2021 14:23:56 GMT
+      ETag:
+      - '"cc69e0dd7544bbd4eaf0deb4833b32e4"'
+      Server:
+      - nginx/1.16.1
+      Strict-Transport-Security:
+      - max-age=15768000
+      Transfer-Encoding:
+      - chunked
+      Vary:
+      - Accept, Cookie
+      X-Frame-Options:
+      - SAMEORIGIN
+    status:
+      code: 200
+      message: OK
+- request:
+    body: null
+    headers: {}
+    method: GET
+    uri: https://swapi.dev/api/planets/39
+  response:
+    body:
+      string: '{"name":"Vulpter","rotation_period":"22","orbital_period":"391","diameter":"14900","climate":"temperate,
+        artic","gravity":"1","terrain":"urban, barren","surface_water":"unknown","population":"421000000","residents":["https://swapi.dev/api/people/48/"],"films":[],"created":"2014-12-20T09:56:58.874000Z","edited":"2014-12-20T20:58:18.485000Z","url":"https://swapi.dev/api/planets/39/"}'
+    headers:
+      Allow:
+      - GET, HEAD, OPTIONS
+      Connection:
+      - keep-alive
+      Content-Type:
+      - application/json
+      Date:
+      - Fri, 12 Nov 2021 14:23:57 GMT
+      ETag:
+      - '"2b67e2129cbac9302ac8133f4b593cc8"'
+      Server:
+      - nginx/1.16.1
+      Strict-Transport-Security:
+      - max-age=15768000
+      Transfer-Encoding:
+      - chunked
+      Vary:
+      - Accept, Cookie
+      X-Frame-Options:
+      - SAMEORIGIN
+    status:
+      code: 200
+      message: OK
+- request:
+    body: null
+    headers: {}
+    method: GET
+    uri: https://swapi.dev/api/planets/40
+  response:
+    body:
+      string: '{"name":"Troiken","rotation_period":"unknown","orbital_period":"unknown","diameter":"unknown","climate":"unknown","gravity":"unknown","terrain":"desert,
+        tundra, rainforests, mountains","surface_water":"unknown","population":"unknown","residents":["https://swapi.dev/api/people/49/"],"films":[],"created":"2014-12-20T10:01:37.395000Z","edited":"2014-12-20T20:58:18.487000Z","url":"https://swapi.dev/api/planets/40/"}'
+    headers:
+      Allow:
+      - GET, HEAD, OPTIONS
+      Connection:
+      - keep-alive
+      Content-Type:
+      - application/json
+      Date:
+      - Fri, 12 Nov 2021 14:23:57 GMT
+      ETag:
+      - '"0238d895286c66882687eddd9e4c196e"'
+      Server:
+      - nginx/1.16.1
+      Strict-Transport-Security:
+      - max-age=15768000
+      Transfer-Encoding:
+      - chunked
+      Vary:
+      - Accept, Cookie
+      X-Frame-Options:
+      - SAMEORIGIN
+    status:
+      code: 200
+      message: OK
+- request:
+    body: null
+    headers: {}
+    method: GET
+    uri: https://swapi.dev/api/planets/41
+  response:
+    body:
+      string: '{"name":"Tund","rotation_period":"48","orbital_period":"1770","diameter":"12190","climate":"unknown","gravity":"unknown","terrain":"barren,
+        ash","surface_water":"unknown","population":"0","residents":["https://swapi.dev/api/people/50/"],"films":[],"created":"2014-12-20T10:07:29.578000Z","edited":"2014-12-20T20:58:18.489000Z","url":"https://swapi.dev/api/planets/41/"}'
+    headers:
+      Allow:
+      - GET, HEAD, OPTIONS
+      Connection:
+      - keep-alive
+      Content-Type:
+      - application/json
+      Date:
+      - Fri, 12 Nov 2021 14:23:57 GMT
+      ETag:
+      - '"eb03fe9a2779fba32843b8613e8dfdb6"'
+      Server:
+      - nginx/1.16.1
+      Strict-Transport-Security:
+      - max-age=15768000
+      Transfer-Encoding:
+      - chunked
+      Vary:
+      - Accept, Cookie
+      X-Frame-Options:
+      - SAMEORIGIN
+    status:
+      code: 200
+      message: OK
+- request:
+    body: null
+    headers: {}
+    method: GET
+    uri: https://swapi.dev/api/planets/42
+  response:
+    body:
+      string: '{"name":"Haruun Kal","rotation_period":"25","orbital_period":"383","diameter":"10120","climate":"temperate","gravity":"0.98","terrain":"toxic
+        cloudsea, plateaus, volcanoes","surface_water":"unknown","population":"705300","residents":["https://swapi.dev/api/people/51/"],"films":[],"created":"2014-12-20T10:12:28.980000Z","edited":"2014-12-20T20:58:18.491000Z","url":"https://swapi.dev/api/planets/42/"}'
+    headers:
+      Allow:
+      - GET, HEAD, OPTIONS
+      Connection:
+      - keep-alive
+      Content-Type:
+      - application/json
+      Date:
+      - Fri, 12 Nov 2021 14:23:57 GMT
+      ETag:
+      - '"8eeaa6e9c4499db903944de8c940c103"'
+      Server:
+      - nginx/1.16.1
+      Strict-Transport-Security:
+      - max-age=15768000
+      Transfer-Encoding:
+      - chunked
+      Vary:
+      - Accept, Cookie
+      X-Frame-Options:
+      - SAMEORIGIN
+    status:
+      code: 200
+      message: OK
+- request:
+    body: null
+    headers: {}
+    method: GET
+    uri: https://swapi.dev/api/planets/43
+  response:
+    body:
+      string: '{"name":"Cerea","rotation_period":"27","orbital_period":"386","diameter":"unknown","climate":"temperate","gravity":"1","terrain":"verdant","surface_water":"20","population":"450000000","residents":["https://swapi.dev/api/people/52/"],"films":[],"created":"2014-12-20T10:14:48.178000Z","edited":"2014-12-20T20:58:18.493000Z","url":"https://swapi.dev/api/planets/43/"}'
+    headers:
+      Allow:
+      - GET, HEAD, OPTIONS
+      Connection:
+      - keep-alive
+      Content-Type:
+      - application/json
+      Date:
+      - Fri, 12 Nov 2021 14:23:57 GMT
+      ETag:
+      - '"c7b5e6f23f8929e9c01bc9000d31a076"'
+      Server:
+      - nginx/1.16.1
+      Strict-Transport-Security:
+      - max-age=15768000
+      Transfer-Encoding:
+      - chunked
+      Vary:
+      - Accept, Cookie
+      X-Frame-Options:
+      - SAMEORIGIN
+    status:
+      code: 200
+      message: OK
+- request:
+    body: null
+    headers: {}
+    method: GET
+    uri: https://swapi.dev/api/planets/44
+  response:
+    body:
+      string: '{"name":"Glee Anselm","rotation_period":"33","orbital_period":"206","diameter":"15600","climate":"tropical,
+        temperate","gravity":"1","terrain":"lakes, islands, swamps, seas","surface_water":"80","population":"500000000","residents":["https://swapi.dev/api/people/53/"],"films":[],"created":"2014-12-20T10:18:26.110000Z","edited":"2014-12-20T20:58:18.495000Z","url":"https://swapi.dev/api/planets/44/"}'
+    headers:
+      Allow:
+      - GET, HEAD, OPTIONS
+      Connection:
+      - keep-alive
+      Content-Type:
+      - application/json
+      Date:
+      - Fri, 12 Nov 2021 14:23:57 GMT
+      ETag:
+      - '"c2d6f5093863a70509ed54a978b3eb4f"'
+      Server:
+      - nginx/1.16.1
+      Strict-Transport-Security:
+      - max-age=15768000
+      Transfer-Encoding:
+      - chunked
+      Vary:
+      - Accept, Cookie
+      X-Frame-Options:
+      - SAMEORIGIN
+    status:
+      code: 200
+      message: OK
+- request:
+    body: null
+    headers: {}
+    method: GET
+    uri: https://swapi.dev/api/planets/45
+  response:
+    body:
+      string: '{"name":"Iridonia","rotation_period":"29","orbital_period":"413","diameter":"unknown","climate":"unknown","gravity":"unknown","terrain":"rocky
+        canyons, acid pools","surface_water":"unknown","population":"unknown","residents":["https://swapi.dev/api/people/54/"],"films":[],"created":"2014-12-20T10:26:05.788000Z","edited":"2014-12-20T20:58:18.497000Z","url":"https://swapi.dev/api/planets/45/"}'
+    headers:
+      Allow:
+      - GET, HEAD, OPTIONS
+      Connection:
+      - keep-alive
+      Content-Type:
+      - application/json
+      Date:
+      - Fri, 12 Nov 2021 14:23:57 GMT
+      ETag:
+      - '"898e0b388669c1d071bbfb201fe55a1d"'
+      Server:
+      - nginx/1.16.1
+      Strict-Transport-Security:
+      - max-age=15768000
+      Transfer-Encoding:
+      - chunked
+      Vary:
+      - Accept, Cookie
+      X-Frame-Options:
+      - SAMEORIGIN
+    status:
+      code: 200
+      message: OK
+- request:
+    body: null
+    headers: {}
+    method: GET
+    uri: https://swapi.dev/api/planets/9
+  response:
+    body:
+      string: '{"name":"Coruscant","rotation_period":"24","orbital_period":"368","diameter":"12240","climate":"temperate","gravity":"1
+        standard","terrain":"cityscape, mountains","surface_water":"unknown","population":"1000000000000","residents":["https://swapi.dev/api/people/34/","https://swapi.dev/api/people/55/","https://swapi.dev/api/people/74/"],"films":["https://swapi.dev/api/films/3/","https://swapi.dev/api/films/4/","https://swapi.dev/api/films/5/","https://swapi.dev/api/films/6/"],"created":"2014-12-10T11:54:13.921000Z","edited":"2014-12-20T20:58:18.432000Z","url":"https://swapi.dev/api/planets/9/"}'
+    headers:
+      Allow:
+      - GET, HEAD, OPTIONS
+      Connection:
+      - keep-alive
+      Content-Type:
+      - application/json
+      Date:
+      - Fri, 12 Nov 2021 14:23:57 GMT
+      ETag:
+      - '"6a270854c3f4d88b27db76212391a10e"'
+      Server:
+      - nginx/1.16.1
+      Strict-Transport-Security:
+      - max-age=15768000
+      Transfer-Encoding:
+      - chunked
+      Vary:
+      - Accept, Cookie
+      X-Frame-Options:
+      - SAMEORIGIN
+    status:
+      code: 200
+      message: OK
+- request:
+    body: null
+    headers: {}
+    method: GET
+    uri: https://swapi.dev/api/planets/47
+  response:
+    body:
+      string: '{"name":"Iktotch","rotation_period":"22","orbital_period":"481","diameter":"unknown","climate":"arid,
+        rocky, windy","gravity":"1","terrain":"rocky","surface_water":"unknown","population":"unknown","residents":["https://swapi.dev/api/people/56/"],"films":[],"created":"2014-12-20T10:31:32.413000Z","edited":"2014-12-20T20:58:18.500000Z","url":"https://swapi.dev/api/planets/47/"}'
+    headers:
+      Allow:
+      - GET, HEAD, OPTIONS
+      Connection:
+      - keep-alive
+      Content-Type:
+      - application/json
+      Date:
+      - Fri, 12 Nov 2021 14:23:57 GMT
+      ETag:
+      - '"30e9d90109bff594392dec8f41520fc7"'
+      Server:
+      - nginx/1.16.1
+      Strict-Transport-Security:
+      - max-age=15768000
+      Transfer-Encoding:
+      - chunked
+      Vary:
+      - Accept, Cookie
+      X-Frame-Options:
+      - SAMEORIGIN
+    status:
+      code: 200
+      message: OK
+- request:
+    body: null
+    headers: {}
+    method: GET
+    uri: https://swapi.dev/api/planets/48
+  response:
+    body:
+      string: '{"name":"Quermia","rotation_period":"unknown","orbital_period":"unknown","diameter":"unknown","climate":"unknown","gravity":"unknown","terrain":"unknown","surface_water":"unknown","population":"unknown","residents":["https://swapi.dev/api/people/57/"],"films":[],"created":"2014-12-20T10:34:08.249000Z","edited":"2014-12-20T20:58:18.502000Z","url":"https://swapi.dev/api/planets/48/"}'
+    headers:
+      Allow:
+      - GET, HEAD, OPTIONS
+      Connection:
+      - keep-alive
+      Content-Type:
+      - application/json
+      Date:
+      - Fri, 12 Nov 2021 14:23:57 GMT
+      ETag:
+      - '"1feb78025b7ab21ad53e1dbeb3ae4d2f"'
+      Server:
+      - nginx/1.16.1
+      Strict-Transport-Security:
+      - max-age=15768000
+      Transfer-Encoding:
+      - chunked
+      Vary:
+      - Accept, Cookie
+      X-Frame-Options:
+      - SAMEORIGIN
+    status:
+      code: 200
+      message: OK
+- request:
+    body: null
+    headers: {}
+    method: GET
+    uri: https://swapi.dev/api/planets/49
+  response:
+    body:
+      string: '{"name":"Dorin","rotation_period":"22","orbital_period":"409","diameter":"13400","climate":"temperate","gravity":"1","terrain":"unknown","surface_water":"unknown","population":"unknown","residents":["https://swapi.dev/api/people/58/"],"films":[],"created":"2014-12-20T10:48:36.141000Z","edited":"2014-12-20T20:58:18.504000Z","url":"https://swapi.dev/api/planets/49/"}'
+    headers:
+      Allow:
+      - GET, HEAD, OPTIONS
+      Connection:
+      - keep-alive
+      Content-Type:
+      - application/json
+      Date:
+      - Fri, 12 Nov 2021 14:23:57 GMT
+      ETag:
+      - '"1df5b0a758aacb6c9794f26c5fb84f26"'
+      Server:
+      - nginx/1.16.1
+      Strict-Transport-Security:
+      - max-age=15768000
+      Transfer-Encoding:
+      - chunked
+      Vary:
+      - Accept, Cookie
+      X-Frame-Options:
+      - SAMEORIGIN
+    status:
+      code: 200
+      message: OK
+- request:
+    body: null
+    headers: {}
+    method: GET
+    uri: https://swapi.dev/api/planets/50
+  response:
+    body:
+      string: '{"name":"Champala","rotation_period":"27","orbital_period":"318","diameter":"unknown","climate":"temperate","gravity":"1","terrain":"oceans,
+        rainforests, plateaus","surface_water":"unknown","population":"3500000000","residents":["https://swapi.dev/api/people/59/"],"films":[],"created":"2014-12-20T10:52:51.524000Z","edited":"2014-12-20T20:58:18.506000Z","url":"https://swapi.dev/api/planets/50/"}'
+    headers:
+      Allow:
+      - GET, HEAD, OPTIONS
+      Connection:
+      - keep-alive
+      Content-Type:
+      - application/json
+      Date:
+      - Fri, 12 Nov 2021 14:23:57 GMT
+      ETag:
+      - '"ecf693f9f854622f84ee0b0a964afe7a"'
+      Server:
+      - nginx/1.16.1
+      Strict-Transport-Security:
+      - max-age=15768000
+      Transfer-Encoding:
+      - chunked
+      Vary:
+      - Accept, Cookie
+      X-Frame-Options:
+      - SAMEORIGIN
+    status:
+      code: 200
+      message: OK
+- request:
+    body: null
+    headers: {}
+    method: GET
+    uri: https://swapi.dev/api/planets/8
+  response:
+    body:
+      string: '{"name":"Naboo","rotation_period":"26","orbital_period":"312","diameter":"12120","climate":"temperate","gravity":"1
+        standard","terrain":"grassy hills, swamps, forests, mountains","surface_water":"12","population":"4500000000","residents":["https://swapi.dev/api/people/3/","https://swapi.dev/api/people/21/","https://swapi.dev/api/people/35/","https://swapi.dev/api/people/36/","https://swapi.dev/api/people/37/","https://swapi.dev/api/people/38/","https://swapi.dev/api/people/39/","https://swapi.dev/api/people/42/","https://swapi.dev/api/people/60/","https://swapi.dev/api/people/61/","https://swapi.dev/api/people/66/"],"films":["https://swapi.dev/api/films/3/","https://swapi.dev/api/films/4/","https://swapi.dev/api/films/5/","https://swapi.dev/api/films/6/"],"created":"2014-12-10T11:52:31.066000Z","edited":"2014-12-20T20:58:18.430000Z","url":"https://swapi.dev/api/planets/8/"}'
+    headers:
+      Allow:
+      - GET, HEAD, OPTIONS
+      Connection:
+      - keep-alive
+      Content-Type:
+      - application/json
+      Date:
+      - Fri, 12 Nov 2021 14:23:57 GMT
+      ETag:
+      - '"de4d1009b28e18d5f9a6fcc89916a9be"'
+      Server:
+      - nginx/1.16.1
+      Strict-Transport-Security:
+      - max-age=15768000
+      Transfer-Encoding:
+      - chunked
+      Vary:
+      - Accept, Cookie
+      X-Frame-Options:
+      - SAMEORIGIN
+    status:
+      code: 200
+      message: OK
+- request:
+    body: null
+    headers: {}
+    method: GET
+    uri: https://swapi.dev/api/planets/8
+  response:
+    body:
+      string: '{"name":"Naboo","rotation_period":"26","orbital_period":"312","diameter":"12120","climate":"temperate","gravity":"1
+        standard","terrain":"grassy hills, swamps, forests, mountains","surface_water":"12","population":"4500000000","residents":["https://swapi.dev/api/people/3/","https://swapi.dev/api/people/21/","https://swapi.dev/api/people/35/","https://swapi.dev/api/people/36/","https://swapi.dev/api/people/37/","https://swapi.dev/api/people/38/","https://swapi.dev/api/people/39/","https://swapi.dev/api/people/42/","https://swapi.dev/api/people/60/","https://swapi.dev/api/people/61/","https://swapi.dev/api/people/66/"],"films":["https://swapi.dev/api/films/3/","https://swapi.dev/api/films/4/","https://swapi.dev/api/films/5/","https://swapi.dev/api/films/6/"],"created":"2014-12-10T11:52:31.066000Z","edited":"2014-12-20T20:58:18.430000Z","url":"https://swapi.dev/api/planets/8/"}'
+    headers:
+      Allow:
+      - GET, HEAD, OPTIONS
+      Connection:
+      - keep-alive
+      Content-Type:
+      - application/json
+      Date:
+      - Fri, 12 Nov 2021 14:23:57 GMT
+      ETag:
+      - '"de4d1009b28e18d5f9a6fcc89916a9be"'
+      Server:
+      - nginx/1.16.1
+      Strict-Transport-Security:
+      - max-age=15768000
+      Transfer-Encoding:
+      - chunked
+      Vary:
+      - Accept, Cookie
+      X-Frame-Options:
+      - SAMEORIGIN
+    status:
+      code: 200
+      message: OK
+- request:
+    body: null
+    headers: {}
+    method: GET
+    uri: https://swapi.dev/api/planets/1
+  response:
+    body:
+      string: '{"name":"Tatooine","rotation_period":"23","orbital_period":"304","diameter":"10465","climate":"arid","gravity":"1
+        standard","terrain":"desert","surface_water":"1","population":"200000","residents":["https://swapi.dev/api/people/1/","https://swapi.dev/api/people/2/","https://swapi.dev/api/people/4/","https://swapi.dev/api/people/6/","https://swapi.dev/api/people/7/","https://swapi.dev/api/people/8/","https://swapi.dev/api/people/9/","https://swapi.dev/api/people/11/","https://swapi.dev/api/people/43/","https://swapi.dev/api/people/62/"],"films":["https://swapi.dev/api/films/1/","https://swapi.dev/api/films/3/","https://swapi.dev/api/films/4/","https://swapi.dev/api/films/5/","https://swapi.dev/api/films/6/"],"created":"2014-12-09T13:50:49.641000Z","edited":"2014-12-20T20:58:18.411000Z","url":"https://swapi.dev/api/planets/1/"}'
+    headers:
+      Allow:
+      - GET, HEAD, OPTIONS
+      Connection:
+      - keep-alive
+      Content-Type:
+      - application/json
+      Date:
+      - Fri, 12 Nov 2021 14:23:57 GMT
+      ETag:
+      - '"df2ecd17a7953452d4000883f4f97b77"'
+      Server:
+      - nginx/1.16.1
+      Strict-Transport-Security:
+      - max-age=15768000
+      Transfer-Encoding:
+      - chunked
+      Vary:
+      - Accept, Cookie
+      X-Frame-Options:
+      - SAMEORIGIN
+    status:
+      code: 200
+      message: OK
+- request:
+    body: null
+    headers: {}
+    method: GET
+    uri: https://swapi.dev/api/planets/11
+  response:
+    body:
+      string: '{"name":"Geonosis","rotation_period":"30","orbital_period":"256","diameter":"11370","climate":"temperate,
+        arid","gravity":"0.9 standard","terrain":"rock, desert, mountain, barren","surface_water":"5","population":"100000000000","residents":["https://swapi.dev/api/people/63/"],"films":["https://swapi.dev/api/films/5/"],"created":"2014-12-10T12:47:22.350000Z","edited":"2014-12-20T20:58:18.437000Z","url":"https://swapi.dev/api/planets/11/"}'
+    headers:
+      Allow:
+      - GET, HEAD, OPTIONS
+      Connection:
+      - keep-alive
+      Content-Type:
+      - application/json
+      Date:
+      - Fri, 12 Nov 2021 14:23:57 GMT
+      ETag:
+      - '"a38ac480be93d3ee7f44d4025182717d"'
+      Server:
+      - nginx/1.16.1
+      Strict-Transport-Security:
+      - max-age=15768000
+      Transfer-Encoding:
+      - chunked
+      Vary:
+      - Accept, Cookie
+      X-Frame-Options:
+      - SAMEORIGIN
+    status:
+      code: 200
+      message: OK
+- request:
+    body: null
+    headers: {}
+    method: GET
+    uri: https://swapi.dev/api/planets/51
+  response:
+    body:
+      string: '{"name":"Mirial","rotation_period":"unknown","orbital_period":"unknown","diameter":"unknown","climate":"unknown","gravity":"unknown","terrain":"deserts","surface_water":"unknown","population":"unknown","residents":["https://swapi.dev/api/people/64/","https://swapi.dev/api/people/65/"],"films":[],"created":"2014-12-20T16:44:46.318000Z","edited":"2014-12-20T20:58:18.508000Z","url":"https://swapi.dev/api/planets/51/"}'
+    headers:
+      Allow:
+      - GET, HEAD, OPTIONS
+      Connection:
+      - keep-alive
+      Content-Type:
+      - application/json
+      Date:
+      - Fri, 12 Nov 2021 14:23:58 GMT
+      ETag:
+      - '"66459ef6fbbb8438370ab9d4e98fde60"'
+      Server:
+      - nginx/1.16.1
+      Strict-Transport-Security:
+      - max-age=15768000
+      Transfer-Encoding:
+      - chunked
+      Vary:
+      - Accept, Cookie
+      X-Frame-Options:
+      - SAMEORIGIN
+    status:
+      code: 200
+      message: OK
+- request:
+    body: null
+    headers: {}
+    method: GET
+    uri: https://swapi.dev/api/planets/51
+  response:
+    body:
+      string: '{"name":"Mirial","rotation_period":"unknown","orbital_period":"unknown","diameter":"unknown","climate":"unknown","gravity":"unknown","terrain":"deserts","surface_water":"unknown","population":"unknown","residents":["https://swapi.dev/api/people/64/","https://swapi.dev/api/people/65/"],"films":[],"created":"2014-12-20T16:44:46.318000Z","edited":"2014-12-20T20:58:18.508000Z","url":"https://swapi.dev/api/planets/51/"}'
+    headers:
+      Allow:
+      - GET, HEAD, OPTIONS
+      Connection:
+      - keep-alive
+      Content-Type:
+      - application/json
+      Date:
+      - Fri, 12 Nov 2021 14:23:58 GMT
+      ETag:
+      - '"66459ef6fbbb8438370ab9d4e98fde60"'
+      Server:
+      - nginx/1.16.1
+      Strict-Transport-Security:
+      - max-age=15768000
+      Transfer-Encoding:
+      - chunked
+      Vary:
+      - Accept, Cookie
+      X-Frame-Options:
+      - SAMEORIGIN
+    status:
+      code: 200
+      message: OK
+- request:
+    body: null
+    headers: {}
+    method: GET
+    uri: https://swapi.dev/api/planets/8
+  response:
+    body:
+      string: '{"name":"Naboo","rotation_period":"26","orbital_period":"312","diameter":"12120","climate":"temperate","gravity":"1
+        standard","terrain":"grassy hills, swamps, forests, mountains","surface_water":"12","population":"4500000000","residents":["https://swapi.dev/api/people/3/","https://swapi.dev/api/people/21/","https://swapi.dev/api/people/35/","https://swapi.dev/api/people/36/","https://swapi.dev/api/people/37/","https://swapi.dev/api/people/38/","https://swapi.dev/api/people/39/","https://swapi.dev/api/people/42/","https://swapi.dev/api/people/60/","https://swapi.dev/api/people/61/","https://swapi.dev/api/people/66/"],"films":["https://swapi.dev/api/films/3/","https://swapi.dev/api/films/4/","https://swapi.dev/api/films/5/","https://swapi.dev/api/films/6/"],"created":"2014-12-10T11:52:31.066000Z","edited":"2014-12-20T20:58:18.430000Z","url":"https://swapi.dev/api/planets/8/"}'
+    headers:
+      Allow:
+      - GET, HEAD, OPTIONS
+      Connection:
+      - keep-alive
+      Content-Type:
+      - application/json
+      Date:
+      - Fri, 12 Nov 2021 14:23:58 GMT
+      ETag:
+      - '"de4d1009b28e18d5f9a6fcc89916a9be"'
+      Server:
+      - nginx/1.16.1
+      Strict-Transport-Security:
+      - max-age=15768000
+      Transfer-Encoding:
+      - chunked
+      Vary:
+      - Accept, Cookie
+      X-Frame-Options:
+      - SAMEORIGIN
+    status:
+      code: 200
+      message: OK
+- request:
+    body: null
+    headers: {}
+    method: GET
+    uri: https://swapi.dev/api/planets/52
+  response:
+    body:
+      string: '{"name":"Serenno","rotation_period":"unknown","orbital_period":"unknown","diameter":"unknown","climate":"unknown","gravity":"unknown","terrain":"rainforests,
+        rivers, mountains","surface_water":"unknown","population":"unknown","residents":["https://swapi.dev/api/people/67/"],"films":[],"created":"2014-12-20T16:52:13.357000Z","edited":"2014-12-20T20:58:18.510000Z","url":"https://swapi.dev/api/planets/52/"}'
+    headers:
+      Allow:
+      - GET, HEAD, OPTIONS
+      Connection:
+      - keep-alive
+      Content-Type:
+      - application/json
+      Date:
+      - Fri, 12 Nov 2021 14:23:58 GMT
+      ETag:
+      - '"0c53c958f132034382ba88d630ddb2a4"'
+      Server:
+      - nginx/1.16.1
+      Strict-Transport-Security:
+      - max-age=15768000
+      Transfer-Encoding:
+      - chunked
+      Vary:
+      - Accept, Cookie
+      X-Frame-Options:
+      - SAMEORIGIN
+    status:
+      code: 200
+      message: OK
+- request:
+    body: null
+    headers: {}
+    method: GET
+    uri: https://swapi.dev/api/planets/2
+  response:
+    body:
+      string: '{"name":"Alderaan","rotation_period":"24","orbital_period":"364","diameter":"12500","climate":"temperate","gravity":"1
+        standard","terrain":"grasslands, mountains","surface_water":"40","population":"2000000000","residents":["https://swapi.dev/api/people/5/","https://swapi.dev/api/people/68/","https://swapi.dev/api/people/81/"],"films":["https://swapi.dev/api/films/1/","https://swapi.dev/api/films/6/"],"created":"2014-12-10T11:35:48.479000Z","edited":"2014-12-20T20:58:18.420000Z","url":"https://swapi.dev/api/planets/2/"}'
+    headers:
+      Allow:
+      - GET, HEAD, OPTIONS
+      Connection:
+      - keep-alive
+      Content-Type:
+      - application/json
+      Date:
+      - Fri, 12 Nov 2021 14:23:58 GMT
+      ETag:
+      - '"c63067c043a8b77cfca37575d82206bb"'
+      Server:
+      - nginx/1.16.1
+      Strict-Transport-Security:
+      - max-age=15768000
+      Transfer-Encoding:
+      - chunked
+      Vary:
+      - Accept, Cookie
+      X-Frame-Options:
+      - SAMEORIGIN
+    status:
+      code: 200
+      message: OK
+- request:
+    body: null
+    headers: {}
+    method: GET
+    uri: https://swapi.dev/api/planets/53
+  response:
+    body:
+      string: '{"name":"Concord Dawn","rotation_period":"unknown","orbital_period":"unknown","diameter":"unknown","climate":"unknown","gravity":"unknown","terrain":"jungles,
+        forests, deserts","surface_water":"unknown","population":"unknown","residents":["https://swapi.dev/api/people/69/"],"films":[],"created":"2014-12-20T16:54:39.909000Z","edited":"2014-12-20T20:58:18.512000Z","url":"https://swapi.dev/api/planets/53/"}'
+    headers:
+      Allow:
+      - GET, HEAD, OPTIONS
+      Connection:
+      - keep-alive
+      Content-Type:
+      - application/json
+      Date:
+      - Fri, 12 Nov 2021 14:23:58 GMT
+      ETag:
+      - '"d7f06b84ed60216aecf35d6b2f145899"'
+      Server:
+      - nginx/1.16.1
+      Strict-Transport-Security:
+      - max-age=15768000
+      Transfer-Encoding:
+      - chunked
+      Vary:
+      - Accept, Cookie
+      X-Frame-Options:
+      - SAMEORIGIN
+    status:
+      code: 200
+      message: OK
+- request:
+    body: null
+    headers: {}
+    method: GET
+    uri: https://swapi.dev/api/planets/54
+  response:
+    body:
+      string: '{"name":"Zolan","rotation_period":"unknown","orbital_period":"unknown","diameter":"unknown","climate":"unknown","gravity":"unknown","terrain":"unknown","surface_water":"unknown","population":"unknown","residents":["https://swapi.dev/api/people/70/"],"films":[],"created":"2014-12-20T16:56:37.250000Z","edited":"2014-12-20T20:58:18.514000Z","url":"https://swapi.dev/api/planets/54/"}'
+    headers:
+      Allow:
+      - GET, HEAD, OPTIONS
+      Connection:
+      - keep-alive
+      Content-Type:
+      - application/json
+      Date:
+      - Fri, 12 Nov 2021 14:23:58 GMT
+      ETag:
+      - '"b821907897fa5fc912e7d6b6933ec7b8"'
+      Server:
+      - nginx/1.16.1
+      Strict-Transport-Security:
+      - max-age=15768000
+      Transfer-Encoding:
+      - chunked
+      Vary:
+      - Accept, Cookie
+      X-Frame-Options:
+      - SAMEORIGIN
+    status:
+      code: 200
+      message: OK
+- request:
+    body: null
+    headers: {}
+    method: GET
+    uri: https://swapi.dev/api/planets/55
+  response:
+    body:
+      string: '{"name":"Ojom","rotation_period":"unknown","orbital_period":"unknown","diameter":"unknown","climate":"frigid","gravity":"unknown","terrain":"oceans,
+        glaciers","surface_water":"100","population":"500000000","residents":["https://swapi.dev/api/people/71/"],"films":[],"created":"2014-12-20T17:27:41.286000Z","edited":"2014-12-20T20:58:18.516000Z","url":"https://swapi.dev/api/planets/55/"}'
+    headers:
+      Allow:
+      - GET, HEAD, OPTIONS
+      Connection:
+      - keep-alive
+      Content-Type:
+      - application/json
+      Date:
+      - Fri, 12 Nov 2021 14:23:58 GMT
+      ETag:
+      - '"aaa3cd14cdde5cad70274b33b60b0e07"'
+      Server:
+      - nginx/1.16.1
+      Strict-Transport-Security:
+      - max-age=15768000
+      Transfer-Encoding:
+      - chunked
+      Vary:
+      - Accept, Cookie
+      X-Frame-Options:
+      - SAMEORIGIN
+    status:
+      code: 200
+      message: OK
+- request:
+    body: null
+    headers: {}
+    method: GET
+    uri: https://swapi.dev/api/planets/10
+  response:
+    body:
+      string: '{"name":"Kamino","rotation_period":"27","orbital_period":"463","diameter":"19720","climate":"temperate","gravity":"1
+        standard","terrain":"ocean","surface_water":"100","population":"1000000000","residents":["https://swapi.dev/api/people/22/","https://swapi.dev/api/people/72/","https://swapi.dev/api/people/73/"],"films":["https://swapi.dev/api/films/5/"],"created":"2014-12-10T12:45:06.577000Z","edited":"2014-12-20T20:58:18.434000Z","url":"https://swapi.dev/api/planets/10/"}'
+    headers:
+      Allow:
+      - GET, HEAD, OPTIONS
+      Connection:
+      - keep-alive
+      Content-Type:
+      - application/json
+      Date:
+      - Fri, 12 Nov 2021 14:23:58 GMT
+      ETag:
+      - '"c77ff660eeaa2935cab18f94730f5dc0"'
+      Server:
+      - nginx/1.16.1
+      Strict-Transport-Security:
+      - max-age=15768000
+      Transfer-Encoding:
+      - chunked
+      Vary:
+      - Accept, Cookie
+      X-Frame-Options:
+      - SAMEORIGIN
+    status:
+      code: 200
+      message: OK
+- request:
+    body: null
+    headers: {}
+    method: GET
+    uri: https://swapi.dev/api/planets/10
+  response:
+    body:
+      string: '{"name":"Kamino","rotation_period":"27","orbital_period":"463","diameter":"19720","climate":"temperate","gravity":"1
+        standard","terrain":"ocean","surface_water":"100","population":"1000000000","residents":["https://swapi.dev/api/people/22/","https://swapi.dev/api/people/72/","https://swapi.dev/api/people/73/"],"films":["https://swapi.dev/api/films/5/"],"created":"2014-12-10T12:45:06.577000Z","edited":"2014-12-20T20:58:18.434000Z","url":"https://swapi.dev/api/planets/10/"}'
+    headers:
+      Allow:
+      - GET, HEAD, OPTIONS
+      Connection:
+      - keep-alive
+      Content-Type:
+      - application/json
+      Date:
+      - Fri, 12 Nov 2021 14:23:58 GMT
+      ETag:
+      - '"c77ff660eeaa2935cab18f94730f5dc0"'
+      Server:
+      - nginx/1.16.1
+      Strict-Transport-Security:
+      - max-age=15768000
+      Transfer-Encoding:
+      - chunked
+      Vary:
+      - Accept, Cookie
+      X-Frame-Options:
+      - SAMEORIGIN
+    status:
+      code: 200
+      message: OK
+- request:
+    body: null
+    headers: {}
+    method: GET
+    uri: https://swapi.dev/api/planets/9
+  response:
+    body:
+      string: '{"name":"Coruscant","rotation_period":"24","orbital_period":"368","diameter":"12240","climate":"temperate","gravity":"1
+        standard","terrain":"cityscape, mountains","surface_water":"unknown","population":"1000000000000","residents":["https://swapi.dev/api/people/34/","https://swapi.dev/api/people/55/","https://swapi.dev/api/people/74/"],"films":["https://swapi.dev/api/films/3/","https://swapi.dev/api/films/4/","https://swapi.dev/api/films/5/","https://swapi.dev/api/films/6/"],"created":"2014-12-10T11:54:13.921000Z","edited":"2014-12-20T20:58:18.432000Z","url":"https://swapi.dev/api/planets/9/"}'
+    headers:
+      Allow:
+      - GET, HEAD, OPTIONS
+      Connection:
+      - keep-alive
+      Content-Type:
+      - application/json
+      Date:
+      - Fri, 12 Nov 2021 14:23:58 GMT
+      ETag:
+      - '"6a270854c3f4d88b27db76212391a10e"'
+      Server:
+      - nginx/1.16.1
+      Strict-Transport-Security:
+      - max-age=15768000
+      Transfer-Encoding:
+      - chunked
+      Vary:
+      - Accept, Cookie
+      X-Frame-Options:
+      - SAMEORIGIN
+    status:
+      code: 200
+      message: OK
+- request:
+    body: null
+    headers: {}
+    method: GET
+    uri: https://swapi.dev/api/planets/28
+  response:
+    body:
+      string: '{"name":"unknown","rotation_period":"0","orbital_period":"0","diameter":"0","climate":"unknown","gravity":"unknown","terrain":"unknown","surface_water":"unknown","population":"unknown","residents":["https://swapi.dev/api/people/20/","https://swapi.dev/api/people/23/","https://swapi.dev/api/people/29/","https://swapi.dev/api/people/32/","https://swapi.dev/api/people/75/"],"films":[],"created":"2014-12-15T12:25:59.569000Z","edited":"2014-12-20T20:58:18.466000Z","url":"https://swapi.dev/api/planets/28/"}'
+    headers:
+      Allow:
+      - GET, HEAD, OPTIONS
+      Connection:
+      - keep-alive
+      Content-Type:
+      - application/json
+      Date:
+      - Fri, 12 Nov 2021 14:23:58 GMT
+      ETag:
+      - '"48ec2476e9d0531933a73c9a15425bd7"'
+      Server:
+      - nginx/1.16.1
+      Strict-Transport-Security:
+      - max-age=15768000
+      Transfer-Encoding:
+      - chunked
+      Vary:
+      - Accept, Cookie
+      X-Frame-Options:
+      - SAMEORIGIN
+    status:
+      code: 200
+      message: OK
+- request:
+    body: null
+    headers: {}
+    method: GET
+    uri: https://swapi.dev/api/planets/56
+  response:
+    body:
+      string: '{"name":"Skako","rotation_period":"27","orbital_period":"384","diameter":"unknown","climate":"temperate","gravity":"1","terrain":"urban,
+        vines","surface_water":"unknown","population":"500000000000","residents":["https://swapi.dev/api/people/76/"],"films":[],"created":"2014-12-20T17:50:47.864000Z","edited":"2014-12-20T20:58:18.517000Z","url":"https://swapi.dev/api/planets/56/"}'
+    headers:
+      Allow:
+      - GET, HEAD, OPTIONS
+      Connection:
+      - keep-alive
+      Content-Type:
+      - application/json
+      Date:
+      - Fri, 12 Nov 2021 14:23:58 GMT
+      ETag:
+      - '"4fe716cf21071f46322271f8935b54f3"'
+      Server:
+      - nginx/1.16.1
+      Strict-Transport-Security:
+      - max-age=15768000
+      Transfer-Encoding:
+      - chunked
+      Vary:
+      - Accept, Cookie
+      X-Frame-Options:
+      - SAMEORIGIN
+    status:
+      code: 200
+      message: OK
+- request:
+    body: null
+    headers: {}
+    method: GET
+    uri: https://swapi.dev/api/planets/57
+  response:
+    body:
+      string: '{"name":"Muunilinst","rotation_period":"28","orbital_period":"412","diameter":"13800","climate":"temperate","gravity":"1","terrain":"plains,
+        forests, hills, mountains","surface_water":"25","population":"5000000000","residents":["https://swapi.dev/api/people/77/"],"films":[],"created":"2014-12-20T17:57:47.420000Z","edited":"2014-12-20T20:58:18.519000Z","url":"https://swapi.dev/api/planets/57/"}'
+    headers:
+      Allow:
+      - GET, HEAD, OPTIONS
+      Connection:
+      - keep-alive
+      Content-Type:
+      - application/json
+      Date:
+      - Fri, 12 Nov 2021 14:23:58 GMT
+      ETag:
+      - '"f39b7c7955cd2777821763e7cc39fa11"'
+      Server:
+      - nginx/1.16.1
+      Strict-Transport-Security:
+      - max-age=15768000
+      Transfer-Encoding:
+      - chunked
+      Vary:
+      - Accept, Cookie
+      X-Frame-Options:
+      - SAMEORIGIN
+    status:
+      code: 200
+      message: OK
+- request:
+    body: null
+    headers: {}
+    method: GET
+    uri: https://swapi.dev/api/planets/58
+  response:
+    body:
+      string: '{"name":"Shili","rotation_period":"unknown","orbital_period":"unknown","diameter":"unknown","climate":"temperate","gravity":"1","terrain":"cities,
+        savannahs, seas, plains","surface_water":"unknown","population":"unknown","residents":["https://swapi.dev/api/people/78/"],"films":[],"created":"2014-12-20T18:43:14.049000Z","edited":"2014-12-20T20:58:18.521000Z","url":"https://swapi.dev/api/planets/58/"}'
+    headers:
+      Allow:
+      - GET, HEAD, OPTIONS
+      Connection:
+      - keep-alive
+      Content-Type:
+      - application/json
+      Date:
+      - Fri, 12 Nov 2021 14:23:58 GMT
+      ETag:
+      - '"4326df1bb150bbc2e0082e2b9a5c7669"'
+      Server:
+      - nginx/1.16.1
+      Strict-Transport-Security:
+      - max-age=15768000
+      Transfer-Encoding:
+      - chunked
+      Vary:
+      - Accept, Cookie
+      X-Frame-Options:
+      - SAMEORIGIN
+    status:
+      code: 200
+      message: OK
+- request:
+    body: null
+    headers: {}
+    method: GET
+    uri: https://swapi.dev/api/planets/59
+  response:
+    body:
+      string: '{"name":"Kalee","rotation_period":"23","orbital_period":"378","diameter":"13850","climate":"arid,
+        temperate, tropical","gravity":"1","terrain":"rainforests, cliffs, canyons,
+        seas","surface_water":"unknown","population":"4000000000","residents":["https://swapi.dev/api/people/79/"],"films":[],"created":"2014-12-20T19:43:51.278000Z","edited":"2014-12-20T20:58:18.523000Z","url":"https://swapi.dev/api/planets/59/"}'
+    headers:
+      Allow:
+      - GET, HEAD, OPTIONS
+      Connection:
+      - keep-alive
+      Content-Type:
+      - application/json
+      Date:
+      - Fri, 12 Nov 2021 14:23:58 GMT
+      ETag:
+      - '"0e1f1012b50d2ee06be8d0709c04a4f4"'
+      Server:
+      - nginx/1.16.1
+      Strict-Transport-Security:
+      - max-age=15768000
+      Transfer-Encoding:
+      - chunked
+      Vary:
+      - Accept, Cookie
+      X-Frame-Options:
+      - SAMEORIGIN
+    status:
+      code: 200
+      message: OK
+- request:
+    body: null
+    headers: {}
+    method: GET
+    uri: https://swapi.dev/api/planets/14
+  response:
+    body:
+      string: '{"name":"Kashyyyk","rotation_period":"26","orbital_period":"381","diameter":"12765","climate":"tropical","gravity":"1
+        standard","terrain":"jungle, forests, lakes, rivers","surface_water":"60","population":"45000000","residents":["https://swapi.dev/api/people/13/","https://swapi.dev/api/people/80/"],"films":["https://swapi.dev/api/films/6/"],"created":"2014-12-10T13:32:00.124000Z","edited":"2014-12-20T20:58:18.442000Z","url":"https://swapi.dev/api/planets/14/"}'
+    headers:
+      Allow:
+      - GET, HEAD, OPTIONS
+      Connection:
+      - keep-alive
+      Content-Type:
+      - application/json
+      Date:
+      - Fri, 12 Nov 2021 14:23:59 GMT
+      ETag:
+      - '"cb5f22c62a1bacde749dd0fd123c50f2"'
+      Server:
+      - nginx/1.16.1
+      Strict-Transport-Security:
+      - max-age=15768000
+      Transfer-Encoding:
+      - chunked
+      Vary:
+      - Accept, Cookie
+      X-Frame-Options:
+      - SAMEORIGIN
+    status:
+      code: 200
+      message: OK
+- request:
+    body: null
+    headers: {}
+    method: GET
+    uri: https://swapi.dev/api/planets/2
+  response:
+    body:
+      string: '{"name":"Alderaan","rotation_period":"24","orbital_period":"364","diameter":"12500","climate":"temperate","gravity":"1
+        standard","terrain":"grasslands, mountains","surface_water":"40","population":"2000000000","residents":["https://swapi.dev/api/people/5/","https://swapi.dev/api/people/68/","https://swapi.dev/api/people/81/"],"films":["https://swapi.dev/api/films/1/","https://swapi.dev/api/films/6/"],"created":"2014-12-10T11:35:48.479000Z","edited":"2014-12-20T20:58:18.420000Z","url":"https://swapi.dev/api/planets/2/"}'
+    headers:
+      Allow:
+      - GET, HEAD, OPTIONS
+      Connection:
+      - keep-alive
+      Content-Type:
+      - application/json
+      Date:
+      - Fri, 12 Nov 2021 14:23:59 GMT
+      ETag:
+      - '"c63067c043a8b77cfca37575d82206bb"'
+      Server:
+      - nginx/1.16.1
+      Strict-Transport-Security:
+      - max-age=15768000
+      Transfer-Encoding:
+      - chunked
+      Vary:
+      - Accept, Cookie
+      X-Frame-Options:
+      - SAMEORIGIN
+    status:
+      code: 200
+      message: OK
+- request:
+    body: null
+    headers: {}
+    method: GET
+    uri: https://swapi.dev/api/planets/60
+  response:
+    body:
+      string: '{"name":"Umbara","rotation_period":"unknown","orbital_period":"unknown","diameter":"unknown","climate":"unknown","gravity":"unknown","terrain":"unknown","surface_water":"unknown","population":"unknown","residents":["https://swapi.dev/api/people/82/"],"films":[],"created":"2014-12-20T20:18:36.256000Z","edited":"2014-12-20T20:58:18.525000Z","url":"https://swapi.dev/api/planets/60/"}'
+    headers:
+      Allow:
+      - GET, HEAD, OPTIONS
+      Connection:
+      - keep-alive
+      Content-Type:
+      - application/json
+      Date:
+      - Fri, 12 Nov 2021 14:23:59 GMT
+      ETag:
+      - '"bf079c439ca6e4f158fcc0144fc8323d"'
+      Server:
+      - nginx/1.16.1
+      Strict-Transport-Security:
+      - max-age=15768000
+      Transfer-Encoding:
+      - chunked
+      Vary:
+      - Accept, Cookie
+      X-Frame-Options:
+      - SAMEORIGIN
+    status:
+      code: 200
+      message: OK
+- request:
+    body: null
+    headers: {}
+    method: GET
+    uri: https://swapi.dev/api/planets/12
+  response:
+    body:
+      string: '{"name":"Utapau","rotation_period":"27","orbital_period":"351","diameter":"12900","climate":"temperate,
+        arid, windy","gravity":"1 standard","terrain":"scrublands, savanna, canyons,
+        sinkholes","surface_water":"0.9","population":"95000000","residents":["https://swapi.dev/api/people/83/"],"films":["https://swapi.dev/api/films/6/"],"created":"2014-12-10T12:49:01.491000Z","edited":"2014-12-20T20:58:18.439000Z","url":"https://swapi.dev/api/planets/12/"}'
+    headers:
+      Allow:
+      - GET, HEAD, OPTIONS
+      Connection:
+      - keep-alive
+      Content-Type:
+      - application/json
+      Date:
+      - Fri, 12 Nov 2021 14:23:59 GMT
+      ETag:
+      - '"eb4ca5c78652fa7ae6546e2ae60cbcfd"'
+      Server:
+      - nginx/1.16.1
+      Strict-Transport-Security:
+      - max-age=15768000
+      Transfer-Encoding:
+      - chunked
+      Vary:
+      - Accept, Cookie
+      X-Frame-Options:
+      - SAMEORIGIN
+    status:
+      code: 200
+      message: OK
+version: 1

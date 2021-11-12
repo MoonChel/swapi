@@ -1,0 +1,24 @@
+# django
+Django
+markdown
+django-filter
+djangorestframework
+
+# csv
+petl
+
+
+# clients
+requests
+pydantic
+tenacity
+
+# tests
+pytest
+pytest-django
+
+# record tests
+pytest-vcr
+
+# pytest in parallel
+# pytest-xdist
