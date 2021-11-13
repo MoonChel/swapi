@@ -4,7 +4,7 @@
 
     <ul>
       <li v-for="file in csvFiles" :key="file.id">
-        <g-link :to="'/files' + file.id">{{ file.created_at }}</g-link>
+        <g-link :to="'/files/' + file.id">{{ file.created_at }}</g-link>
       </li>
     </ul>
 

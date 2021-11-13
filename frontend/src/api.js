@@ -9,11 +9,20 @@ const apiClient = {
     fetch: () => {
         return fetch(API_URL + "/fetch/")
     },
-    fetchCsv: (fileId) => {
-        return fetch(API_URL + "/fetch-csv/" + fileId + "/")
+    fetchCsv: async (fileId, page) => {
+        const resp = await fetch(API_URL + "/fetch-csv/" + fileId + "?" + new URLSearchParams({
+            page: page
+        }))
+        const json = await resp.json()
+        return json
     },
-    groupByCsv: (fileId) => {
-        return fetch(API_URL + "/group-by-csv/" + fileId + "/")
+    groupByCsv: async (fileId, filters) => {
+        const resp = await fetch(API_URL + "/group-by-csv/" + fileId + "?" + new URLSearchParams({
+            fields: filters.join(",")
+        }))
+        const json = await resp.json()
+
+        return json
     }
 }
 

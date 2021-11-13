@@ -1,5 +1,5 @@
 import csv
-from typing import List, Dict
+from typing import List, Dict, Tuple
 from django.http import JsonResponse, HttpRequest, HttpResponseNotFound
 from datetime import datetime
 import petl as etl
@@ -24,38 +24,29 @@ def save_csv(data: List[Dict]) -> str:
     return filename
 
 
-def read_specific_lines(filename: str, start: int, end: int) -> List[List]:
+def read_specific_lines(
+    filename: str, start: int, end: int
+) -> Tuple[List[str], List[List]]:
     table = etl.fromcsv(filename)
 
-    return list(table[start:end])
+    header = etl.header(table)
 
-    # or via csv
-    # results = []
-
-    # with open(filename) as csvfile:
-    #     reader = csv.reader(csvfile)
-
-    #     for i, o in enumerate(reader):
-    #         if start < i < end:
-    #             results.append(o)
-
-    #         if i > end:
-    #             break
-
-    # return results
+    # +1 because of header
+    return header, list(table[start + 1 : end + 1])
 
 
-def group_by_csv(filename: str, fields: List[str]) -> List[List]:
+def group_by_csv(filename: str, fields: List[str]) -> Tuple[List[List], List[List]]:
     table = etl.fromcsv(filename)
 
-    return list(etl.valuecounts(table, *fields))
+    if not fields:
+        header = etl.header(table)
 
-    # or with csv
-    # with open(filename) as csvfile:
-    #     reader = csv.reader(csvfile)
+        return header, list(table[1:])
 
-    #     for i, o in enumerate(reader):
-    #         pass
+    results = list(etl.valuecounts(table, *fields))
+    header = results.pop(0)
+
+    return header, results
 
 
 def resolve_planets(people: SwapiPeople):
@@ -119,9 +110,15 @@ def get_csv(request: HttpRequest, file_id: int):
 
     start = page * per_page
     end = start + per_page
-    results = read_specific_lines(file.file, start, end)
+    header, results = read_specific_lines(file.file, start, end)
 
-    return JsonResponse({"results": results})
+    return JsonResponse(
+        {
+            "header": header,
+            "results": results,
+            "created_at": file.created_at,
+        }
+    )
 
 
 def get_csv_group_by(request: HttpRequest, file_id: int):
@@ -133,6 +130,12 @@ def get_csv_group_by(request: HttpRequest, file_id: int):
     if not file:
         raise HttpResponseNotFound("File not found")
 
-    results = group_by_csv(file.file, fields)
+    header, results = group_by_csv(file.file, fields)
 
-    return JsonResponse({"results": results})
+    return JsonResponse(
+        {
+            "results": results,
+            "header": header,
+            "created_at": file.created_at,
+        }
+    )
