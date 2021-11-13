@@ -41,7 +41,7 @@ def group_by_csv(filename: str, fields: List[str]) -> Tuple[List[List], List[Lis
     if not fields:
         header = etl.header(table)
 
-        return header, list(table[1:])
+        return header, list(table[1:10])
 
     results = list(etl.valuecounts(table, *fields))
     header = results.pop(0)

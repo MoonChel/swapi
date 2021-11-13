@@ -1,0 +1,14 @@
+version: "3"
+
+services:
+  swapi_be:
+    build:
+      context: ./backend
+    ports:
+      - "8000:8000"
+
+  swapi_fe:
+    build:
+      context: ./frontend
+    ports:
+      - "8080:8080"
