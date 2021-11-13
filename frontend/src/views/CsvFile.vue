@@ -1,5 +1,5 @@
 <template>
-  <Layout>
+  <div>
     <template v-if="file.created_at">
       <h1>{{ file.created_at }}</h1>
 
@@ -33,7 +33,7 @@
         Load more
       </button>
     </template>
-  </Layout>
+  </div>
 </template>
 
 <script>

@@ -1,15 +1,17 @@
 <template>
-  <Layout>
+  <div>
     <button @click="fetch" :aria-busy="loading">Fetch</button>
 
     <ul>
       <li v-for="file in csvFiles" :key="file.id">
-        <g-link :to="'/files/' + file.id">{{ file.created_at }}</g-link>
+        <router-link :to="'/csv-file/' + file.id">
+          {{ file.created_at }}
+        </router-link>
       </li>
     </ul>
 
     <h2 v-if="csvFiles.length === 0">No files found</h2>
-  </Layout>
+  </div>
 </template>
 
 <script>
