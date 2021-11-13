@@ -31,7 +31,7 @@ class ViewsTest(TestCase):
         self.assertEqual(resp.status_code, 200)
 
     @pytest.mark.vcr()
-    def test_get_csv(self):
+    def test_get_csv_file(self):
         resp = self.client.get(
             reverse(
                 "get-csv",

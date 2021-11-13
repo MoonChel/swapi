@@ -21,7 +21,7 @@ def resolve_planets(people: SwapiPeople):
             planets[person.homeworld] = person.homeworld
 
 
-def fetch_swapi_people(request: HttpRequest):
+def fetch_swapi_to_csv(request: HttpRequest):
     # load data from API
     # resolve planets
     # save to csv
@@ -54,7 +54,7 @@ def get_fetch_files(request: HttpRequest):
     )
 
 
-def get_csv(request: HttpRequest, file_id: int):
+def get_csv_file(request: HttpRequest, file_id: int):
     # load file
     # load data from csv
     page = int(request.GET.get("page", 1))
@@ -79,7 +79,7 @@ def get_csv(request: HttpRequest, file_id: int):
     )
 
 
-def get_csv_group_by(request: HttpRequest, file_id: int):
+def get_csv_file_group_by(request: HttpRequest, file_id: int):
     fields = request.GET.get("fields", [])
     if fields:
         fields = fields.split(",")
