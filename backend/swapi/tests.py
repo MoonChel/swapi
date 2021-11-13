@@ -52,3 +52,9 @@ class ViewsTest(TestCase):
         )
 
         self.assertEqual(resp.status_code, 200)
+
+    @pytest.mark.vcr()
+    def test_get_fetch_files(self):
+        resp = self.client.get(reverse("get-fetch-files"))
+
+        self.assertEqual(resp.status_code, 200)

@@ -3,6 +3,7 @@ Django
 markdown
 django-filter
 djangorestframework
+django-cors-headers
 
 # csv
 petl

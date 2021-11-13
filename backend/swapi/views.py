@@ -59,7 +59,7 @@ def group_by_csv(filename: str, fields: List[str]) -> List[List]:
 
 
 def resolve_planets(people: SwapiPeople):
-    # for better performance replace with redis
+    # for better performance replace with cache, redis for example
     planets = {}
 
     for person in people.results:
@@ -87,6 +87,22 @@ def fetch_swapi_people(request: HttpRequest):
     file.save()
 
     return JsonResponse({"status": "ok"})
+
+
+def get_fetch_files(request: HttpRequest):
+    files = FetchFile.objects.all()
+
+    return JsonResponse(
+        {
+            "items": [
+                {
+                    "id": f.id,
+                    "created_at": f.created_at,
+                }
+                for f in files
+            ],
+        }
+    )
 
 
 def get_csv(request: HttpRequest, file_id: int):

@@ -1,33 +1,51 @@
 <template>
   <Layout>
+    <button @click="fetch" :aria-busy="loading">Fetch</button>
 
-    <!-- Learn how to use images here: https://gridsome.org/docs/images -->
-    <g-image alt="Example image" src="~/favicon.png" width="135" />
+    <ul>
+      <li v-for="file in csvFiles" :key="file.id">
+        <g-link :to="'/files' + file.id">{{ file.created_at }}</g-link>
+      </li>
+    </ul>
 
-    <h1>Hello, world!</h1>
-
-    <p>
-      Lorem ipsum dolor sit amet, consectetur adipisicing elit. Pariatur excepturi labore tempore expedita, et iste tenetur suscipit explicabo! Dolores, aperiam non officia eos quod asperiores
-    </p>
-
-    <p class="home-links">
-      <a href="https://gridsome.org/docs/" target="_blank" rel="noopener">Gridsome Docs</a>
-      <a href="https://github.com/gridsome/gridsome" target="_blank" rel="noopener">GitHub</a>
-    </p>
-
+    <h2 v-if="csvFiles.length === 0">No files found</h2>
   </Layout>
 </template>
 
 <script>
-export default {
-  metaInfo: {
-    title: 'Hello, world!'
-  }
-}
-</script>
+import { apiClient } from "@/api";
 
-<style>
-.home-links a {
-  margin-right: 1rem;
-}
-</style>
+export default {
+  data() {
+    return {
+      csvFiles: [],
+      loading: false,
+    };
+  },
+  async mounted() {
+    await this.fetchFiles();
+  },
+  methods: {
+    async fetchFiles() {
+      try {
+        this.csvFiles = await apiClient.fetchFiles();
+        this.$notify({ type: "success", text: "Success" });
+      } catch (error) {
+        this.$notify({ type: "error", text: "Error" });
+        console.log(error);
+      }
+    },
+    async fetch() {
+      this.loading = true;
+      try {
+        await apiClient.fetch();
+        await this.fetchFiles();
+        this.$notify({ type: "success", text: "Success" });
+      } catch (error) {
+        this.$notify({ type: "error", text: "Error" });
+      }
+      this.loading = false;
+    },
+  },
+};
+</script>

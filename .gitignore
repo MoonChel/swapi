@@ -3,6 +3,8 @@
 # Edit at https://www.toptal.com/developers/gitignore?templates=django,vuejs
 
 .vscode
+*.csv
+!test_file.csv
 
 ### Django ###
 *.log
