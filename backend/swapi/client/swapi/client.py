@@ -53,3 +53,16 @@ class SwapiClient(BaseClient):
                 break
 
         return SwapiPeople(count=len(people), results=people)
+
+    def get_all_people_gener(self):
+        page = 1
+
+        while True:
+            resp = self.get_people(page)
+
+            yield SwapiPeople(count=len(resp.results), results=resp.results)
+
+            if resp.next:
+                page += 1
+            else:
+                break

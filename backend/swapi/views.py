@@ -1,3 +1,5 @@
+import csv
+from datetime import datetime
 from django.http import JsonResponse, HttpRequest, HttpResponseNotFound
 
 from swapi.client.swapi.data_models import SwapiPeople
@@ -19,6 +21,34 @@ def resolve_planets(people: SwapiPeople):
             planet_id = person.homeworld.rsplit("/")[-2]
             person.homeworld = swapi_client.get_planet_name(planet_id)
             planets[person.homeworld] = person.homeworld
+
+
+def fetch_swapi_to_csv_gener(request: HttpRequest):
+    # load data from API via generator
+    # resolve planets
+    # save to csv
+    # save file info to DB
+
+    now = datetime.now()
+    filename = f"{now}.csv"
+
+    count = 0
+    with open(filename, "w") as csvfile:
+        data_gen = swapi_client.get_all_people_gener()
+
+        # TODO: not the best way, but enough for now
+        fieldnames = next(data_gen).results[0].dict().keys()
+        writer = csv.DictWriter(csvfile, fieldnames=fieldnames)
+        writer.writeheader()
+
+        for data in data_gen:
+            count += len(data.results)
+            writer.writerows(data.dict()["results"])
+
+    file = FetchFile(file=filename, count=count)
+    file.save()
+
+    return JsonResponse({"status": "ok"})
 
 
 def fetch_swapi_to_csv(request: HttpRequest):
