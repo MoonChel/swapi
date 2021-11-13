@@ -10,3 +10,4 @@ Service for displaying information from https://swapi.dev/
 
 - django vs fastapi? Can `async` improve efficiency?
 - more tests
+- pre-commit hooks
