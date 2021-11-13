@@ -9,5 +9,9 @@ Service for displaying information from https://swapi.dev/
 # Possible improvements
 
 - django vs fastapi? Can `async` improve efficiency?
+- better handle for NotFound, EmptyResults and other expected exceptions
 - more tests
 - pre-commit hooks
+- more efficient ways to work with large data? dask?
+- openapi documentation?
+- graphql?
