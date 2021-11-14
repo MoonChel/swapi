@@ -8,19 +8,19 @@ from .models import FetchFile
 from .apps import swapi_client
 from .csv_utils import save_csv, read_specific_lines, group_by_csv
 
+PLANETS = {}
+
 
 def resolve_planets(people: SwapiPeople):
     # for better performance replace with cache, redis for example
-    planets = {}
-
     for person in people.results:
-        if person.homeworld in planets:
-            person.homeworld = planets[person.homeworld]
+        if person.homeworld in PLANETS:
+            person.homeworld = PLANETS[person.homeworld]
         else:
             # TODO: dirty trick, but will work
             planet_id = person.homeworld.rsplit("/")[-2]
             person.homeworld = swapi_client.get_planet_name(planet_id)
-            planets[person.homeworld] = person.homeworld
+            PLANETS[person.homeworld] = person.homeworld
 
 
 def fetch_swapi_to_csv_gener(request: HttpRequest):
@@ -29,6 +29,7 @@ def fetch_swapi_to_csv_gener(request: HttpRequest):
     # save to csv
     # save file info to DB
 
+    # TODO: refactor into indepedent functions
     now = datetime.now()
     filename = f"{now}.csv"
 
@@ -37,11 +38,15 @@ def fetch_swapi_to_csv_gener(request: HttpRequest):
         data_gen = swapi_client.get_all_people_gener()
 
         # TODO: not the best way, but enough for now
-        fieldnames = next(data_gen).results[0].dict().keys()
+        data = next(data_gen)
+        resolve_planets(data)
+        fieldnames = data.results[0].dict().keys()
         writer = csv.DictWriter(csvfile, fieldnames=fieldnames)
         writer.writeheader()
+        writer.writerows(data.dict()["results"])
 
         for data in data_gen:
+            resolve_planets(data)
             count += len(data.results)
             writer.writerows(data.dict()["results"])
 
