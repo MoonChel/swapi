@@ -1,8 +1,13 @@
 .PHONY: run
 
 run:
-	docker-compose up --build
+	docker-compose up --build swapi_be swapi_fe
 
 benchmark:
-	docker build backend -t swapi-be -f backend/Dockerfile
-	docker run swapi-be python benchmark.py
+	docker-compose run swapi_be python benchmark.py
+
+test:
+	docker-compose run swapi_be python manage.py test swapi
+
+clear:
+	docker-compose rm

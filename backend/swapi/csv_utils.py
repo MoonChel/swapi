@@ -1,12 +1,18 @@
+import os
 import csv
 import petl as etl
 from datetime import datetime
 from typing import List, Dict, Tuple
+from backend.settings import BASE_DIR
+
+
+def get_new_filename() -> str:
+    now = datetime.now()
+    return os.path.join(BASE_DIR, "csv_files", f"{now}.csv")
 
 
 def save_csv(data: List[Dict]) -> str:
-    now = datetime.now()
-    filename = f"{now}.csv"
+    filename = get_new_filename()
 
     with open(filename, "w") as csvfile:
         fieldnames = data[0].keys()

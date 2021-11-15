@@ -6,6 +6,8 @@ services:
       context: ./backend
     ports:
       - "8000:8000"
+    volumes:
+      - ./backend/csv_files:/app/csv_files
 
   swapi_fe:
     build:

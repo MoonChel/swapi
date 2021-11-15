@@ -6,7 +6,7 @@ from swapi.client.swapi.data_models import SwapiPeople
 from .models import FetchFile
 
 from .apps import swapi_client
-from .csv_utils import save_csv, read_specific_lines, group_by_csv
+from .csv_utils import save_csv, read_specific_lines, group_by_csv, get_new_filename
 
 PLANETS = {}
 
@@ -30,8 +30,7 @@ def fetch_swapi_to_csv_gener(request: HttpRequest):
     # save file info to DB
 
     # TODO: refactor into indepedent functions
-    now = datetime.now()
-    filename = f"{now}.csv"
+    filename = get_new_filename()
 
     count = 0
     with open(filename, "w") as csvfile:

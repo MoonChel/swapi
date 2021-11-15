@@ -1,10 +1,11 @@
-import time
+import os
 import pytest
 from typing import List
 
 from django.urls import reverse
 from django.test import TestCase
 
+from backend.settings import BASE_DIR
 from swapi.models import FetchFile
 from swapi.apps import swapi_client
 from swapi.client.swapi.data_models import SwapiPeople
@@ -22,7 +23,8 @@ class SwapiClientTest(TestCase):
 
 class ViewsTest(TestCase):
     def setUp(self) -> None:
-        self.file = FetchFile(file="test_file.csv", count=100)
+        test_file_path = os.path.join(BASE_DIR, "csv_files", f"test_file.csv")
+        self.file = FetchFile(file=test_file_path, count=100)
         self.file.save()
 
     @pytest.mark.vcr()
